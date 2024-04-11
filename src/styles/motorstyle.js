@@ -25,9 +25,9 @@ grid-template-columns: repeat(4, 1fr);
 gap:15px;   
 `
 export const CardContainer=styled.div`
-border: 1px solid black;
 border-radius: 20px;
-padding: 5px;
+padding: 15px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 h3{
 color: var(--blue, #006DAB);
 font-family: Montserrat;
@@ -55,8 +55,14 @@ line-height: normal;
 `
 
 export const Button =styled.button`
-padding:10px 15px;
-border-radius:15px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:5px ;
+border-radius:10px;
+width: 94px;
+height: 35px;
+flex-shrink: 0;
 background-color:transparent;
 border:2px solid  #006DAB;
 border-color:#006DAB;
@@ -71,6 +77,11 @@ cursor:pointer;`
 export const Buttonwrapper=styled.div`
 display:flex;
 justify-content:space-between;
-padding:10px 5px;`
+:hover{
+ color: white;
+ background-color:#006DAB;
+}
+margin-top: 10px;
+    `
 
 
