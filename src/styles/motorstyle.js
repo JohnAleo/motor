@@ -8,7 +8,8 @@ export const Wrapper=styled.div`
 display: flex;
 border: 1px solid black;
 height: 1000px;
-padding: 20px 15%;
+padding: 20px 5%;
+background: #fafafa;
 `
 
 export const Filtrwrapper=styled.div`
@@ -82,6 +83,126 @@ justify-content:space-between;
  background-color:#006DAB;
 }
 margin-top: 10px;
-    `
+ `
 
 
+export const Filtrdown=styled.div`
+display: flex;
+flex-direction: column;
+gap: 70px;
+`
+
+export const Catalogup=styled.div`
+`
+export const Cost =styled.div`
+display: flex;
+flex-direction: column;
+
+`
+export const Brand =styled.div`
+display: flex;
+flex-direction: column;
+input{
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #666;
+background: #FFF;
+margin-top: 20px;
+}
+
+`
+export const Company =styled.div`
+display: flex;
+flex-direction: column;
+input{
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #666;
+background: #FFF;
+margin-top: 20px;
+}`
+export const License =styled.div`
+display: flex;
+flex-direction: column;
+input{
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #666;
+background: #FFF;
+margin-top: 20px;
+}`
+export const Travelers =styled.div`
+display: flex;
+flex-direction: column;
+input{
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #666;
+background: #FFF;
+margin-top: 20px;
+}`
+export const Location =styled.div`
+display: flex;
+flex-direction: column;
+input{
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #666;
+background: #FFF;
+margin-top: 20px;
+}`
+export const Line =styled.div`
+width: 100%px;
+height: 1px;
+background: rgba(55, 55, 55, 0.30);`
+export const Column =styled.div`
+display:flex;
+flex-direction:column;
+
+input{
+width: 91px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid rgba(55, 55, 55, 0.60);
+}
+label{
+    color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 14px */
+}`
+
+export const Columnwrapper =styled.div`
+display:flex;
+gap:30px;
+display: flex;
+justify-content: space-between;`
+
+export const Imgwrapper=styled.div`
+img{
+width: 15px;
+height: 15px;
+flex-shrink: 0;
+
+}`
+export const Centerjust =styled.div`
+display: flex;
+justify-content: left;
+`
+export const Centeralign=styled.div`
+display:flex;
+justify-content:left;
+align-items:center;`
