@@ -10,15 +10,16 @@ border: 1px solid black;
 height: 1000px;
 padding: 20px 5%;
 background: #fafafa;
+gap: 15px;
 `
 
 export const Filtrwrapper=styled.div`
 flex:2;
-border:1px solid blue;`
+`
 
 export const Catalogwrapper =styled.div`
 flex:8;
-border:1px solid red;`
+`
 
 export const Carwrapper=styled.div`
 display: grid;
@@ -31,7 +32,7 @@ padding: 15px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 h3{
 color: var(--blue, #006DAB);
-font-family: Montserrat;
+font-family: sans-serif;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
@@ -68,7 +69,7 @@ background-color:transparent;
 border:2px solid  #006DAB;
 border-color:#006DAB;
 color: var(--blue, #006DAB);
-font-family: Montserrat;
+font-family: sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
@@ -200,9 +201,69 @@ flex-shrink: 0;
 }`
 export const Centerjust =styled.div`
 display: flex;
-justify-content: left;
+//justify-content: left;
 `
 export const Centeralign=styled.div`
 display:flex;
 justify-content:left;
 align-items:center;`
+
+export const Button1 =styled.button`
+display: flex;
+justify-content: center;
+align-items: center;
+padding:5px ;
+border-radius:20px;
+width: 94px;
+height: 35px;
+flex-shrink: 0;
+background-color:${props=> props.$search ? "#006DAB":'var(--sariq, #FF7A00)'};
+border: none;
+color: white;
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor:pointer;`
+
+export const Buttonwrapper1=styled.div`
+display:flex;
+justify-content:center;
+//:hover{
+ //color:${props=> props.$cancel ? "black":"black"};
+ //border: 2px solid #006DAB;
+ //background-color:${props=> props.$cancel ? "transparent":"transparent"};
+//}
+gap: 20px;
+ `
+
+export const CardContainer1=styled.div`
+display: flex;
+justify-content: center;
+border-radius: 20px;
+padding: 15px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+width: 75px;
+height: 90px;
+flex-shrink: 0;
+img{
+    width: 80px;
+    height: 50px;
+}
+`
+ export const Compare =styled.div`
+ display:flex;
+ flex-direction:column;
+ p{
+    color:#006DAB ;
+    padding: 5px 0px 5px 20px;
+ }`
+
+export const CardContainer1wrap=styled.div`
+display:flex;
+justify-content:space-between;
+padding:20px 5%;
+cursor:pointer`
+
+

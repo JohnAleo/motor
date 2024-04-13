@@ -12,11 +12,17 @@ import {  CardContainer, Carwrapper, Catalogwrapper, Container,
   Columnwrapper,
   Imgwrapper,
   Centerjust,
-  Centeralign} from '../../styles/motorstyle';
+  Centeralign,
+  Button1,
+  Buttonwrapper1,
+  CardContainer1,
+  CardContainer1wrap,
+  Compare} from '../../styles/motorstyle';
 import { Bgwrapper } from '../../styles/navbarstyle';
 import { campcar } from '../../mock/mockdata';
 import strelka from "../../assets/motor/strelka.png"
-
+import car from '../../assets/mockasset/car.jpeg'
+import { Footerwrapper } from '../../constants/footer/footerstyle';
 const MotorComponent = () => {
   const data = campcar.maindata;
   console.log("data:",campcar);
@@ -81,9 +87,10 @@ const MotorComponent = () => {
         </Company>
         <License>
           <Columnwrapper>
-              <p>Licensee</p>
+              <p>License</p>
               <Imgwrapper> <img src={strelka} alt="strelka" /></Imgwrapper>
           </Columnwrapper>
+          <Line></Line>
             <div>
                 <input type="checkbox" /><label>1 year</label>
             </div>
@@ -126,12 +133,24 @@ const MotorComponent = () => {
                 <input type="checkbox" /><label>Busan</label>
             </div>
             </Location>
+            <Buttonwrapper1>
+              <Button1>Cancel</Button1>
+              <Button1 $search>Search</Button1>
+            </Buttonwrapper1>
+            <Compare>
+              <p>Compare</p>
+              <CardContainer1wrap>
+                <CardContainer1> <img src={car} alt="car" /></CardContainer1>
+                <CardContainer1> <img src={car} alt="car" /></CardContainer1>
+                <CardContainer1> <img src={car} alt="car" /></CardContainer1>
+                </CardContainer1wrap>
+            </Compare>
           </Filtrdown>
         </Filtrwrapper>
         <Catalogwrapper>
           <Catalogup>
             <p></p>
-          </Catalogup>
+          </Catalogup>  
           <Carwrapper>
           {
             data.map((value,key) => {
@@ -151,7 +170,9 @@ const MotorComponent = () => {
           }
         </Carwrapper>
         </Catalogwrapper>
+        
       </Wrapper>
+      <Footerwrapper />
     </Container>
   )
 }

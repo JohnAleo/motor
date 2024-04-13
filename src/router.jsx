@@ -7,6 +7,7 @@ import CaravanComponent from './components/caravan/caravan';
 import TuningComponent from './components/tuning/tuning';
 import UsedCarComponent from './components/usedCar/usedCar';
 import CampingComponent from './components/campingPlace/camping';
+import Footer from './constants/footer/footer';
 
 export const RouterComponent = () => {
   return (
@@ -20,6 +21,7 @@ export const RouterComponent = () => {
         <Route path="used-car" element= {<UsedCarComponent />}></Route>
         <Route path="camping-place" element= {<CampingComponent />}></Route>
     </Routes>
+   
     </>
   )
 }
