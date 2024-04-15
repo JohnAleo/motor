@@ -6,8 +6,8 @@ flex-direction:column;`
 
 export const Wrapper=styled.div`
 display: flex;
-border: 1px solid black;
-height: 1000px;
+
+height: cover;
 padding: 20px 5%;
 background: #fafafa;
 gap: 15px;
@@ -104,8 +104,6 @@ export const Brand =styled.div`
 display: flex;
 flex-direction: column;
 input{
-width: 22px;
-height: 22px;
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
@@ -118,8 +116,7 @@ export const Company =styled.div`
 display: flex;
 flex-direction: column;
 input{
-width: 22px;
-height: 22px;
+
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
@@ -130,8 +127,7 @@ export const License =styled.div`
 display: flex;
 flex-direction: column;
 input{
-width: 22px;
-height: 22px;
+
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
@@ -142,8 +138,6 @@ export const Travelers =styled.div`
 display: flex;
 flex-direction: column;
 input{
-width: 22px;
-height: 22px;
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
@@ -154,21 +148,24 @@ export const Location =styled.div`
 display: flex;
 flex-direction: column;
 input{
-width: 22px;
-height: 22px;
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
 background: #FFF;
 margin-top: 20px;
-}`
+
+}
+`
 export const Line =styled.div`
 width: 100%px;
 height: 1px;
 background: rgba(55, 55, 55, 0.30);`
+
 export const Column =styled.div`
 display:flex;
 flex-direction:column;
+justify-content: center;
+
 
 input{
 width: 91px;
@@ -178,8 +175,8 @@ border-radius: 10px;
 border: 1px solid rgba(55, 55, 55, 0.60);
 }
 label{
-    color: var(--text, #373737);
-font-family: Montserrat;
+color: var(--text, #373737);
+font-family: sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -190,7 +187,9 @@ export const Columnwrapper =styled.div`
 display:flex;
 gap:30px;
 display: flex;
-justify-content: space-between;`
+justify-content: space-between;
+
+`
 
 export const Imgwrapper=styled.div`
 img{
@@ -201,12 +200,21 @@ flex-shrink: 0;
 }`
 export const Centerjust =styled.div`
 display: flex;
-//justify-content: left;
+justify-content: left;
+align-items: center;
+border: 1px solid black;
+
 `
 export const Centeralign=styled.div`
 display:flex;
-justify-content:left;
+justify-content:space-between;
 align-items:center;`
+
+export const Ratewrapper=styled.div`
+display:flex;
+gap: 5px;
+//justify-content: end;
+`
 
 export const Button1 =styled.button`
 display: flex;
@@ -264,6 +272,9 @@ export const CardContainer1wrap=styled.div`
 display:flex;
 justify-content:space-between;
 padding:20px 5%;
-cursor:pointer`
+cursor:pointer;`
 
-
+export const Center =styled.div`
+display: flex;
+//justify-content: center;
+`

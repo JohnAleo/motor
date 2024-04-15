@@ -1,9 +1,16 @@
 import React from 'react'
-import { Camper, Contact, Footerwrapper, Menu, Service, } from './footerstyle';
+import { Camper, Contact, Footer, Footerin, Menu, Service, } from './footerstyle';
 import { Column } from '../../styles/motorstyle';
-const Footer = () => {
+import tobe from '../../assets/footer/tobe.png'
+import gram from '../../assets/footer/gram.png'
+
+
+
+
+const FooterContainer = () => {
   return (
-    <Footerwrapper>
+    <Footer>
+        <Footerin>
         <Camper>Camper</Camper>
         <Column>
             <p>Services</p>
@@ -26,14 +33,15 @@ const Footer = () => {
         <Column>
             <p>Contact</p>
             <Contact>
-                <div><img src="" alt="" /> <img src="" alt="" /> <img src="" alt="" /></div>
+                <div><img src={tobe} alt="tobe" /> <img src={gram} alt="gram" /> <img src="naver" alt="naver" /></div>
                 <div>021 Korea Seul, LA</div>
                 <div>camper@example.com</div>
                 <div>(021) 345-6789-99</div>
             </Contact>
         </Column>
-    </Footerwrapper>
+        </Footerin>
+    </Footer>
   )
 }
 
-export default Footer;
+export default FooterContainer;

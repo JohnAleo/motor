@@ -21,6 +21,7 @@ export const RouterComponent = () => {
         <Route path="used-car" element= {<UsedCarComponent />}></Route>
         <Route path="camping-place" element= {<CampingComponent />}></Route>
     </Routes>
+    <Footer/>
    
     </>
   )

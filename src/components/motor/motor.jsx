@@ -17,18 +17,22 @@ import {  CardContainer, Carwrapper, Catalogwrapper, Container,
   Buttonwrapper1,
   CardContainer1,
   CardContainer1wrap,
-  Compare} from '../../styles/motorstyle';
+  Compare,
+  Center,
+  Ratewrapper} from '../../styles/motorstyle';
 import { Bgwrapper } from '../../styles/navbarstyle';
 import { campcar } from '../../mock/mockdata';
 import strelka from "../../assets/motor/strelka.png"
 import car from '../../assets/mockasset/car.jpeg'
-import { Footerwrapper } from '../../constants/footer/footerstyle';
+import { Footer } from '../../constants/footer/footerstyle';
+import star from '../../assets/motor/star.png'
+
 const MotorComponent = () => {
   const data = campcar.maindata;
   console.log("data:",campcar);
   
   return (
-   
+   <>
     <Container>
       <Bgwrapper>
         <p>Home / Motors</p>
@@ -108,7 +112,7 @@ const MotorComponent = () => {
           </Columnwrapper>
           <Line></Line>
             <div>
-                <input type="checkbox" /><label>2</label>
+                <input type="checkbox" /> <label>2</label>
             </div>
             <div>
                 <input type="checkbox" /><label>3-4</label>
@@ -123,9 +127,9 @@ const MotorComponent = () => {
             <Imgwrapper> <img src={strelka} alt="strelka" /></Imgwrapper>
           </Columnwrapper>  
           <Line></Line>
-            <div>
-                <input type="checkbox" /><label>Seoul</label>
-            </div>
+
+            <div><Centerjust><input type="checkbox" /></Centerjust><label>Seoul</label></div>
+            
             <div>
                 <input type="checkbox" /><label>Korea</label>
             </div>
@@ -158,7 +162,10 @@ const MotorComponent = () => {
                 <CardContainer key={key}>
                   <img src={value.car.photo} alt="car-photo" />
                   <h4>{value.car.name || "no data"}</h4>
-                  <p>{value.car.company || "no data"}</p> 
+                  <Centeralign>
+                      <div><p>{value.car.company || "no data"}</p></div> 
+                      <Ratewrapper><img src={star} alt="star" /> <p>{value.car.rate || "no data"}</p></Ratewrapper>
+                  </Centeralign>
                   <h3>{value.car.cost || "no data"}</h3>
                   <Buttonwrapper>
                     <Button>Order</Button>
@@ -170,10 +177,11 @@ const MotorComponent = () => {
           }
         </Carwrapper>
         </Catalogwrapper>
-        
+        <Footer /> 
       </Wrapper>
-      <Footerwrapper />
     </Container>
+    
+     </>
   )
 }
 
