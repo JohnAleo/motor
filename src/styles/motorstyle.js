@@ -6,15 +6,19 @@ flex-direction:column;`
 
 export const Wrapper=styled.div`
 display: flex;
-
+justify-content: center;
 height: cover;
 padding: 20px 5%;
 background: #fafafa;
-gap: 15px;
+gap: 30px;
 `
+
 
 export const Filtrwrapper=styled.div`
 flex:2;
+display: flex;
+flex-direction: column;
+align-items: center;
 `
 
 export const Catalogwrapper =styled.div`
@@ -24,12 +28,38 @@ flex:8;
 export const Carwrapper=styled.div`
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-gap:15px;   
+gap:15px; 
+
+@media only screen and (max-width: 1350px){
+display:grid;
+grid-template-columns:repeat(3, 1fr);   
+}
+@media only screen and (max-width: 1000px){
+display:grid;
+grid-template-columns:repeat(2, 1fr);   
+}
+@media only screen and (max-width: 700px){
+display:grid;
+grid-template-columns:repeat(1, 1fr);   
+}`  
+
+export const Inforwrapper =styled.div`
+display:flex;
+flex:2;
+flex-direction:column;
+justify-content: ${props=> props.$Vmenu ? 'center':'baseline'};
+padding: ${props => props.$Vmenu ? "0px 20px":"0px 0px"};
 `
+
 export const CardContainer=styled.div`
+display: flex;
+flex-direction:${props=> props.$Vmenu ? 'row' : 'column'} ;
+justify-content: space-around;
 border-radius: 20px;
-padding: 15px;
+padding: 10px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+width:${props => props.$Vmenu ? '100%': '223px'};
+height:${props => props.$Vmenu ? '223px': '307px    '} ;
 h3{
 color: var(--blue, #006DAB);
 font-family: sans-serif;
@@ -56,8 +86,20 @@ line-height: normal;
 }
 `
 
+export const Carimg=styled.div`
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: ${props=> props.$Vmenu ? 'center':'baseline'};
+img{
+    border-radius: 10px;
+}
+
+`
+
 export const Button =styled.button`
 display: flex;
+flex: ${props=> props.$Vmenu ? '1':""};
 justify-content: center;
 align-items: center;
 padding:5px ;
@@ -79,6 +121,7 @@ cursor:pointer;`
 export const Buttonwrapper=styled.div`
 display:flex;
 justify-content:space-between;
+gap: ${props=> props.$Vmenu ? "10px": '0px'};
 :hover{
  color: white;
  background-color:#006DAB;
@@ -87,79 +130,140 @@ margin-top: 10px;
  `
 
 
-export const Filtrdown=styled.div`
+export const Filtrin=styled.div`
 display: flex;
 flex-direction: column;
-gap: 70px;
+gap:70px;
+padding: 12px 0px;
 `
 
-export const Catalogup=styled.div`
+export const Itemwrapper=styled.div`
+display: flex;
+border-bottom: 1px solid  #37373780;
+margin-bottom: 20px;
+padding: 5px;
+
 `
+export const Itemleft=styled.div`
+display: flex;
+align-items: center;
+flex: 1;
+gap: 5px;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 18px */
+}
+h5{
+color: var(--blue, #006DAB);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%;
+}`
+
+export const Itemright =styled.div`
+display:flex;
+align-items: center;
+flex:1;
+justify-content: end;
+gap: 5px;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 16px */
+}
+input{
+border:1px solid #37373760;
+border-radius:5px;
+padding: 5px;
+}
+`
+export const Button2=styled.div`
+display: flex;
+justify-content: center;
+width: 41px;
+height: 30px;
+flex-shrink: 0; 
+border-radius: 5px 0px 0px 5px;
+border: 1px solid rgba(55, 55, 55, 0.30);
+cursor: pointer;
+`
+export const Button3=styled.div`
+display: flex;
+justify-content: center;
+width: 41px;
+height: 30px;
+flex-shrink: 0; 
+border-radius: 0px 5px 5px 0px;
+border: 1px solid rgba(55, 55, 55, 0.30);
+cursor: pointer;
+`
+
+export const Buttonwrapper2=styled.div`
+display: flex;
+
+`
+
+
 export const Cost =styled.div`
 display: flex;
 flex-direction: column;
+gap: 10px;
 
 `
-export const Brand =styled.div`
-display: flex;
-flex-direction: column;
+export const Inputwrapper=styled.div`
+display:flex;
+align-items:center;
+gap: 10px;
 input{
+width: 22px;
+height: 22px;
 flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
 background: #FFF;
-margin-top: 20px;
-}
+}`
+
+export const Brand =styled.div`
+display: flex;
+flex-direction: column;
+gap: 10px;
 
 `
 export const Company =styled.div`
 display: flex;
 flex-direction: column;
-input{
-
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid #666;
-background: #FFF;
-margin-top: 20px;
-}`
+gap: 10px;
+`
 export const License =styled.div`
 display: flex;
 flex-direction: column;
-input{
-
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid #666;
-background: #FFF;
-margin-top: 20px;
-}`
+gap: 10px;
+`
 export const Travelers =styled.div`
 display: flex;
 flex-direction: column;
-input{
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid #666;
-background: #FFF;
-margin-top: 20px;
-}`
+gap: 10px;
+`
 export const Location =styled.div`
 display: flex;
 flex-direction: column;
-input{
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid #666;
-background: #FFF;
-margin-top: 20px;
-
-}
+gap: 10px;
 `
 export const Line =styled.div`
 width: 100%px;
 height: 1px;
-background: rgba(55, 55, 55, 0.30);`
+background: rgba(55, 55, 55, 0.30);
+`
+
 
 export const Column =styled.div`
 display:flex;
@@ -181,10 +285,20 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 100%; /* 14px */
-}`
+}
+p{
+color: #FFF;
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+`
 
 export const Columnwrapper =styled.div`
 display:flex;
+align-items: center;
 gap:30px;
 display: flex;
 justify-content: space-between;
@@ -200,9 +314,9 @@ flex-shrink: 0;
 }`
 export const Centerjust =styled.div`
 display: flex;
-justify-content: left;
+justify-content: space-between;
 align-items: center;
-border: 1px solid black;
+
 
 `
 export const Centeralign=styled.div`
@@ -212,7 +326,9 @@ align-items:center;`
 
 export const Ratewrapper=styled.div`
 display:flex;
+justify-content: ${props => props.$Vmenu ? 'space-between':'center'};
 gap: 5px;
+padding: 5px 10px;
 //justify-content: end;
 `
 
@@ -274,7 +390,5 @@ justify-content:space-between;
 padding:20px 5%;
 cursor:pointer;`
 
-export const Center =styled.div`
-display: flex;
-//justify-content: center;
-`
+
+

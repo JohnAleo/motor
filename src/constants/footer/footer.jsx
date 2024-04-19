@@ -1,8 +1,9 @@
 import React from 'react'
-import { Camper, Contact, Footer, Footerin, Menu, Service, } from './footerstyle';
-import { Column } from '../../styles/motorstyle';
-import tobe from '../../assets/footer/tobe.png'
-import gram from '../../assets/footer/gram.png'
+import { Camper, Contact, Footer, Footerin, Iconwrapper, Menu, Service, } from './footerstyle';
+
+import tobe from '../../assets/footer/tobe.png';
+import gram from '../../assets/footer/gram.png';
+import nav from '../../assets/footer/nav.png';
 
 
 
@@ -10,9 +11,8 @@ import gram from '../../assets/footer/gram.png'
 const FooterContainer = () => {
   return (
     <Footer>
-        <Footerin>
         <Camper>Camper</Camper>
-        <Column>
+        <Footerin>
             <p>Services</p>
             <Service>
                 <div>Camping</div>
@@ -20,8 +20,8 @@ const FooterContainer = () => {
                 <div>Harbor</div>
                 <div>Day Use</div>
             </Service>
-        </Column>
-        <Column>
+        </Footerin>
+        <Footerin>
             <p>Menu</p>
             <Menu>
                 <div>About</div>
@@ -29,16 +29,15 @@ const FooterContainer = () => {
                 <div>Booking</div>
                 <div>Blog</div>
             </Menu>
-        </Column>
-        <Column>
+        </Footerin>
+        <Footerin>
             <p>Contact</p>
             <Contact>
-                <div><img src={tobe} alt="tobe" /> <img src={gram} alt="gram" /> <img src="naver" alt="naver" /></div>
+                <Iconwrapper><img src={tobe} alt="tobe" /> <img src={gram} alt="gram" /> <img src={nav} alt="nav" /></Iconwrapper>
                 <div>021 Korea Seul, LA</div>
                 <div>camper@example.com</div>
                 <div>(021) 345-6789-99</div>
             </Contact>
-        </Column>
         </Footerin>
     </Footer>
   )
