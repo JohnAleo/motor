@@ -2,7 +2,7 @@ import React from 'react'
 import star from '../../assets/motor/star.png'
 import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Ratewrapper } from '../../styles/motorstyle';
 import { campcar } from '../../mock/mockdata';
-const MenuH = () => {
+const HMenu = () => {
     const data = campcar.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
@@ -34,4 +34,4 @@ const MenuH = () => {
   )
 }
 
-export default MenuH;
+export default HMenu;
