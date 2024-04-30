@@ -23,12 +23,15 @@ align-items: center;
 
 export const Catalogwrapper =styled.div`
 flex:8;
+gap: 10px;
+
 `
 
 export const Carwrapper=styled.div`
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-gap:15px; 
+gap:25px; 
+//grid-gap: 15px;
 
 @media only screen and (max-width: 1350px){
 display:grid;
@@ -50,6 +53,11 @@ flex-direction:column;
 justify-content: ${props=> props.$Vmenu ? 'center':'baseline'};
 padding: ${props => props.$Vmenu ? "0px 20px":"0px 0px"};
 `
+
+export const Cardwrapper=styled.div`
+display:flex;
+flex-direction:column;
+gap:20px;`
 
 export const CardContainer=styled.div`
 display: flex;
@@ -121,7 +129,7 @@ cursor:pointer;`
 export const Buttonwrapper=styled.div`
 display:flex;
 justify-content:space-between;
-gap: ${props=> props.$Vmenu ? "10px": '0px'};
+gap: ${props=> props.$Vmenu ? "10px": '20px'};
 :hover{
  color: white;
  background-color:#006DAB;
@@ -195,6 +203,7 @@ flex-shrink: 0;
 border-radius: 5px 0px 0px 5px;
 border: 1px solid rgba(55, 55, 55, 0.30);
 cursor: pointer;
+padding:7px 6px;
 `
 export const Button3=styled.div`
 display: flex;
@@ -205,6 +214,7 @@ flex-shrink: 0;
 border-radius: 0px 5px 5px 0px;
 border: 1px solid rgba(55, 55, 55, 0.30);
 cursor: pointer;
+padding:6px 6px;
 `
 
 export const Buttonwrapper2=styled.div`
@@ -217,6 +227,10 @@ export const Cost =styled.div`
 display: flex;
 flex-direction: column;
 gap: 10px;
+div{
+    display:flex;
+    gap: 5px;
+}
 
 `
 export const Inputwrapper=styled.div`
@@ -389,6 +403,7 @@ display:flex;
 justify-content:space-between;
 padding:20px 5%;
 cursor:pointer;`
+
 
 
 

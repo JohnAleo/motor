@@ -1,19 +1,20 @@
 import React from 'react'
-import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Inforwrapper, Ratewrapper } from '../../styles/motorstyle';
+import { Button, Buttonwrapper, CardContainer, Cardwrapper, Carimg, Centeralign, Inforwrapper, Ratewrapper } from '../../styles/motorstyle';
 import star from '../../assets/motor/star.png'
 import { campcar } from '../../mock/mockdata';
+import { Link } from 'react-router-dom';
 const VMenu = () => {
     const data = campcar.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
   return (
-    <>
-    <div>Vmenu</div>
-    <>
+        <Cardwrapper >
           {
             data.map((value,key) => {
              
               return(
+                <>
+                <Link to={`${value.id}`} style={{textDecoration:'none'}} >
                 <CardContainer key={key} $Vmenu>
                   <Carimg $Vmenu>
                     <img src={value.car.photo} alt="car-photo" width={200} height={140} />
@@ -35,11 +36,13 @@ const VMenu = () => {
                   </Inforwrapper>
                   
                 </CardContainer>
+                </Link>
+                </>
               )
             })
           }
-        </ >
-        </>
+       
+        </Cardwrapper>
   )
 }
 

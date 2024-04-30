@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import {  CardContainer, Carwrapper, Catalogwrapper, Container,
-   Filtrwrapper, Wrapper,Button,Buttonwrapper, 
+import { Catalogwrapper, Container,
+   Filtrwrapper, Wrapper,
    Cost,
    Brand,
    Company,
@@ -9,27 +9,24 @@ import {  CardContainer, Carwrapper, Catalogwrapper, Container,
   ,Column,Location,
   Imgwrapper,
   Centerjust,
-  Centeralign,
   Button1,
   Buttonwrapper1,
   CardContainer1,
   CardContainer1wrap,
   Compare,
-  Ratewrapper,
   Itemwrapper,
   Itemleft,
   Itemright,
   Buttonwrapper2,
   Button2,
   Button3,
-  Carimg,
   Filtrin,
   Inputwrapper} from '../../styles/motorstyle';
 import { Bgwrapper } from '../../styles/navbarstyle';
 import { campcar } from '../../mock/mockdata';
 import strelka from "../../assets/motor/strelka.png";
 import car from '../../assets/mockasset/car.jpeg';
-import star from '../../assets/motor/star.png';
+
 import hMenu from '../../assets/motor/hMenu.png';
 import vMenu from '../../assets/motor/vMenu.png';
 import HMenu from './Hmenu';
@@ -41,10 +38,10 @@ const MotorComponent = () => {
   const dataLength = data.length;
  
   function handleHMenu(){
-    setActive(false);
+    setActive(true);
   }
   function handleVMenu(){
-    setActive(true);
+    setActive(false);
   }
   
   return (
