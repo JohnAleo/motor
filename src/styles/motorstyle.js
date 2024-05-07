@@ -8,9 +8,9 @@ export const Wrapper=styled.div`
 display: flex;
 justify-content: center;
 height: cover;
-padding: 20px 5%;
+padding: 2% 20%;
 background: #fafafa;
-gap: 30px;
+gap:70px;
 `
 
 
@@ -22,16 +22,27 @@ align-items: center;
 `
 
 export const Catalogwrapper =styled.div`
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 flex:8;
 gap: 10px;
+
 
 `
 
 export const Carwrapper=styled.div`
 display: grid;
+justify-content: center;
+width: 100%;
 grid-template-columns: repeat(4, 1fr);
-gap:25px; 
+gap:25px;
+//padding :1% 1% ;
 //grid-gap: 15px;
+
+
 
 @media only screen and (max-width: 1350px){
 display:grid;
@@ -40,11 +51,17 @@ grid-template-columns:repeat(3, 1fr);
 @media only screen and (max-width: 1000px){
 display:grid;
 grid-template-columns:repeat(2, 1fr);   
+
 }
 @media only screen and (max-width: 700px){
 display:grid;
 grid-template-columns:repeat(1, 1fr);   
-}`  
+
+}`
+
+export const Wholewrapper =styled.div`
+display:flex;
+`
 
 export const Inforwrapper =styled.div`
 display:flex;
@@ -56,6 +73,8 @@ padding: ${props => props.$Vmenu ? "0px 20px":"0px 0px"};
 
 export const Cardwrapper=styled.div`
 display:flex;
+justify-content: center;
+width: 100%;
 flex-direction:column;
 gap:20px;`
 
@@ -140,6 +159,7 @@ margin-top: 10px;
 
 export const Filtrin=styled.div`
 display: flex;
+justify-content: center;
 flex-direction: column;
 gap:70px;
 padding: 12px 0px;
@@ -147,6 +167,8 @@ padding: 12px 0px;
 
 export const Itemwrapper=styled.div`
 display: flex;
+width: 970px;
+justify-content: space-between;
 border-bottom: 1px solid  #37373780;
 margin-bottom: 20px;
 padding: 5px;

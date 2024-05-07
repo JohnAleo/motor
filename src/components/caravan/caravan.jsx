@@ -32,7 +32,8 @@ import vMenu from '../../assets/motor/vMenu.png';
 import HMenu from '../caravan/Hmenu';
 import VMenu from '../caravan/Vmenu';
 
-const CaravanComponent = () => {const [active, setActive]=useState(false);
+const CaravanComponent = () => {
+    const [active, setActive]=useState(true);
     const data = caravan.maindata;
     const dataLength = data.length;
    
@@ -163,6 +164,7 @@ const CaravanComponent = () => {const [active, setActive]=useState(false);
             </Filtrin>
           </Filtrwrapper>
           <Catalogwrapper>
+            
             <Itemwrapper>
               <Itemleft>
                 <p>Item </p> 
@@ -178,6 +180,7 @@ const CaravanComponent = () => {const [active, setActive]=useState(false);
                 </Buttonwrapper2>
               </Itemright>
             </Itemwrapper>
+            
             <>
             {
               active ? <HMenu />: <VMenu />

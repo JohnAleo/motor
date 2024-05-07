@@ -44,7 +44,7 @@ import img41 from '../assets/mockasset/car19.png'
 import img42 from '../assets/mockasset/car30.jpg'
 import img43 from '../assets/mockasset/car2.jpg'
 import img44 from '../assets/mockasset/car27.jpg'
-
+import camp from '../assets/detail/camp.png'
 
 
 
@@ -66,6 +66,7 @@ export const campcar = {
         location: "수도권",
         rate: 4.5,
       },
+      photo:`${camp}`
     },
     {
       id: 2,

@@ -32,7 +32,8 @@ import HMenu from '../usedCar/Hmenu';
 import VMenu from '../usedCar/Vmenu';
 import { usedCar } from '../../mock/mockdatausedcar';
 
-const UsedCarComponent = () => {const [active, setActive]=useState(false);
+const UsedCarComponent = () => 
+    {const [active, setActive]=useState(true);
     const data = usedCar.maindata;
     const dataLength = data.length;
    

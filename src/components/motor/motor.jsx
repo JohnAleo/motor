@@ -33,7 +33,7 @@ import HMenu from './Hmenu';
 import VMenu from './Vmenu';
 
 const MotorComponent = () => {
-  const [active, setActive]=useState(false);
+  const [active, setActive]=useState(true);
   const data = campcar.maindata;
   const dataLength = data.length;
  
@@ -54,7 +54,6 @@ const MotorComponent = () => {
       </Bgwrapper>
       <Wrapper>
         <Filtrwrapper>
-          
           <Filtrin>
           <Cost>
             <Centerjust>
@@ -179,12 +178,11 @@ const MotorComponent = () => {
               </Buttonwrapper2>
             </Itemright>
           </Itemwrapper>
-          <>
-          {
-            active ? <HMenu />: <VMenu />
-          }
-           </> 
-          
+              <>
+              {
+                active ? <HMenu />: <VMenu />
+              }
+              </> 
         </Catalogwrapper>
       </Wrapper>
     </Container>

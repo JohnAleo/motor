@@ -1,6 +1,6 @@
 import React from 'react'
 import { BgwrapperDetail, ButtonDetail } from '../../styles/navbarstyle';
-import { Button, Buttonwrapper } from '../../styles/motorstyle';
+import { Buttonwrapper } from '../../styles/motorstyle';
 
 
 const DetailCaravan = () => {

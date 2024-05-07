@@ -1,7 +1,7 @@
 import React from 'react'
 import { BgwrapperDetail, ButtonDetail } from '../../styles/navbarstyle'
 import { Buttonwrapper } from '../../styles/motorstyle'
-import {Aidal, Aidalwrapper, Imgwrapperused, Introduction} from '../../styles/detailusedCar'
+import {Aidal, Aidalwrapper, Imgwrapperaid, Introduction} from '../../styles/detailusedCar'
 import car17 from '../../assets/usedCar/car17.jpg'
 const DetailUsedCar = () => {
   return (
@@ -15,9 +15,9 @@ const DetailUsedCar = () => {
     </BgwrapperDetail>
     <Introduction>
       <div>
-        <Imgwrapperused>
+        <Imgwrapperaid>
           <img src={car17} alt="car17" />
-        </Imgwrapperused>
+        </Imgwrapperaid>
         <Aidalwrapper>
           <Aidal>
             <h4>Aidal</h4>

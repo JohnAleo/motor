@@ -1,6 +1,6 @@
 import React from 'react'
 import star from '../../assets/motor/star.png'
-import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Ratewrapper } from '../../styles/motorstyle';
+import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Ratewrapper, Wholewrapper } from '../../styles/motorstyle';
 import { usedCar} from '../../mock/mockdatausedcar'
 import { Link } from 'react-router-dom';
 const HMenu = () => {
@@ -8,6 +8,7 @@ const HMenu = () => {
     const dataLength = data.length;
     console.log("data:", data.length);
   return (
+    <Wholewrapper>
     <Carwrapper>
           {
             data.map((value,key) => {
@@ -36,6 +37,7 @@ const HMenu = () => {
             })
           }
         </ Carwrapper>
+        </Wholewrapper>
   )
 }
 

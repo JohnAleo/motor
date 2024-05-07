@@ -32,7 +32,8 @@ import vMenu from '../../assets/motor/vMenu.png';
 import HMenu from '../tuning/Hmenu'
 import VMenu from '../tuning/Vmenu'
 
-const TuningComponent = () => {const [active, setActive]=useState(false);
+const TuningComponent = () => 
+    {const [active, setActive]=useState(true);
     const data = tuning.maindata;
     const dataLength = data.length;
    
