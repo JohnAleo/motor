@@ -15,7 +15,7 @@ gap:70px;
 
 
 export const Filtrwrapper=styled.div`
-flex:2;
+//flex:2;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -27,7 +27,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-flex:8;
+//flex:8;
 gap: 10px;
 
 

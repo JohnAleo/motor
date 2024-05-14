@@ -1,15 +1,97 @@
 import styled from "styled-components"
 
-export const Introduction =styled.div`
-display: flex;
-flex-direction: column;
+
+export const Resultwrapper=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;`
+
+export const Line1=styled.div`
+display:flex;
+border-bottom: 2px solid rgba(55, 55, 55, 0.30) ;
+margin: -220px 0px 10px 0px; 
+`
+
+export const Aidalwrapper =styled.div`
+display:flex;
+padding: 20px 20%;
+gap: 30px;
+
 div{
     display: flex;
+    flex: 1;
+    justify-content: center;
 }
+
 `
-export const Aidal =styled.div`
-display: flex;
+
+export const Aidal=styled.div`
+display:flex;
+justify-content: center;
+flex-direction:column;
+padding: 20px  3%;
+width: 600px;
+height: 360px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+`
+
+export const Aidalin=styled.div`
+display:flex;
+align-items: center;
+justify-content: space-between;
+div{
+    display: flex;
+    justify-content:end;
+    color: #006DAB;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+`
+
+export const Awrapper=styled.div`
+display:flex;
+
+`
+
+export const Aidalinleft =styled.div`
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+p{
+margin-top: 25px;
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}`
+export const Aidalright=styled.div`
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+
 h4{
+margin-top:25px;
+color: rgba(55, 55, 55, 0.80);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}`
+
+export const Namewrapper=styled.div`
+display:flex;
+flex-direction:column;
+h3{
 color: #000;
 font-family: Montserrat;
 font-size: 25px;
@@ -17,116 +99,232 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-`
-
-export const Resultwrapper=styled.div`
-display: flex;
-justify-content: center;
-width: 509.208px;
-height: 76.407px;
-flex-shrink: 0;
-color: #FFF;
-
-text-align: center;
-font-family: Montserrat;
-font-size: 60px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;`
-
-export const Imgwrapperaid=styled.div`
-display:flex;
-justify-content: center ;
-flex: 1;
-width: 650px;
-height: 381px;
-flex-shrink: 0;`
-
-export const Aidalwrapper =styled.div`
-display: flex;
-flex: 1;
-height: 360px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF;
-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
-padding: 30px 2%;
-`
-export const Aidalin =styled.div`
-display: flex;
-flex-direction: column;
-width: 100%;
-
-`
-export const Detail =styled.div`
-display:flex;
-padding: 20px 0px 0px 0px ;
-flex-direction: column;
-`
-export const Line1=styled.div`
-display:flex;
-height: 1px;
-background:rgba(55, 55, 55, 0.30);`
-
-export const Namewrapper=styled.div`
-display:flex;
-flex-direction: column;
-`
-export const Costwrapper=styled.div`
-display:flex;
-justify-content:space-between;`
-
-export const Companywrapper=styled.div`
-display:flex;
-justify-content: space-between;
 p{
-color: var(--text, #373737);
+color: #000;
 font-family: Montserrat;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-`
-export const Peoplewrapper=styled.div`
-display:flex;
-justify-content:space-between;
-p{
-color: var(--text, #373737);
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 }`
 
+export const Introduction =styled.div`
+display: flex;
+flex-direction: column;
+margin: 20px;
+//border: 1px solid red;
 
-export const Lisencewrapper=styled.div`
-display:flex;
-justify-content:space-between;
-p{
-color: var(--text, #373737);
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;color: var(--text, #373737);
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}`
+`
 
 export const Comfortwrapper=styled.div`
-display: flex;
+display:flex;
+justify-content: center;
+div{
+    display: flex;
+    gap: 150px;
+}
 `
 
 export const Comfort =styled.div`
-display: flex;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex:1;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+div{
+width: 533px;
+height: 169px;
+flex-shrink: 0;
+color: #373737;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top: -80px;
+}`
+
+
+export const Imgwrapper1=styled.div`
+display:flex;
+flex:1;
+justify-content:${(props)=> (props.$left ? 'end':'start')};`
+
+export const Tidywrapper=styled.div`
+display:flex;
+justify-content: center;
+
+div{
+    display: flex;
+    gap: 150px;
+}`
+
+export const Tidy=styled.div`
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex:1;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+div{
+width: 533px;
+height: 169px;
+flex-shrink: 0;
+color: #373737;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top: -80px;
+}
 `
-export const Detailin1=styled.div`
-display: flex;
-justify-content: space-between;
-padding: 0px 2%;
+
+export const Ventilwrapper=styled.div`
+display:flex;
+justify-content: center;
+div{
+    display: flex;
+    gap: 150px;
+}`
+
+export const Ventil=styled.div`
+display:flex;
+flex-direction: column;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top:70px;
+}
+div{
+width: 533px;
+height: 169px;
+flex-shrink: 0;
+color: #373737;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top: -80px;
+}  
 `
+export const Easywrapper=styled.div`
+display:flex;
+justify-content: center;
+div{
+    display: flex;
+    gap: 150px;
+};`
+
+
+export const Easy =styled.div`
+display:flex;
+flex-direction: column;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top:70px;
+}
+div{
+width: 533px;
+height: 169px;
+flex-shrink: 0;
+color: #373737;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top: -80px;
+} 
+`
+
+export const Heatingwrapper=styled.div`
+display:flex;
+justify-content: center;
+div{
+    display: flex;
+    gap: 150px;
+};
+`
+export const Heating=styled.div`
+display:flex;
+flex-direction: column;
+p{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top:70px;
+}
+h4{
+width: 533px;
+height: 169px;
+flex-shrink: 0;
+color: #373737;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top: -80px;
+margin-bottom: -100px;
+}
+`
+export const Buttonin=styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+padding:5px ;
+border-radius:10px;
+width: 181.5px;
+height: 50.014px;
+flex-shrink: 0;
+background-color:transparent;
+border:2px solid  #006DAB;
+border-color:#006DAB;
+color: var(--blue, #006DAB);
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor:pointer;
+`
+export const Buttwrapper=styled.div`
+display:flex;
+justify-content:center; 
+:hover{
+ color: white;
+ background-color:#006DAB;
+}
+margin-top: -50px;
+`
+
+

@@ -2,7 +2,6 @@ import React from 'react'
 import { BgwrapperDetail, ButtonDetail } from '../../styles/navbarstyle';
 import { Buttonwrapper,} from '../../styles/motorstyle';
 import { useParams } from 'react-router-dom';
-import { campcar } from '../../mock/mockdata';
 import { Aidal, Aidalin, Aidalinleft,
    Aidalright, Aidalwrapper, Awrapper, 
    Buttonin, Buttwrapper, Comfort, 
@@ -12,6 +11,7 @@ import { Aidal, Aidalin, Aidalinleft,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
 import BasicTabs from '../mui/tab';
+import { caravan } from '../../mock/mockdatacaravan';
 
 
 
@@ -19,7 +19,7 @@ const DetailMotor = () => {
   const {id}= useParams();
   //console.log(campcar);
   //console.log(parseInt(id));
-  const resultdata = campcar.maindata.find(
+  const resultdata = caravan.maindata.find(
     (value) => value.id===parseInt(id))
   console.log(resultdata);
   return(
@@ -33,8 +33,7 @@ const DetailMotor = () => {
     </BgwrapperDetail>
     
       <Aidalwrapper>
-        <div><img src={resultdata.car.photo} alt="basic" 
-        style={{width: '626px',height:'381px'}}/></div>
+        <div><img src={resultdata.car.photo} alt="basic" /></div>
         <Aidal>
           <Aidalin>
             <Namewrapper>
