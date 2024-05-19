@@ -18,6 +18,7 @@ export const NavbarMiddle =styled.div`
 display: flex;
 flex: 5;
 justify-content: space-around ;
+align-items: center;
 p{
     cursor: pointer;
 }
@@ -38,6 +39,15 @@ export const NavLink=styled(Link)`
 color:black;
 font-weight:600;
 text-decoration:none;`
+
+export const Camper=styled.div`
+display: flex;
+color: #006DAB;
+font-family:Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;`
 
 export const Bgwrapper =styled.div`
 background-image:url(${motorBg});

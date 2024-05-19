@@ -7,7 +7,7 @@ import { Aidal, Aidalin, Aidalinleft,
    Aidalright, Aidalwrapper, Awrapper, 
    Buttonin, Buttwrapper, Comfort, 
    Comfortwrapper, Easy, Easywrapper, 
-   Heating, Heatingwrapper, Imgwrapper1,
+   Heating, Heatingwrapper, Imagewrapper, Imgwrapper1,
     Introduction, Line1, Namewrapper,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
@@ -33,15 +33,16 @@ const DetailMotor = () => {
     </BgwrapperDetail>
     
       <Aidalwrapper>
-        <div><img src={resultdata.car.photo} alt="basic" 
-        style={{width: '626px',height:'381px'}}/></div>
+        <Imagewrapper>
+          <img src={resultdata.car.photo} alt="basic" />
+        </Imagewrapper>
         <Aidal>
           <Aidalin>
             <Namewrapper>
               <h3>{resultdata.car.name}</h3>
               <p>Aid</p>
             </Namewrapper>
-            <div>{resultdata.car.cost}</div>
+            <h4>{resultdata.car.cost}</h4>
           </Aidalin>
           <Line1></Line1>
           <Awrapper>

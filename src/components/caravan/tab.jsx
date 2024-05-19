@@ -4,12 +4,12 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import AccordionTransition from './accordion';
-import Premium from './premium';
-import Question from './question';
+import AccordionTransition from '../mui/accordion'
+import Question from '../mui/question';
 import { Gmail, Item1, Mail, Name, Quest, Questbutton } from '../../styles/premiumstyle';
-import Map from './map';
+import Map from '../mui/map';
 import emailjs from '@emailjs/browser';
+import PremiumCaravan from './premium';
 
 
 
@@ -46,7 +46,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function BasicTabsCaravan() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -84,7 +84,7 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Premium />
+        <PremiumCaravan />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         <Item1>

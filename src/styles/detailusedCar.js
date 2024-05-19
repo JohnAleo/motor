@@ -4,7 +4,18 @@ import styled from "styled-components"
 export const Resultwrapper=styled.div`
 display:flex;
 justify-content:center;
-align-items:center;`
+align-items:center;
+color:white;
+width: 509.208px;
+height: 76.407px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;`
 
 export const Line1=styled.div`
 display:flex;
@@ -14,7 +25,7 @@ margin: -220px 0px 10px 0px;
 
 export const Aidalwrapper =styled.div`
 display:flex;
-padding: 20px 20%;
+padding: 20px 7%;
 gap: 30px;
 
 div{
@@ -24,10 +35,18 @@ div{
 }
 
 `
+export const Imagewrapper=styled.div`
+display:flex;
+flex: 1;
+justify-content:end;
+width: 626px;
+height: 381px;
+`
 
 export const Aidal=styled.div`
 display:flex;
-justify-content: center;
+flex: 1;
+justify-content: start;
 flex-direction:column;
 padding: 20px  3%;
 width: 600px;
@@ -42,7 +61,7 @@ export const Aidalin=styled.div`
 display:flex;
 align-items: center;
 justify-content: space-between;
-div{
+h4{
     display: flex;
     justify-content:end;
     color: #006DAB;
@@ -324,6 +343,7 @@ justify-content:center;
  color: white;
  background-color:#006DAB;
 }
+
 margin-top: -50px;
 `
 

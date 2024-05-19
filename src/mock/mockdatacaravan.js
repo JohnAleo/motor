@@ -44,9 +44,12 @@ import c42 from "../assets/caravanasset/c42.jpg"
 import c43 from "../assets/caravanasset/c15.jpg"
 import c44 from "../assets/caravanasset/c25.jpg"
 import c45 from "../assets/caravanasset/c35.jpg"
-
-
-
+import caravin1 from"../assets/detail/detailcaravan/caravin1.jpg"
+import caravin2 from "../assets/detail/detailcaravan/caravin2.jpg"
+import caravin3 from "../assets/detail/detailcaravan/caravin3.jpg"
+import caravin4 from "../assets/detail/detailcaravan/caravin4.jpg"
+import easy from "../assets/detail/detailcaravan/easy.jpg"
+import heatingcar from "../assets/detail/detailcaravan/heatingcar.jpg"
 
 
 
@@ -65,7 +68,19 @@ export const caravan = {
         company: "다온티앤티",
         location: "수도권",
         rate: 7.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
+
     },
     {
       id: 2,
@@ -80,7 +95,18 @@ export const caravan = {
         company: "다온티앤티",
         location: "수도권",
         rate: 9.3,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 3,
@@ -95,7 +121,18 @@ export const caravan = {
         company: "Miller",
         location: "수도권",
         rate: 7.1,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 4,
@@ -110,7 +147,18 @@ export const caravan = {
         company: "Azure",
         location: "수도권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 5,
@@ -125,7 +173,18 @@ export const caravan = {
         company: "NoBrand",
         location: "수도권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 6,
@@ -140,7 +199,18 @@ export const caravan = {
         company: "GGMotor",
         location: "수도권",
         rate: 8.7,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 7,
@@ -155,7 +225,18 @@ export const caravan = {
         company: "Fiver",
         location: "수도권",
         rate: 8.2,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 8,
@@ -170,7 +251,18 @@ export const caravan = {
         company: "제일모빌",
         location: "수도권",
         rate: 9.2,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 9,
@@ -185,7 +277,18 @@ export const caravan = {
         company: "제일모빌",
         location: "수도권",
         rate: 8.0,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 10,
@@ -200,7 +303,18 @@ export const caravan = {
         company: "MAltaService",
         location: "수도권",
         rate: 7.8,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 12,
@@ -215,7 +329,18 @@ export const caravan = {
         company: "BlackMajic",
         location: "수도권",
         rate: 7.8,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 16,
@@ -230,7 +355,18 @@ export const caravan = {
         company: "BazaltEco",
         location: " 경상권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 20,
@@ -245,7 +381,18 @@ export const caravan = {
         company: "MemphisMotor",
         location: "경상권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 21,
@@ -260,7 +407,18 @@ export const caravan = {
         company: "TegeranMotor",
         location: "경상권",
         rate: 8.6,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 22,
@@ -275,7 +433,18 @@ export const caravan = {
         company: "MarvelMotor",
         location: "경상권",
         rate: 7.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 23,
@@ -290,7 +459,18 @@ export const caravan = {
         company: "LyukaDK",
         location: "경상권",
         rate: 8.8,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 24,
@@ -305,7 +485,18 @@ export const caravan = {
         company: "Madison",
         location: "경상권",
         rate: 7.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 25,
@@ -320,7 +511,18 @@ export const caravan = {
         company: "ChallengeGroup",
         location: "경상권",
         rate: 8.2,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 31,
@@ -335,7 +537,18 @@ export const caravan = {
         company: "Ravon",
         location: "경상권",
         rate: 7.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 32,
@@ -350,7 +563,18 @@ export const caravan = {
         company: "BrilliantMotor",
         location: "경상권",
         rate: 8.7,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 33,
@@ -365,7 +589,18 @@ export const caravan = {
         company: "SaxiyGroup",
         location: "경상권",
         rate: 8.0,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 34,
@@ -380,7 +615,18 @@ export const caravan = {
         company: "NewRoad-UE",
         location: "경상권",
         rate: 9.3,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 35,
@@ -395,7 +641,18 @@ export const caravan = {
         company: "FreshTeam",
         location: "경상권",
         rate: 8.6,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 36,
@@ -410,7 +667,18 @@ export const caravan = {
         company: "ShokirboyMCHJ-Lyuks",
         location: "경상권",
         rate: 7.1,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 37,
@@ -425,7 +693,18 @@ export const caravan = {
         company: "Malla-Motors",
         location: "경상권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 38,
@@ -440,7 +719,18 @@ export const caravan = {
         company: "Sting-DCC",
         location: "충청권",
         rate: 7.2,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 39,
@@ -455,7 +745,18 @@ export const caravan = {
         company: "Spotlight-Team",
         location: "충청권",
         rate: 9.8,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 40,
@@ -470,7 +771,18 @@ export const caravan = {
         company: "USER-BZD",
         location: "수도권",
         rate: 7.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 45,
@@ -485,7 +797,18 @@ export const caravan = {
         company: "Marks-1",
         location: " 수도권",
         rate: 9.7,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 46,
@@ -500,7 +823,18 @@ export const caravan = {
         company: "Newstart-Motor",
         location: "수도권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 47,
@@ -515,7 +849,18 @@ export const caravan = {
         company: "Bumped-Boys",
         location: "수도권",
         rate: 8.7,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 48,
@@ -530,7 +875,18 @@ export const caravan = {
         company: "Broadway",
         location: "수도권",
         rate: 9.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 49,
@@ -545,7 +901,18 @@ export const caravan = {
         company: "ROBBEN-GST",
         location: "수도권",
         rate: 8.0,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 50,
@@ -560,7 +927,18 @@ export const caravan = {
         company: "BAlcony",
         location: "수도권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 51,
@@ -575,7 +953,18 @@ export const caravan = {
         company: "TODDY_TEAM",
         location: "수도권",
         rate: 8.1,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 52,
@@ -590,7 +979,18 @@ export const caravan = {
         company: "ATOM",
         location: "수도권",
         rate: 8.2,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 53,
@@ -605,7 +1005,18 @@ export const caravan = {
         company: "EXPLORER",
         location: "수도권",
         rate: 9.7,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 54,
@@ -620,7 +1031,18 @@ export const caravan = {
         company: "Razor",
         location: "수도권",
         rate: 9.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 55,
@@ -635,7 +1057,18 @@ export const caravan = {
         company: "MoncBeta",
         location: "수도권",
         rate: 8.1,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 90,
@@ -650,7 +1083,18 @@ export const caravan = {
         company: "Azure",
         location: "경상권",
         rate: 8.2,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 91,
@@ -665,7 +1109,18 @@ export const caravan = {
         company: "Megawatt",
         location: "경상권",
         rate: 9.9,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 92,
@@ -680,7 +1135,18 @@ export const caravan = {
         company: "Miranda",
         location: "경상권",
         rate: 9.7,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 93,
@@ -695,7 +1161,18 @@ export const caravan = {
         company: "Cooler",
         location: "경상권",
         rate: 8.5,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 95,
@@ -710,7 +1187,18 @@ export const caravan = {
         company: "ZERO-MOTOR",
         location: "수도권",
         rate: 7.9,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
     {
       id: 96,
@@ -725,7 +1213,18 @@ export const caravan = {
         company: "Vercona",
         location: "수도권",
         rate: 8.6,
+        word:"View our motorhome or caravan flow chart if you need more assistance! The big thing we notice with one's decision to purchase a motorhome or caravan is usually personal preference. That personal preference is determined, almost all of the time, by the lifestyle and how the users see themselves enjoying their time on the road.",
+        word1:"Not having to tow or all potential drivers not being confident backing a trailer/caravan- motorhomes are easy to drive and easy to back. All potential users (minus the grandkids of course) could become very confident backing and driving a motorhome.",
+        word2:"Living full-time on the road - people who are looking to move around a lot, find jobs in different towns and live full-time are usually better suited to a motorhome with larger specifications (water, solar, heating, batteries, cooking facilities).",
+        word3:"Motorhome and Caravan Shows are really wonderful! They offer the chance to explore a wide range of options, from luxurious motorhomes to unique accessories that you never knew you needed.Annual vehicle servicing required on a motorhome. This is not necessary for a caravan but will be required for tow vehicle",
+        word4:"While self-contained camping is very safe, there may be scenarios where you need to move in the night. If for example, any hooligans turn up or the weather changes and it becomes undesirable to stay where you are. "
       },
+      photo:`${caravin1}`,
+      photo1:`${caravin2}`,
+      photo2:`${caravin3}`,
+      photo3:`${caravin4}`,
+      photo4:`${easy}`,
+      photo5:`${heatingcar}`
     },
   ],
 };

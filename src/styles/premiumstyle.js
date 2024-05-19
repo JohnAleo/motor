@@ -59,24 +59,34 @@ line-height: 130%; /* 31.2px */
 export const Name =styled.div`
 display:flex;
 margin-top: 20px;
-color: #373737;
+//color: #373737;
+
 input{
 width: 390px;
 height: 50px;
 flex-shrink: 0;
 border-radius: 8px;
-border: 1px solid var(--text, #373737);
-opacity: 0.05;
-background: var(--text, #373737);
-color: black;
-color: rgba(55, 55, 55, 0.70);
+border: 1px solid black;
+
+//opacity: 0.05;
+background:rgba(55, 55, 55, 0.70);
+//color: #373737;
+//color: rgba(55, 55, 55, 0.70);
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 100%; /* 14px */
+::placeholder{
+    //opacity: 0.5;
+    display: flex;
+    color: red;
+    
+}
+}
 
-};
+
+
 
 `
 export const Gmail=styled.div`
@@ -263,6 +273,10 @@ div{
 
 
 export const Mail=styled.div`
-display:flex;`
+display:flex;
+form{
+    display: flex;
+    flex-direction: column;
+}`
 
 

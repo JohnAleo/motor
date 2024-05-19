@@ -1,12 +1,16 @@
 import React from 'react'
-import { Container,NavLink,NavbarLeft,NavbarMiddle,NavbarRight } from '../../styles/navbarstyle'
-import camper from '../../assets/navbar/camper.png'
+import { Camper, Container,NavLink,NavbarLeft,NavbarMiddle,NavbarRight } from '../../styles/navbarstyle'
 import cart from '../../assets/navbar/cart.png'
 import user from '../../assets/navbar/user.png'
+
 const Navbar = () => {
   return (
     <Container>
-        <NavbarLeft><img src={camper} alt="camper" /></NavbarLeft>
+        <NavbarLeft>
+          <NavLink to="/camper"> 
+               <Camper>Camper</Camper>
+          </NavLink>
+        </NavbarLeft>
         <NavbarMiddle>
             <NavLink to ="/motor">
                 <p>Motor <img src="" alt="" /></p>

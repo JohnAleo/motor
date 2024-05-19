@@ -18,7 +18,7 @@ export const RouterComponent = () => {
     <>
      <Navbar />
     <Routes>
-        <Route path="/" element= {<HomeComponent />}  />
+        <Route path="/camper" element= {<HomeComponent />} ></Route>
         <Route path="/motor" element= {<MotorComponent />}></Route>
         <Route path="/caravan" element= {<CaravanComponent />}></Route>
         <Route path="/tuning" element= {<TuningComponent />}></Route>    

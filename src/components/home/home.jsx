@@ -1,8 +1,13 @@
 import React from 'react'
+import Carousel from '../../swiper/swiper';
+import MultiCarousel from '../../swiper/multiCarousel';
 
 const HomeComponent = () => {
   return (
-    <div>Home</div>
+    <>
+    <Carousel/>
+    <MultiCarousel/>
+    </>
   )
 }
 

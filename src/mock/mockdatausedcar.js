@@ -25,10 +25,11 @@ import car22 from "../assets/usedCar/car22.jpg"
 import car23 from "../assets/usedCar/car23.jpg"
 import car24 from "../assets/usedCar/car24.jpg"
 import car25 from "../assets/usedCar/car25.jpg"
-
-
-
-
+import used1 from "../assets/detail/detailused/used1.jpg"
+import used2 from "../assets/detail/detailused/used2.jpg"
+import used3 from "../assets/detail/detailused/used3.jpg"
+import easyused from "../assets/detail/detailused/easyused.jpg"
+import heatingused from "../assets/detail/detailused/heatingused.jpg"
 
 
 export const usedCar = {
@@ -46,7 +47,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 6.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 2,
@@ -61,7 +73,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 8.3,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 3,
@@ -76,7 +99,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 7.1,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 4,
@@ -91,7 +125,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 8.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 5,
@@ -106,7 +151,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 9.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 6,
@@ -121,7 +177,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 7.7,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 7,
@@ -136,7 +203,18 @@ export const usedCar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 6.2,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 8,
@@ -151,7 +229,18 @@ export const usedCar = {
         company: "제일모빌",
         location: "수도권",
         rate: 9.2,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 9,
@@ -166,7 +255,18 @@ export const usedCar = {
         company: "제일모빌",
         location: "수도권",
         rate: 9.0,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 10,
@@ -181,7 +281,18 @@ export const usedCar = {
         company: "제일모빌",
         location: "수도권",
         rate: 8.8,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 12,
@@ -196,7 +307,18 @@ export const usedCar = {
         company: "제일모빌",
         location: "수도권",
         rate: 6.8,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 16,
@@ -211,7 +333,18 @@ export const usedCar = {
         company: "스타모빌",
         location: " 경상권",
         rate: 7.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 20,
@@ -226,7 +359,18 @@ export const usedCar = {
         company: "영남캠핑카",
         location: "경상권",
         rate: 9.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 21,
@@ -241,7 +385,18 @@ export const usedCar = {
         company: "영남캠핑카",
         location: "경상권",
         rate: 7.6,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 22,
@@ -256,7 +411,18 @@ export const usedCar = {
         company: " 영남캠핑카",
         location: "경상권",
         rate: 8.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 23,
@@ -271,7 +437,18 @@ export const usedCar = {
         company: "영남캠핑카",
         location: "경상권",
         rate: 9.8,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 24,
@@ -286,7 +463,18 @@ export const usedCar = {
         company: "영남캠핑카",
         location: "경상권",
         rate: 6.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 25,
@@ -301,7 +489,18 @@ export const usedCar = {
         company: "영남캠핑카",
         location: "경상권",
         rate: 7.2,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 31,
@@ -316,7 +515,18 @@ export const usedCar = {
         company: "한울캠핑카",
         location: "경상권",
         rate: 6.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 32,
@@ -331,7 +541,18 @@ export const usedCar = {
         company: "한울캠핑카",
         location: "경상권",
         rate: 8.7,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 33,
@@ -346,7 +567,18 @@ export const usedCar = {
         company: "한울캠핑카",
         location: "경상권",
         rate: 9.0,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 34,
@@ -361,7 +593,18 @@ export const usedCar = {
         company: "한울캠핑카",
         location: "경상권",
         rate: 8.3,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 35,
@@ -376,7 +619,18 @@ export const usedCar = {
         company: "한울캠핑카",
         location: "경상권",
         rate: 9.6,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 36,
@@ -391,7 +645,18 @@ export const usedCar = {
         company: "훼미리캠핑카",
         location: "경상권",
         rate: 8.1,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     {
       id: 37,
@@ -406,7 +671,18 @@ export const usedCar = {
         company: "훼미리캠핑카",
         location: "경상권",
         rate: 7.5,
+        word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
+        word1:"It’s fairly self-explanatory but when you hear the term car camping, it generally means that you are camping (i.e. sleeping in a tent) but have your car nearby to hold your belongings or run to in case of an emergency (yes, we’ve made a mad dash to our car in the middle of the night when we heard a bear rummaging near our tent!). Car camping is not only the most popular form of camping,but is also the best way to break into the world of camping.",
+        word2:"As the name implies, it entails, you guessed it, camping at a campground. You will have a designated site with a fire ring, tent pad, picnic table, and parking spot. There will also likely be other amenities at the campground including, bathrooms with running water, a communal sink for dishes, a camp store selling basic supplies, or even laundry/shower facilities. ",
+        word3:"Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
+        word4:"Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival."
       },
+      photo:`${used1}`,
+      photo1:`${used1}`,
+      photo2:`${used2}`,
+      photo3:`${used3}`,
+      photo4:`${easyused}`,
+      photo5:`${heatingused}`
     },
     
    

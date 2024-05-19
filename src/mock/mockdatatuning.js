@@ -25,7 +25,11 @@ import t22 from "../assets/tuning/t12.jpg"
 import t23 from "../assets/tuning/t23.jpg"
 import t24 from "../assets/tuning/t24.jpg"
 import t25 from "../assets/tuning/t25.jpg"
-
+import tuning1 from "../assets/detail/detailtuning/tuning1.jpg"
+import tuningvent from "../assets/detail/detailtuning/tuningvent.jpg"
+import tuning4 from "../assets/detail/detailtuning/tuning4.jpg"
+import tuningeasy from "../assets\/detail/detailtuning/tuningeasy.jpg"
+import heating from "../assets/detail/detailtuning/heating.jpg"
 
 
 
@@ -49,7 +53,17 @@ export const tuning = {
         company: "RoyalMOTOR",
         location: "수도권",
         rate: 5.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 2,
@@ -64,7 +78,17 @@ export const tuning = {
         company: "ABSDEFG",
         location: "수도권",
         rate: 9.3,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 3,
@@ -79,7 +103,17 @@ export const tuning = {
         company: "Barraouza",
         location: "수도권",
         rate: 8.1,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 4,
@@ -94,7 +128,17 @@ export const tuning = {
         company: "SpeculuoS",
         location: "수도권",
         rate: 8.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 5,
@@ -109,7 +153,17 @@ export const tuning = {
         company: "Modul4",
         location: "수도권",
         rate: 9.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 6,
@@ -124,7 +178,17 @@ export const tuning = {
         company: "Ciyenne111",
         location: "수도권",
         rate: 8.7,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 7,
@@ -139,7 +203,17 @@ export const tuning = {
         company: "Caravan",
         location: "수도권",
         rate: 7.2,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 8,
@@ -154,7 +228,17 @@ export const tuning = {
         company: "DS9eR+a",
         location: "수도권",
         rate: 9.2,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 9,
@@ -169,7 +253,17 @@ export const tuning = {
         company: "Moderna",
         location: "수도권",
         rate: 8.0,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 10,
@@ -184,7 +278,17 @@ export const tuning = {
         company: "BIGDREAM",
         location: "수도권",
         rate: 9.8,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 12,
@@ -199,7 +303,17 @@ export const tuning = {
         company: "Milleneum500",
         location: "수도권",
         rate: 8.8,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 16,
@@ -214,7 +328,17 @@ export const tuning = {
         company: "Chazor",
         location: " 경상권",
         rate: 8.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 20,
@@ -229,7 +353,17 @@ export const tuning = {
         company: "NAUTILUS",
         location: "경상권",
         rate: 8.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 21,
@@ -244,7 +378,17 @@ export const tuning = {
         company: "Dexen",
         location: "경상권",
         rate: 8.6,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 22,
@@ -259,7 +403,17 @@ export const tuning = {
         company: "SHARK-200",
         location: "경상권",
         rate: 8.3,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 23,
@@ -274,7 +428,17 @@ export const tuning = {
         company: "NOLANAVC",
         location: "경상권",
         rate: 7.8,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 24,
@@ -289,7 +453,17 @@ export const tuning = {
         company: "AZZRA-DEC",
         location: "경상권",
         rate: 7.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 25,
@@ -304,7 +478,17 @@ export const tuning = {
         company: "TIMOPHY-5452",
         location: "경상권",
         rate: 8.2,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 31,
@@ -319,7 +503,17 @@ export const tuning = {
         company: "MIDWAY",
         location: "경상권",
         rate: 7.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 32,
@@ -334,7 +528,17 @@ export const tuning = {
         company: "ROADStar",
         location: "경상권",
         rate: 9.7,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 33,
@@ -349,7 +553,17 @@ export const tuning = {
         company: "Stella F-500",
         location: "경상권",
         rate: 9.1,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 34,
@@ -364,7 +578,17 @@ export const tuning = {
         company: "NOVAK K-522",
         location: "경상권",
         rate: 8.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 35,
@@ -379,7 +603,17 @@ export const tuning = {
         company: "HMF PARCING",
         location: "경상권",
         rate: 9.5,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 36,
@@ -394,7 +628,17 @@ export const tuning = {
         company: "STINGER-722",
         location: "경상권",
         rate: 8.3,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
     {
       id: 37,
@@ -409,7 +653,17 @@ export const tuning = {
         company: "PILOT 2",
         location: "경상권",
         rate: 7.8,
+        word:"There are so many different ways to use a caravan. Suitable for a range of unique circumstances including living full time, temporary living, overflow accommodation for the Christmas holidays at the family batch or, as a lifestyle option heading away for weekends and extended holidays.",
+        word1:"There will be caravans that you'll need a bigger tow vehicle to tow however there are also some great lightweight easy to tow, easy to park options. Not having a big rig isn't a good reason to completely rule out caravanning as a desirable option. Some people like the idea of their existing car being used for their getaways and not needing to maintain another 'motor'.",
+        word2:"You can get motorhomes with loads of storage meaning you can take everything with you you're going to need for an adventure. With a caravan, you'll gain storage in the tow vehicle but may not have dedicated external storage in the caravan for large items like surfboards, a small boat or perhaps the fishing rods.",
+        word3:"We'll get you clear through your journey on how to tow a caravan and what sort of vehicle is required to tow each caravan. A free tow assessment is offered by our TrailLite product consultants to help connect you with the perfect caravan for your existing car if that's a priority.",
+        word4:"A full handover of use. For beginners, there is nothing worse than getting the keys to your caravan and not even knowing where to find the radio, solar panel, batteries or how to even flush the loo! "
       },
+      photo1 :`${tuning1}`,
+      photo2:`${tuning4}`,
+      photo3:`${tuningvent}`,
+      photo4:`${tuningeasy}`,
+      photo5:`${heating}`
     },
    
    

@@ -44,12 +44,12 @@ import img41 from '../assets/mockasset/car19.png'
 import img42 from '../assets/mockasset/car30.jpg'
 import img43 from '../assets/mockasset/car2.jpg'
 import img44 from '../assets/mockasset/car27.jpg'
-import camp from '../assets/detail/camp.png'
-import insidecamp from '../assets/detail/insidecamp.png'
-import insidecamp1 from '../assets/detail/insidecamp1.png'
-import insidecamp2 from '../assets/detail/insidecamp2.png'
-import easyaccess from '../assets/detail/easyaccess.png'
-import heating from '../assets/detail/heating.png'
+import camp from '../assets/detail/detailmotor/camp.png'
+import insidecamp from '../assets/detail/detailmotor/insidecamp.png'
+import insidecamp1 from '../assets/detail/detailmotor/insidecamp1.png'
+import insidecamp2 from '../assets/detail/detailmotor/insidecamp2.png'
+import easyaccess from '../assets/detail/detailmotor/easyaccess.png'
+import heating from '../assets/detail/detailmotor/heating.png'
 
 
 export const campcar = {
