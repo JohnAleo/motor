@@ -1,13 +1,8 @@
 import React, { useState } from 'react'
 import { Catalogwrapper, Container,
    Filtrwrapper, Wrapper,
-   Cost,
-   Brand,
-   Company,
-   License,
-   Travelers,Line
-  ,Column,Location,
-  Imgwrapper,
+   Cost,Line
+  ,Column,
   Centerjust,
   Button1,
   Buttonwrapper1,
@@ -21,16 +16,21 @@ import { Catalogwrapper, Container,
   Button2,
   Button3,
   Filtrin,
-  Inputwrapper} from '../../styles/motorstyle';
+  Item,
+  Drawerwrapper} from '../../styles/motorstyle';
 import { Bgwrapper } from '../../styles/navbarstyle';
 import { campcar } from '../../mock/mockdata';
-import strelka from "../../assets/motor/strelka.png";
 import car from '../../assets/mockasset/car.jpeg';
-
 import hMenu from '../../assets/motor/hMenu.png';
 import vMenu from '../../assets/motor/vMenu.png';
 import HMenu from './Hmenu';
 import VMenu from './Vmenu';
+import AccordionItemMotor from '../accordion/itemaccordion';
+import AccordionItemCompany from '../accordion/accordioncom';
+import AccordionItemLicense from '../accordion/accordionlisence';
+import AccordionItemTravelers from '../accordion/accordiontraveler';
+import AccordionItemLocation from '../accordion/accordionlocation';
+import ItemDrawer from '../../constants/drawback/drawbackitem';
 
 const MotorComponent = () => {
   const [active, setActive]=useState(true);
@@ -58,7 +58,6 @@ const MotorComponent = () => {
           <Cost>
             <Centerjust>
               <p>Cost of car</p> 
-              <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
             </Centerjust>
             <Line></Line>
             <div>
@@ -72,82 +71,11 @@ const MotorComponent = () => {
                 </Column>
             </div>
         </Cost>
-        <Brand>
-          <Centerjust>
-            <p>Brand</p> 
-            <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-          </Centerjust>
-          <Line></Line>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Aidal</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Knal</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Escape</label>
-          </Inputwrapper>
-        </Brand>
-        <Company>
-          <Centerjust>
-            <p>Company</p> <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-          </Centerjust>
-          <Line></Line>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Escape</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Aidal</label>
-          </Inputwrapper>
-        </Company>
-        <License>
-          <Centerjust>
-              <p>Licensee</p> 
-              <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-          </Centerjust>
-          <Line></Line>
-          <Inputwrapper>
-              <input type="checkbox" /><label>1 year</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>2 years</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>1.5 years</label>
-          </Inputwrapper>
-        </License>
-        <Travelers>
-          <Centerjust>
-              <p>Number of travelers</p> 
-              <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-          </Centerjust>
-          <Line></Line>
-          <Inputwrapper>
-              <input type="checkbox" /><label>2</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>3-4</label>
-          </Inputwrapper>
-          <Inputwrapper>
-                <input type="checkbox" /><label>5+</label>
-          </Inputwrapper>
-        </Travelers>
-        <Location>
-          <Centerjust>
-              <p>Location</p> 
-              <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-              </Centerjust>
-          <Line></Line>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Seoul</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Korea</label>
-          </Inputwrapper>
-          <Inputwrapper>
-              <input type="checkbox" /><label>Busan</label>
-          </Inputwrapper>
-        </Location>
+        <AccordionItemMotor/>
+        <AccordionItemCompany/>
+        <AccordionItemLicense/>
+        <AccordionItemTravelers/>
+        <AccordionItemLocation/>
             <Buttonwrapper1>
               <Button1>Cancel</Button1>
               <Button1 $search>Search</Button1>
@@ -164,13 +92,20 @@ const MotorComponent = () => {
         </Filtrwrapper>
         <Catalogwrapper>
           <Itemwrapper>
+          <div>
+              <ItemDrawer/>
+            </div>
             <Itemleft>
-              <p>Item </p> 
-              <h5>{dataLength}</h5> 
-            </Itemleft>
-            <Itemright>
-              <p>Sort by</p>
-              <input type="text" placeholder='select' />
+              <Item>  
+                <p>Item </p> 
+                <h5>{dataLength}</h5> 
+              </Item>
+              <div>
+                <p>Sort by</p>
+                <input type="text" placeholder='select' />
+              </div>
+              </Itemleft>
+              <Itemright>
               <input type="number" placeholder='60' style={{width:'60px'}}/>
               <Buttonwrapper2>
                 <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>

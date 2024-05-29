@@ -4,14 +4,26 @@ import motorBg from '../assets/motor/motorBg.png'
 import caravan from '../assets/caravanasset/caravan.jpg'
 import tuning from '../assets/tuning/tuning.jpg'
 import usedcar2 from '../assets/usedCar/usedcar2.jpg'
+import user from '../assets/navbar/user.png'
 
 export const Container =styled.div`
 display: flex;
 padding: 10px 50px;
+background-color: #fff;
 `
 export const NavbarLeft =styled.div`
 display: flex;
 flex: 2;
+
+`
+export const Drawerin=styled.div`
+display:none;
+@media only screen and (max-width:1100px){
+   display: flex;
+};
+@media only screen and (max-width:700px){
+  display  : none;
+}
 `
 
 export const NavbarMiddle =styled.div`
@@ -19,6 +31,9 @@ display: flex;
 flex: 5;
 justify-content: space-around ;
 align-items: center;
+@media only screen and (max-width:1100px){
+    display: none;
+}
 p{
     cursor: pointer;
 }
@@ -29,12 +44,49 @@ flex: 2;
 justify-content: end;
 p{
     cursor: pointer;
+    @media only screen and (max-width:700px) {
+       display : none;
+    }
 }
-img{
-    margin-right: 10px;
-    cursor: pointer;
-};
 `
+export const Drawerin1=styled.div`
+display:none;
+@media only screen and (max-width:700px) {
+    display: flex;
+}`
+
+export const Img1=styled.div`
+display: flex;
+align-items: center;
+width: 27px;
+height: 27px;
+flex-shrink: 0;
+margin-right: 10px;
+cursor: pointer;
+`
+export const Img2=styled.div`
+display: flex;
+align-items: center;
+background-image:url(${user});
+width: 27px;
+height: 27px;
+flex-shrink: 0;
+margin-right: 10px;
+@media only screen and (max-width:700px) {
+    display: none;
+}
+`
+export const Buttonuser=styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+width: 22px;
+height: 22px;
+background-color:transparent;
+//border:2px solid  #006DAB;
+//border-color:#006DAB;
+cursor:pointer;`
+
 export const NavLink=styled(Link)`
 color:black;
 font-weight:600;

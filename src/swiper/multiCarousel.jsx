@@ -2,8 +2,12 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import car from '../assets/multicarousel/car.png'
-import { Button, Buttonwrapper, Carouselin, Imgwrapper, Namewrapper, Recommend, Select } from '../styles/multicarousel';
+import { Button, Buttonwrapper, Carouselin, Imgwrapper, Logged, Mail, Namewrapper, Recommend, Select, Sign } from '../styles/multicarousel';
+import Popup from 'reactjs-popup';
 
+import { Buttonin} from '../styles/detailusedCar';
+import { Akar, Buttonwrapperpop, Log1, Log2, Log3, Logowrapper, Naver, Or, Talk } from '../styles/indexpop';
+import RegistrateComponent from '../components/home/registrate';
 
 
 const responsive = {
@@ -37,7 +41,60 @@ const MultiCarousel = () => {
         <p>Name</p>
       </Namewrapper>
       <Buttonwrapper>
-      <Button><p>Discover the range</p></Button>
+      <Popup
+    trigger={<Button className="button"><p>Discover the range</p></Button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <button className="close" onClick={close}>
+          &times;
+        </button>
+        <div className="content">
+        <Sign>  
+          <p>Sign in</p>
+        <label htmlFor="">Email</label>
+          <Mail>
+          <input type="email"  />
+          </Mail>
+        <label htmlFor="">Password</label>
+          <Mail>
+            <input type="text" />
+          </Mail>
+          <Logged>
+            <div>
+              <input type="checkbox" />
+              <label htmlFor="">Keep me logged in</label>
+            </div>
+            <div>
+              <label>Forgot your password?</label>
+            </div>
+          </Logged>
+       
+          <Buttonwrapperpop>   
+            <Buttonin style={{width:'434px',height:'50px'}}>SIGN IN</Buttonin>    
+          </Buttonwrapperpop>
+         <Or>
+          <button></button>
+          <h5>Or</h5>
+          <button></button>
+         </Or>
+         <Logowrapper>
+          <Naver><Log1></Log1></Naver>
+          <Akar><Log2></Log2></Akar>
+          <Talk><Log3></Log3></Talk>
+         </Logowrapper>
+         <Buttonwrapperpop>
+                <div><RegistrateComponent/></div>
+            </Buttonwrapperpop>
+        </Sign>
+        </div>
+      </div>
+    )}
+   
+  </Popup>
+ 
       </Buttonwrapper>
       <Select>
         <select>
@@ -54,7 +111,60 @@ const MultiCarousel = () => {
         <p>Name</p>
       </Namewrapper>
       <Buttonwrapper>
-      <Button><p>Discover the range</p></Button>
+      <Popup
+    trigger={<Button className="button"><p>Discover the range</p></Button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <button className="close" onClick={close}>
+          &times;
+        </button>
+        <div className="content">
+        <Sign>
+          <p>Sign in</p>
+        <label htmlFor="">Email</label>
+          <Mail>
+          <input type="email"  />
+          </Mail>
+        <label htmlFor="">Password</label>
+          <Mail>
+            <input type="text" />
+          </Mail>
+          <Logged>
+            <div>
+              <input type="checkbox" />
+              <label htmlFor="">Keep me logged in</label>
+            </div>
+            <div>
+              <label>Forgot your password?</label>
+            </div>
+          </Logged>
+       
+          <Buttonwrapperpop>
+                <Buttonin style={{width:'434px',height:'50px'}}>SIGN IN</Buttonin>
+            </Buttonwrapperpop>
+         <Or>
+          <button></button>
+          <h5>Or</h5>
+          <button></button>
+         </Or>
+         <Logowrapper>
+          <Naver><Log1></Log1></Naver>
+          <Akar><Log2></Log2></Akar>
+          <Talk><Log3></Log3></Talk>
+         </Logowrapper>
+         <Buttonwrapperpop>
+            <div><RegistrateComponent/></div>
+          </Buttonwrapperpop>
+        </Sign>
+        </div>
+      </div>
+    )}
+   
+  </Popup>
+ 
       </Buttonwrapper>
       <Select>
         <select>
@@ -71,7 +181,60 @@ const MultiCarousel = () => {
         <p>Name</p>
       </Namewrapper>
       <Buttonwrapper>
-      <Button><p>Discover the range</p></Button>
+      <Popup
+    trigger={<Button className="button"><p>Discover the range</p></Button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <button className="close" onClick={close}>
+          &times;
+        </button>
+        <div className="content">
+        <Sign>
+          <p>Sign in</p>
+        <label htmlFor="">Email</label>
+          <Mail>
+          <input type="email"  />
+          </Mail>
+        <label htmlFor="">Password</label>
+          <Mail>
+            <input type="text" />
+          </Mail>
+          <Logged>
+            <div>
+              <input type="checkbox" />
+              <label htmlFor="">Keep me logged in</label>
+            </div>
+            <div>
+              <label>Forgot your password?</label>
+            </div>
+          </Logged>
+       
+          <Buttonwrapperpop>
+                <Buttonin style={{width:'434px',height:'50px'}}>SIGN IN</Buttonin>
+            </Buttonwrapperpop>
+         <Or>
+          <button></button>
+          <h5>Or</h5>
+          <button></button>
+         </Or>
+         <Logowrapper>
+          <Naver><Log1></Log1></Naver>
+          <Akar><Log2></Log2></Akar>
+          <Talk><Log3></Log3></Talk>
+         </Logowrapper>
+         <Buttonwrapperpop>
+            <div><RegistrateComponent/></div>
+          </Buttonwrapperpop>
+        </Sign>
+        </div>
+      </div>
+    )}
+   
+  </Popup>
+ 
       </Buttonwrapper>
       <Select>
         <select>
@@ -88,7 +251,60 @@ const MultiCarousel = () => {
         <p>Name</p>
       </Namewrapper>
       <Buttonwrapper>
-      <Button><p>Discover the range</p></Button>
+      <Popup
+    trigger={<Button className="button"><p>Discover the range</p></Button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <button className="close" onClick={close}>
+          &times;
+        </button>
+        <div className="content">
+        <Sign>
+          <p>Sign in</p>
+        <label htmlFor="">Email</label>
+          <Mail>
+          <input type="email"  />
+          </Mail>
+        <label htmlFor="">Password</label>
+          <Mail>
+            <input type="text" />
+          </Mail>
+          <Logged>
+            <div>
+              <input type="checkbox" />
+              <label htmlFor="">Keep me logged in</label>
+            </div>
+            <div>
+              <label>Forgot your password?</label>
+            </div>
+          </Logged>
+       
+          <Buttonwrapperpop>
+                <Buttonin style={{width:'434px',height:'50px'}}>SIGN IN</Buttonin>
+            </Buttonwrapperpop>
+         <Or>
+          <button></button>
+          <h5>Or</h5>
+          <button></button>
+         </Or>
+         <Logowrapper>
+          <Naver><Log1></Log1></Naver>
+          <Akar><Log2></Log2></Akar>
+          <Talk><Log3></Log3></Talk>
+         </Logowrapper>
+         <Buttonwrapperpop>
+              <div><RegistrateComponent/></div>
+          </Buttonwrapperpop>
+        </Sign>
+        </div>
+      </div>
+    )}
+   
+  </Popup>
+ 
       </Buttonwrapper>
       <Select>
         <select>
@@ -105,7 +321,60 @@ const MultiCarousel = () => {
         <p>Name</p>
       </Namewrapper>
       <Buttonwrapper>
-      <Button><p>Discover the range</p></Button>
+      <Popup
+    trigger={<Button className="button"><p>Discover the range</p></Button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <button className="close" onClick={close}>
+          &times;
+        </button>
+        <div className="content">
+        <Sign>
+          <p>Sign in</p>
+        <label htmlFor="">Email</label>
+          <Mail>
+          <input type="email"  />
+          </Mail>
+        <label htmlFor="">Password</label>
+          <Mail>
+            <input type="text" />
+          </Mail>
+          <Logged>
+            <div>
+              <input type="checkbox" />
+              <label htmlFor="">Keep me logged in</label>
+            </div>
+            <div>
+              <label>Forgot your password?</label>
+            </div>
+          </Logged>
+       
+          <Buttonwrapperpop>
+                <Buttonin style={{width:'434px',height:'50px'}}>SIGN IN</Buttonin>
+            </Buttonwrapperpop>
+         <Or>
+          <button></button>
+          <h5>Or</h5>
+          <button></button>
+         </Or>
+         <Logowrapper>
+          <Naver><Log1></Log1></Naver>
+          <Akar><Log2></Log2></Akar>
+          <Talk><Log3></Log3></Talk>
+         </Logowrapper>
+         <Buttonwrapperpop>
+              <div><RegistrateComponent/></div>
+          </Buttonwrapperpop>
+        </Sign>
+        </div>
+      </div>
+    )}
+   
+  </Popup>
+ 
       </Buttonwrapper>
       <Select>
         <select>
@@ -122,7 +391,60 @@ const MultiCarousel = () => {
         <p>Name</p>
       </Namewrapper>
       <Buttonwrapper>
-        <Button><p>Discover the range</p></Button>
+      <Popup
+    trigger={<Button className="button"><p>Discover the range</p></Button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <button className="close" onClick={close}>
+          &times;
+        </button>
+        <div className="content">
+        <Sign>
+          <p>Sign in</p>
+        <label htmlFor="">Email</label>
+          <Mail>
+          <input type="email"  />
+          </Mail>
+        <label htmlFor="">Password</label>
+          <Mail>
+            <input type="text" />
+          </Mail>
+          <Logged>
+            <div>
+              <input type="checkbox" />
+              <label htmlFor="">Keep me logged in</label>
+            </div>
+            <div>
+              <label>Forgot your password?</label>
+            </div>
+          </Logged>
+       
+          <Buttonwrapperpop>
+                <Buttonin style={{width:'434px',height:'50px'}}>SIGN IN</Buttonin>
+            </Buttonwrapperpop>
+         <Or>
+          <button></button>
+          <h5>Or</h5>
+          <button></button>
+         </Or>
+         <Logowrapper>
+          <Naver><Log1></Log1></Naver>
+          <Akar><Log2></Log2></Akar>
+          <Talk><Log3></Log3></Talk>
+         </Logowrapper>
+         <Buttonwrapperpop>
+              <div><RegistrateComponent/></div>
+          </Buttonwrapperpop>
+        </Sign>
+        </div>
+      </div>
+    )}
+   
+  </Popup>
+ 
       </Buttonwrapper>
       <Select>
         <select>

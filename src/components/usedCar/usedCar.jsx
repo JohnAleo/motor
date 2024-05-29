@@ -3,12 +3,8 @@ import { useState } from 'react'
 import { Catalogwrapper, Container,
    Filtrwrapper, Wrapper,
    Cost,
-   Brand,
-   Company,
-   License,
-   Travelers,Line
-  ,Column,Location,
-  Imgwrapper,
+ Line
+  ,Column,
   Centerjust,
   Button1,
   Buttonwrapper1,
@@ -22,15 +18,19 @@ import { Catalogwrapper, Container,
   Button2,
   Button3,
   Filtrin,
-  Inputwrapper} from '../../styles/motorstyle';
+} from '../../styles/motorstyle';
 import {  Bgwrapper3,} from '../../styles/navbarstyle';
-import strelka from "../../assets/motor/strelka.png";
 import car from '../../assets/mockasset/car.jpeg';
 import hMenu from '../../assets/motor/hMenu.png';
 import vMenu from '../../assets/motor/vMenu.png';
 import HMenu from '../usedCar/Hmenu';
 import VMenu from '../usedCar/Vmenu';
 import { usedCar } from '../../mock/mockdatausedcar';
+import AccordionItemMotor from '../accordion/itemaccordion';
+import AccordionItemCompany from '../accordion/accordioncom';
+import AccordionItemLicense from '../accordion/accordionlisence';
+import AccordionItemTravelers from '../accordion/accordiontraveler';
+import AccordionItemLocation from '../accordion/accordionlocation';
 
 const UsedCarComponent = () => 
     {const [active, setActive]=useState(true);
@@ -59,7 +59,6 @@ const UsedCarComponent = () =>
             <Cost>
               <Centerjust>
                 <p>Cost of car</p> 
-                <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
               </Centerjust>
               <Line></Line>
               <div>
@@ -73,82 +72,11 @@ const UsedCarComponent = () =>
                   </Column>
               </div>
           </Cost>
-          <Brand>
-            <Centerjust>
-              <p>Brand</p> 
-              <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-            </Centerjust>
-            <Line></Line>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Aidal</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Knal</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Escape</label>
-            </Inputwrapper>
-          </Brand>
-          <Company>
-            <Centerjust>
-              <p>Company</p> <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-            </Centerjust>
-            <Line></Line>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Escape</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Aidal</label>
-            </Inputwrapper>
-          </Company>
-          <License>
-            <Centerjust>
-                <p>Licensee</p> 
-                <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-            </Centerjust>
-            <Line></Line>
-            <Inputwrapper>
-                <input type="checkbox" /><label>1 year</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>2 years</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>1.5 years</label>
-            </Inputwrapper>
-          </License>
-          <Travelers>
-            <Centerjust>
-                <p>Number of travelers</p> 
-                <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-            </Centerjust>
-            <Line></Line>
-            <Inputwrapper>
-                <input type="checkbox" /><label>2</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>3-4</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                  <input type="checkbox" /><label>5+</label>
-            </Inputwrapper>
-          </Travelers>
-          <Location>
-            <Centerjust>
-                <p>Location</p> 
-                <Imgwrapper><img src={strelka} alt="strelka" /></Imgwrapper>
-                </Centerjust>
-            <Line></Line>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Seoul</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Korea</label>
-            </Inputwrapper>
-            <Inputwrapper>
-                <input type="checkbox" /><label>Busan</label>
-            </Inputwrapper>
-          </Location>
+            <AccordionItemMotor/>
+            <AccordionItemCompany/>
+            <AccordionItemLicense/>
+            <AccordionItemTravelers/>
+            <AccordionItemLocation/>
               <Buttonwrapper1>
                 <Button1>Cancel</Button1>
                 <Button1 $search>Search</Button1>

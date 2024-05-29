@@ -16,8 +16,9 @@ import DetailUsedCar from './components/usedCar/detail';
 export const RouterComponent = () => {
   return (
     <>
-     <Navbar />
+    <Navbar />
     <Routes>
+        <Route path="/" element= {<HomeComponent />} ></Route>
         <Route path="/camper" element= {<HomeComponent />} ></Route>
         <Route path="/motor" element= {<MotorComponent />}></Route>
         <Route path="/caravan" element= {<CaravanComponent />}></Route>

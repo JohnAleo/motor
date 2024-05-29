@@ -11,7 +11,7 @@ import { Aidal, Aidalin, Aidalinleft,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
 import { tuning } from '../../mock/mockdatatuning';
-import BasicTabsTuning from './tab';
+import BasicTabs from '../mui/tab';
 
 const DetailTuning = () => {
   const {id}= useParams();
@@ -29,10 +29,11 @@ const DetailTuning = () => {
        <ButtonDetail>COMPARE</ButtonDetail>
      </Buttonwrapper>
     </Bgwrapper2>
-    
+    <Introduction>
       <Aidalwrapper>
+        <div>
         <Imagewrapper>
-          <img src={resultdata.car.photo} alt="basic" />
+          <img src={resultdata.car.photo} alt="basic" style={{width: '683px',eight: '477px'}} />
         </Imagewrapper>
         <Aidal>
           <Aidalin>
@@ -56,8 +57,9 @@ const DetailTuning = () => {
               </Aidalright>
           </Awrapper>
         </Aidal>
+        </div>
       </Aidalwrapper>
-    <Introduction>
+
       <Comfortwrapper>
         <div>
         <Comfort>
@@ -107,7 +109,7 @@ const DetailTuning = () => {
           <Imgwrapper1><img src={resultdata.photo5} alt="heating" style={{width:'683px',height:'477px',flexShrink:'0'}}/></Imgwrapper1>
         </div>
       </Heatingwrapper>
-      <BasicTabsTuning />
+      <BasicTabs />
     </Introduction>
     </>
    )

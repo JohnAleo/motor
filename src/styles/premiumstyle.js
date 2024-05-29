@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Premiumwrapper=styled.div`
 display:flex;
-flex-direction:column;`
+flex-direction:column;
+`
 
 export const Premiumin=styled.div`
 display:flex;
-padding: 20px 5%;
+padding:20px 12%;
 
 `
 
@@ -39,8 +40,9 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
 export const Item1=styled.div`
 display:flex;
 justify-content: space-between;
-padding:20px 5%;
-gap:50px;`
+padding:20px 12%;   
+gap:50px;
+background-color:#FAFAFA;`
 
 
 
@@ -59,58 +61,27 @@ line-height: 130%; /* 31.2px */
 export const Name =styled.div`
 display:flex;
 margin-top: 20px;
-//color: #373737;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 input{
 width: 390px;
 height: 50px;
 flex-shrink: 0;
 border-radius: 8px;
-border: 1px solid black;
-
-//opacity: 0.05;
-background:rgba(55, 55, 55, 0.70);
-//color: #373737;
-//color: rgba(55, 55, 55, 0.70);
+border: none;
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 100%; /* 14px */
 ::placeholder{
-    //opacity: 0.5;
-    display: flex;
-    color: red;
-    
+    display: flex;    
 }
 }
 
 
 
 
-`
-export const Gmail=styled.div`
-display:flex;
-margin-top: 20px;
-input{
-width: 390px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 8px;
-border: 1px solid var(--text, #373737);
-opacity: 0.05;
-background: var(--text, #373737);
-::placeholder{
-    color: rgba(55, 55, 55, 0.70);
-    color: black;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 100%; /* 14px */
-}
-
-}
 `
 
 export const Quest=styled.div`
@@ -161,7 +132,7 @@ cursor:pointer;
 export const Item6wrapper=styled.div`
 display:flex;
 flex-direction:column;
-padding:20px 5%;`
+padding:20px 12%;`
 
 export const Item6 =styled.div`
 display: flex;
@@ -230,9 +201,13 @@ div{
 export const Mapp =styled.div`
 display: flex;
 flex-direction: column;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+
 `
 export const Mappup=styled.div`
-display:flex;`
+display:flex;
+height:380px;
+width:700px;`
 
 export const Mappdown=styled.div`
 display:flex;
@@ -272,11 +247,62 @@ div{
 `
 
 
-export const Mail=styled.div`
+export const Mailpart=styled.div`
 display:flex;
 form{
     display: flex;
     flex-direction: column;
 }`
+export const Inform=styled.div`
+display:flex;
+justify-content:center;
+input{
+width:390px;
+height:50px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(55, 55, 55, 0.10);
+border: none;
+}
+textarea{
+width: 390px;
+height: 120px;
+flex-shrink: 0;
+border-radius: 8px;
+border:none;
+background: rgba(55, 55, 55, 0.10);
+}`
 
+export const Signtab=styled.div`
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+width: 450px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid rgba(0, 109, 171, 0.10);
+background: #FFF;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+padding: 25px 0px;
+label{
+    display: flex;
+    margin-left: 32px;
+    color: rgba(55, 55, 55, 0.90);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: var(--text-color, #023047);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}`
 

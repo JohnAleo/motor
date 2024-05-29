@@ -11,7 +11,7 @@ import { Aidal, Aidalin, Aidalinleft,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
 import { caravan } from '../../mock/mockdatacaravan';
-import BasicTabsCaravan from './tab';
+import BasicTabs from '../mui/tab';
 
 
 const DetailCaravan = () => {
@@ -31,9 +31,10 @@ const DetailCaravan = () => {
      </Buttonwrapper>
     </Bgwrapper1>
     
-      <Aidalwrapper>
+    <Aidalwrapper>
+        <div>
         <Imagewrapper>
-          <img src={resultdata.car.photo} alt="basic" />
+          <img src={resultdata.car.photo} alt="basic" style={{width: '683px',eight: '477px'}} />
         </Imagewrapper>
         <Aidal>
           <Aidalin>
@@ -57,6 +58,7 @@ const DetailCaravan = () => {
               </Aidalright>
           </Awrapper>
         </Aidal>
+        </div>
       </Aidalwrapper>
     <Introduction>
       <Comfortwrapper>
@@ -108,7 +110,7 @@ const DetailCaravan = () => {
           <Imgwrapper1><img src={resultdata.photo5} alt="heating" style={{width:'683px',height:'477px',flexShrink:'0'}}/></Imgwrapper1>
         </div>
       </Heatingwrapper>
-      <BasicTabsCaravan />
+      <BasicTabs />
     </Introduction>
     </>
   )

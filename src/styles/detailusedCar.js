@@ -20,37 +20,37 @@ line-height: normal;`
 export const Line1=styled.div`
 display:flex;
 border-bottom: 2px solid rgba(55, 55, 55, 0.30) ;
-margin: -220px 0px 10px 0px; 
+
 `
 
 export const Aidalwrapper =styled.div`
 display:flex;
-padding: 20px 7%;
+justify-content: center;
+padding: 0px 10%;
 gap: 30px;
+
 
 div{
     display: flex;
-    flex: 1;
-    justify-content: center;
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        flex-direction: column;
+    }  
 }
 
 `
 export const Imagewrapper=styled.div`
 display:flex;
-flex: 1;
 justify-content:end;
-width: 626px;
-height: 381px;
+
 `
 
 export const Aidal=styled.div`
 display:flex;
-flex: 1;
-justify-content: start;
 flex-direction:column;
 padding: 20px  3%;
-width: 600px;
-height: 360px;
+width: 683px;
+height: 477px;
 flex-shrink: 0;
 border-radius: 10px;
 background: #FFF;
@@ -62,8 +62,7 @@ display:flex;
 align-items: center;
 justify-content: space-between;
 h4{
-    display: flex;
-    justify-content:end;
+    display: flex;  
     color: #006DAB;
     font-family: Montserrat;
     font-size: 30px;
@@ -76,6 +75,7 @@ h4{
 
 export const Awrapper=styled.div`
 display:flex;
+justify-content: space-between;
 
 `
 
@@ -130,7 +130,7 @@ line-height: normal;
 export const Introduction =styled.div`
 display: flex;
 flex-direction: column;
-margin: 20px;
+//margin: 20px;
 //border: 1px solid red;
 
 `
@@ -141,6 +141,10 @@ justify-content: center;
 div{
     display: flex;
     gap: 150px;
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        flex-direction: column;
+    }  margin-top: 30px;
 }
 `
 
@@ -184,6 +188,11 @@ justify-content: center;
 div{
     display: flex;
     gap: 150px;
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }  
 }`
 
 export const Tidy=styled.div`
@@ -220,6 +229,11 @@ justify-content: center;
 div{
     display: flex;
     gap: 150px;
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }  
 }`
 
 export const Ventil=styled.div`
@@ -253,6 +267,11 @@ justify-content: center;
 div{
     display: flex;
     gap: 150px;
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }  
 };`
 
 
@@ -288,6 +307,11 @@ justify-content: center;
 div{
     display: flex;
     gap: 150px;
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }  
 };
 `
 export const Heating=styled.div`

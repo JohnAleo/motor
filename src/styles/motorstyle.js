@@ -19,6 +19,9 @@ export const Filtrwrapper=styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
+@media only screen and (max-width:1100px) {
+  display  :none ;
+}
 `
 
 export const Catalogwrapper =styled.div`
@@ -39,10 +42,6 @@ justify-content: center;
 width: 100%;
 grid-template-columns: repeat(4, 1fr);
 gap:25px;
-//padding :1% 1% ;
-//grid-gap: 15px;
-
-
 
 @media only screen and (max-width: 1350px){
 display:grid;
@@ -50,7 +49,10 @@ grid-template-columns:repeat(3, 1fr);
 }
 @media only screen and (max-width: 1000px){
 display:grid;
-grid-template-columns:repeat(2, 1fr);   
+grid-template-columns:repeat(2, 1fr); 
+.Navbarmiddle{
+    display: none;
+}  
 
 }
 @media only screen and (max-width: 700px){
@@ -76,7 +78,12 @@ display:flex;
 justify-content: center;
 width: 100%;
 flex-direction:column;
-gap:20px;`
+gap:20px;
+.overlay{
+    display: flex;
+    width: 230px;
+    height: 315px;
+}`
 
 export const CardContainer=styled.div`
 display: flex;
@@ -86,7 +93,8 @@ border-radius: 20px;
 padding: 10px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 width:${props => props.$Vmenu ? '100%': '223px'};
-height:${props => props.$Vmenu ? '223px': '307px    '} ;
+height:${props => props.$Vmenu ? '223px': '307px'} ;
+
 h3{
 color: var(--blue, #006DAB);
 font-family: sans-serif;
@@ -172,14 +180,26 @@ justify-content: space-between;
 border-bottom: 1px solid  #37373780;
 margin-bottom: 20px;
 padding: 5px;
+@media only screen and (max-width:1100px){
+   width : 100%;
+}
+
+div{
+    @media only screen and (max-width:1100px) {
+        display: flex;
+        
+    }
+}
 
 `
 export const Itemleft=styled.div`
 display: flex;
 align-items: center;
 flex: 1;
-gap: 5px;
+gap: 20px;
 p{
+display: flex;
+align-items: center;
 color: var(--text, #373737);
 font-family: Montserrat;
 font-size: 18px;
@@ -194,7 +214,35 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 100%;
-}`
+
+}
+div{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    input{
+        border:1px solid #37373760;
+        border-radius:5px;
+        padding: 5px;
+        margin-left: 20px;
+        }
+        @media only screen and (max-width:700px){
+            display   :flex ;
+            justify-content: space-between;
+        }
+}
+@media only screen and (max-width:700px){
+            display   :flex ;
+            flex-direction: column;
+        }
+`
+export const Item =styled.div`
+display: flex;
+@media only screen and (max-width:700px){
+            display   :flex ;
+            //margin-left:-160px;
+        }
+`
 
 export const Itemright =styled.div`
 display:flex;
@@ -202,6 +250,10 @@ align-items: center;
 flex:1;
 justify-content: end;
 gap: 5px;
+@media only screen and (max-width:1000px){
+    display: flex;
+    width: auto;
+}
 p{
 color: var(--text, #373737);
 font-family: Montserrat;
@@ -266,6 +318,12 @@ flex-shrink: 0;
 border-radius: 5px;
 border: 1px solid #666;
 background: #FFF;
+}`
+
+export const Drawerwrapper=styled.div`
+display:none;
+@media only screen and (max-width:1100px) {
+ display :flex ;
 }`
 
 export const Brand =styled.div`

@@ -39,9 +39,16 @@ line-height: normal;
 export const Campingcatalog =styled.div`
 display: grid;
 grid-template-areas:"a a a";
-padding: 100px;
+padding: 100px 10%;
 gap: 50px;
-
+@media only screen and (max-width:1100px) {
+    display: grid;
+    grid-template-areas:"a a ";   
+}
+@media only screen and (max-width:700px) {
+    display: grid;
+    grid-template-areas:"a";   
+}
 `
 export const Campcat=styled.div`
 display: flex;

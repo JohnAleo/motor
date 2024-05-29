@@ -16,6 +16,9 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+@media only screen and (max-width:700px){
+   display :none ;
+}
 }
 
 
@@ -43,7 +46,9 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-
+@media only screen and (max-width:700px){
+   display :none ;
+}
 `
 export const Menu =styled.div`
 display: flex;
@@ -56,6 +61,9 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+@media only screen and (max-width:700px){
+   display :none ;
+}
 `
 export const Contact =styled.div`
 display: flex;

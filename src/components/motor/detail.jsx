@@ -32,9 +32,10 @@ const DetailMotor = () => {
      </Buttonwrapper>
     </BgwrapperDetail>
     
-      <Aidalwrapper>
+    <Aidalwrapper>
+        <div>
         <Imagewrapper>
-          <img src={resultdata.car.photo} alt="basic" />
+          <img src={resultdata.car.photo} alt="basic" style={{width: '683px',eight: '477px'}} />
         </Imagewrapper>
         <Aidal>
           <Aidalin>
@@ -58,6 +59,7 @@ const DetailMotor = () => {
               </Aidalright>
           </Awrapper>
         </Aidal>
+        </div>
       </Aidalwrapper>
     <Introduction>
       <Comfortwrapper>

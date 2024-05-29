@@ -1,21 +1,31 @@
 import React from 'react'
-import { Buttoninq, Gmail, Have, Name, Quest, Questbutton, Questionwrapper } from '../../styles/premiumstyle';
+import {Inform, Signtab } from '../../styles/premiumstyle';
+import { Buttonwrapperpop } from '../../styles/indexpop';
+import { Buttonin } from '../../styles/detailusedCar';
 
 
 
 const Question = () => {
   return (
-    <Questionwrapper>
-        <Have>
-          <h4>Have you got a question</h4>
-        </Have>
-        <Name ><input type="text" placeholder='Your name' /></Name>
-        <Gmail><input type="text" placeholder='Your email' /> </Gmail>
-        <Quest><input type="text" placeholder='Your question' /></Quest>
-        <Questbutton>
-                <Buttoninq style={{width:'181px',height:'50px'}}>Send questions</Buttoninq>
-        </Questbutton>
-    </Questionwrapper>
+    <Signtab>
+            <p>Have you got a question</p>
+            <label htmlFor="">Your name</label>
+            <Inform>
+                <input type="text" placeholder='Name' />
+            </Inform>
+            <label htmlFor="">Your email</label>
+            <Inform>
+              <input type="email" placeholder='Email' />
+            </Inform>
+            <label htmlFor="">Your question</label>
+            <Inform $quest>
+              <textarea type="text" placeholder='Your question' />
+            </Inform>
+            <Buttonwrapperpop>   
+              <Buttonin style={{width:'390px',height:'50px'}}>Send question</Buttonin>    
+            </Buttonwrapperpop>
+        
+          </Signtab>
   )
 }
 

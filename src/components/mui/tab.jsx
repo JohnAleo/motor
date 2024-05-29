@@ -7,9 +7,11 @@ import Box from '@mui/material/Box';
 import AccordionTransition from './accordion';
 import Premium from './premium';
 import Question from './question';
-import { Gmail, Item1, Mail, Name, Quest, Questbutton } from '../../styles/premiumstyle';
+import { Inform, Item1, Signtab} from '../../styles/premiumstyle';
 import Map from './map';
 import emailjs from '@emailjs/browser';
+import { Buttonwrapperpop } from '../../styles/indexpop';
+import { Buttonin } from '../../styles/detailusedCar';
 
 
 
@@ -101,22 +103,29 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={3}>
         <Item1>
           <Map />
-          <Mail>
+        
           <form ref={form} onSubmit={sendEmail}>
-            <Name>
-              <input type="text" name="user_name" placeholder='Name'/>
-            </Name>
-            <Gmail>
-              <input type="email" name="user_email" className="" placeholder='Email' />
-            </Gmail>
-            <Quest>
-              <textarea name="message" placeholder='Message' />
-            </Quest>
-            <Questbutton>
-              <input type="submit" value="Send" />
-            </Questbutton>
+          <Signtab>
+            <p>Have you got a question</p>
+            <label htmlFor="">Your name</label>
+            <Inform>
+                <input type="text" placeholder='Name' />
+            </Inform>
+            <label htmlFor="">Your email</label>
+            <Inform>
+              <input type="email" placeholder='Email' />
+            </Inform>
+            <label htmlFor="">Your question</label>
+            <Inform $quest>
+              <textarea type="text" placeholder='Your question' />
+            </Inform>
+            <Buttonwrapperpop>   
+              <Buttonin style={{width:'390px',height:'50px'}}>Send question</Buttonin>    
+            </Buttonwrapperpop>
+        
+          </Signtab>
           </form>
-          </Mail>
+          
         </Item1>
       </CustomTabPanel>
     </Box>
