@@ -17,7 +17,10 @@ import { Catalogwrapper, Container,
   Button3,
   Filtrin,
   Item,
-  Drawerwrapper} from '../../styles/motorstyle';
+  Drawerwrapper,
+  Imgwrapper,
+  Iwrapper,
+  Sortwrapper} from '../../styles/motorstyle';
 import { Bgwrapper } from '../../styles/navbarstyle';
 import { campcar } from '../../mock/mockdata';
 import car from '../../assets/mockasset/car.jpeg';
@@ -92,21 +95,23 @@ const MotorComponent = () => {
         </Filtrwrapper>
         <Catalogwrapper>
           <Itemwrapper>
-          <div>
-              <ItemDrawer/>
-            </div>
             <Itemleft>
-              <Item>  
-                <p>Item </p> 
-                <h5>{dataLength}</h5> 
-              </Item>
-              <div>
+              <Iwrapper >
+                <div>
+                  <ItemDrawer/>
+                </div>
+                <Item>  
+                  <p>Item </p> 
+                  <h5>{dataLength}</h5> 
+                </Item>
+              </Iwrapper>
+              <Sortwrapper>
                 <p>Sort by</p>
                 <input type="text" placeholder='select' />
-              </div>
+              </Sortwrapper>
               </Itemleft>
               <Itemright>
-              <input type="number" placeholder='60' style={{width:'60px'}}/>
+              <input type="number" placeholder='60' style={{width:'82px'}}/>
               <Buttonwrapper2>
                 <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>
                 <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V" /></Button3>

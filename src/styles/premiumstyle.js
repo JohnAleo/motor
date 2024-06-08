@@ -42,7 +42,11 @@ display:flex;
 justify-content: space-between;
 padding:20px 12%;   
 gap:50px;
-background-color:#FAFAFA;`
+background-color:#FAFAFA;
+@media only screen and (max-width:950px) {
+   display :flex ;
+   flex-direction: column;
+}`
 
 
 

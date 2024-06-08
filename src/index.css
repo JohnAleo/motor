@@ -165,3 +165,12 @@ html[data-theme='light'] .popup-arrow > svg {
   stroke-dashoffset: -54px;
 }
 
+.map {
+  flex: 1;
+  height: 400px;
+  /* width: 400px;
+  height: 400px; */
+  align-items: center;
+  justify-content: center;
+}
+

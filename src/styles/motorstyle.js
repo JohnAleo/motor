@@ -183,20 +183,23 @@ padding: 5px;
 @media only screen and (max-width:1100px){
    width : 100%;
 }
-
 div{
-    @media only screen and (max-width:1100px) {
+    display: flex;
+};
+
+`
+export const Sortwrapper=styled.div`
+@media only screen and (max-width:1100px) {
         display: flex;
         
     }
-}
-
 `
+
 export const Itemleft=styled.div`
 display: flex;
 align-items: center;
 flex: 1;
-gap: 20px;
+
 p{
 display: flex;
 align-items: center;
@@ -206,6 +209,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 100%; /* 18px */
+margin-left: 20px;
 }
 h5{
 color: var(--blue, #006DAB);
@@ -220,6 +224,11 @@ div{
     display: flex;
     justify-content: start;
     gap: 20px;
+    p{
+        @media only screen and (max-width:700px) {
+         display   :none ;
+        }
+    }
     input{
         border:1px solid #37373760;
         border-radius:5px;
@@ -242,6 +251,20 @@ display: flex;
             display   :flex ;
             //margin-left:-160px;
         }
+      
+`
+
+export const Iwrapper=styled.div`
+display:flex;
+align-items: center;
+gap: 20px;
+div{
+    display: none;
+    @media only screen and (max-width:1100px) {
+      display  :flex ;
+    }
+}
+
 `
 
 export const Itemright =styled.div`
@@ -253,6 +276,10 @@ gap: 5px;
 @media only screen and (max-width:1000px){
     display: flex;
     width: auto;
+}
+@media only screen and (max-width:700px) {
+    display: flex;
+    flex-direction: column;
 }
 p{
 color: var(--text, #373737);
@@ -324,6 +351,9 @@ export const Drawerwrapper=styled.div`
 display:none;
 @media only screen and (max-width:1100px) {
  display :flex ;
+}
+@media only screen and (max-width:700px) {
+    display: none;
 }`
 
 export const Brand =styled.div`
