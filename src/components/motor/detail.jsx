@@ -9,6 +9,7 @@ import { Aidal, Aidalin, Aidalinleft,
    Comfortwrapper, Easy, Easywrapper, 
    Heating, Heatingwrapper, Imagewrapper, Imgwrapper1,
     Introduction, Line1, Namewrapper,
+     None,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
 import BasicTabs from '../mui/tab';
@@ -63,9 +64,9 @@ const DetailMotor = () => {
       </Aidalwrapper>
     <Introduction>
       <Comfortwrapper>
-        <div>
+        <div>   
         <Comfort>
-          <p>Comfort</p>
+          <p>Comfort</p> 
           <div>{resultdata.car.word}</div>
         </Comfort>
         <Imgwrapper1><img src={resultdata.photo1} alt="comfort" /></Imgwrapper1>

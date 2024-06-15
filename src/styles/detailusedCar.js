@@ -152,7 +152,7 @@ export const Comfort =styled.div`
 display:flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+//align-items: center;
 flex:1;
 p{
 color: var(--text, #373737);
@@ -163,6 +163,8 @@ font-weight: 600;
 line-height: normal;
 }
 div{
+display: flex;
+justify-content: center;
 width: 533px;
 height: 169px;
 flex-shrink: 0;
@@ -174,6 +176,7 @@ font-weight: 400;
 line-height: 24px; 
 margin-top: -80px;
 }`
+
 
 
 export const Imgwrapper1=styled.div`
@@ -210,6 +213,8 @@ font-weight: 600;
 line-height: normal;
 }
 div{
+display: flex;
+justify-content: center;
 width: 533px;
 height: 169px;
 flex-shrink: 0;
@@ -249,6 +254,8 @@ line-height: normal;
 margin-top:70px;
 }
 div{
+    display: flex;
+    justify-content: center;   
 width: 533px;
 height: 169px;
 flex-shrink: 0;
@@ -370,5 +377,4 @@ justify-content:center;
 
 margin-top: -50px;
 `
-
 

@@ -257,7 +257,7 @@ display: flex;
 export const Iwrapper=styled.div`
 display:flex;
 align-items: center;
-gap: 20px;
+
 div{
     display: none;
     @media only screen and (max-width:1100px) {

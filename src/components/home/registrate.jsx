@@ -6,6 +6,7 @@ import { Logged, Mail, Sign } from '../../styles/multicarousel';
 import { Buttonwrapperpop } from '../../styles/indexpop';
 
 
+
 const responsive = {
     
     desktop: {
@@ -24,6 +25,7 @@ const responsive = {
 
 const RegistrateComponent = () => {
   return (
+
     <Popup
     trigger={<Buttonin className="button"> CREATE YOUR ACCOUNT </Buttonin>}
     modal
@@ -64,22 +66,7 @@ const RegistrateComponent = () => {
         </Sign>
         </div>
         <div className="actions">
-          <Popup
-            trigger={<button className="button"> Trigger </button>}
-            position="top center"
-            nested
-          >
-        
-          </Popup>
-          <button
-            className="button"
-            onClick={() => {
-              console.log('modal closed ');
-              close();
-            }}
-          >
-            close modal
-          </button>
+          
         </div>
       </div>
     )}

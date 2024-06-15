@@ -12,6 +12,7 @@ import DetailMotor from './components/motor/detail';
 import DetailCaravan from './components/caravan/detail';
 import DetailTuning from './components/tuning/detail';
 import DetailUsedCar from './components/usedCar/detail';
+import DetailCamping from './components/campingPlace/detailcamping';
 
 export const RouterComponent = () => {
   return (
@@ -29,6 +30,7 @@ export const RouterComponent = () => {
         <Route path='/caravan/:id' element={<DetailCaravan />}></Route>
         <Route path='/tuning/:id' element={<DetailTuning />}></Route>
         <Route path='/used-car/:id' element={<DetailUsedCar/>}></Route>
+        <Route path='/detailcamping:id' element={<DetailCamping/>}></Route>
     </Routes>
     <Footer/>
    

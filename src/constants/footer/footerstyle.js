@@ -82,3 +82,6 @@ export const Iconwrapper=styled.div`
 display:flex;
 
 gap:10px;`
+
+export const Pop=styled.div`
+display:flex;`

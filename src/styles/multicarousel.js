@@ -322,6 +322,7 @@ export const Sign =styled.div`
 display:flex;
 flex-direction: column;
 justify-content: space-between;
+padding: 10px 0px;
 width: 500px;
 height: 614px;
 flex-shrink: 0;

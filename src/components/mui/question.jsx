@@ -7,7 +7,8 @@ import { Buttonin } from '../../styles/detailusedCar';
 
 const Question = () => {
   return (
-    <Signtab>
+    <form>
+          <Signtab>
             <p>Have you got a question</p>
             <label htmlFor="">Your name</label>
             <Inform>
@@ -26,6 +27,7 @@ const Question = () => {
             </Buttonwrapperpop>
         
           </Signtab>
+      </form>
   )
 }
 

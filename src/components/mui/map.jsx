@@ -1,6 +1,5 @@
 
 import { Mapp, Mappdown, Mappup } from '../../styles/premiumstyle'
-import map from '../../assets/muiasset/map.png'
 import { useEffect, useRef } from 'react';
 
 

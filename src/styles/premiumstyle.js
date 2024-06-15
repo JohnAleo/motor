@@ -43,10 +43,15 @@ justify-content: space-between;
 padding:20px 12%;   
 gap:50px;
 background-color:#FAFAFA;
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1100px) {
    display :flex ;
    flex-direction: column;
-}`
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+`
 
 
 
@@ -211,7 +216,11 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 export const Mappup=styled.div`
 display:flex;
 height:380px;
-width:700px;`
+width:700px;
+@media only screen and (max-width:1100px) {
+ display   : flex;
+ justify-content: center;
+}`
 
 export const Mappdown=styled.div`
 display:flex;
@@ -308,5 +317,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 130%; /* 31.2px */
-}`
+}
+`
 
