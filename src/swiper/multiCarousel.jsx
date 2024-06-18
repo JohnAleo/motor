@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import car from '../assets/multicarousel/car.png'
 import { Button, Buttonwrapper, Carouselin, Imgwrapper, Logged, Mail, Namewrapper, Recommend, Select, Sign } from '../styles/multicarousel';
 import Popup from 'reactjs-popup';
-
+import { Link } from 'react-router-dom';
 import { Buttonin} from '../styles/detailusedCar';
 import { Akar, Buttonwrapperpop, Log1, Log2, Log3, Logowrapper, Naver, Or, Talk } from '../styles/indexpop';
 import RegistrateComponent from '../components/home/registrate';
@@ -86,7 +86,7 @@ const MultiCarousel = () => {
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
          <Buttonwrapperpop>
-                <div><RegistrateComponent/></div>
+                <div><Link to="/registr">CREATE YOUR ACCOUNT</Link></div>
             </Buttonwrapperpop>
         </Sign>
         </div>

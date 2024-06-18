@@ -10,6 +10,9 @@ export const Container =styled.div`
 display: flex;
 padding: 10px 50px;
 background-color: #fff;
+position: fixed;
+width: 100%;
+z-index: 2;
 `
 export const NavbarLeft =styled.div`
 display: flex;

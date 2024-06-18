@@ -129,6 +129,7 @@ stroke: #FFF;`
 export const Buttonwrapperpop =styled.div`
 display:flex;
 justify-content:center; 
+
 div{
     display: flex;
     justify-content: center;
@@ -148,6 +149,10 @@ div{
     font-weight: 700;
     line-height: normal;
     cursor:pointer;
+    :hover{
+        color: white;
+        background-color:#006DAB;  
+    }
 }
 :hover{
  color: white;
@@ -239,3 +244,6 @@ width: 29.7px;
 height: 23.4px;
 flex-shrink: 0;
 `
+export const Registrwrapper=styled.div`
+display:flex;
+background-color:blueviolet;`

@@ -4,6 +4,7 @@ import { Camper, Contact, Footer, Footerin, Iconwrapper, Menu, Service, } from '
 import tobe from '../../assets/footer/tobe.png';
 import gram from '../../assets/footer/gram.png';
 import nav from '../../assets/footer/nav.png';
+import { NavLink } from '../../styles/navbarstyle';
 
 
 
@@ -11,7 +12,9 @@ import nav from '../../assets/footer/nav.png';
 const FooterContainer = () => {
   return (
     <Footer>
+        <NavLink to="/camper">
         <Camper>Camper</Camper>
+        </NavLink>
         <Footerin>
             <p>Services</p>
             <Service>

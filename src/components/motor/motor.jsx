@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+  import React, { useState } from 'react'
 import { Catalogwrapper, Container,
    Filtrwrapper, Wrapper,
    Cost,Line
@@ -96,21 +96,21 @@ const MotorComponent = () => {
         <Catalogwrapper>
           <Itemwrapper>
             <Itemleft>
-              <Iwrapper >
-                <div>
-                  <ItemDrawer/>
-                </div>
-                <Item>  
-                  <p>Item </p> 
-                  <h5>{dataLength}</h5> 
-                </Item>
-              </Iwrapper>
-              <Sortwrapper>
-                <p>Sort by</p>
-                <input type="text" placeholder='select' />
-              </Sortwrapper>
-              </Itemleft>
-              <Itemright>
+                  <Iwrapper >
+                    <div>
+                      <ItemDrawer/>
+                    </div>
+                    <Item>  
+                      <p>Item </p> 
+                      <h5>{dataLength}</h5> 
+                    </Item>
+                  </Iwrapper>
+                  <Sortwrapper>
+                    <p>Sort by</p>
+                    <input type="text" placeholder='select' />
+                  </Sortwrapper>
+            </Itemleft>
+            <Itemright>
               <input type="number" placeholder='60' style={{width:'82px'}}/>
               <Buttonwrapper2>
                 <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>

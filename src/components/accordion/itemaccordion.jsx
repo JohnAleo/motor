@@ -10,7 +10,7 @@ import { Brand, Inputwrapper, Line } from '../../styles/motorstyle';
 
 
 export default function AccordionItemMotor() {
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(true);
 
   const handleExpansion = () => {
     setExpanded((prevExpanded) => !prevExpanded);

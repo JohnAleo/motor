@@ -14,7 +14,6 @@ const HMenu = () => {
             data.map((value,key) => {
              
               return(
-                <>
                 <Link to= {`${value.id}`} style={{textDecoration:'none'}}>
                 <CardContainer key={key}>
                   <Carimg>
@@ -32,7 +31,6 @@ const HMenu = () => {
                   </Buttonwrapper>
                 </CardContainer>
                 </Link>
-                </>
               )
             })
           }

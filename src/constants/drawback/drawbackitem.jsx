@@ -34,26 +34,26 @@ export default function ItemDrawer() {
   };
 
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(true)}>
       <List>
           <ListItem>
             <ListItemButton>
-            <Cost>
-            <Centerjust>
-              <p>Cost of car</p> 
-            </Centerjust>
-            <Line></Line>
-            <div>
-                <Column>
-                    <label>from</label>
-                    <input type="text" />
-                </Column>
-                <Column>
-                    <label>to</label>
-                    <input type="text" />
-                </Column>
-            </div>
-        </Cost>
+              <Cost>
+              <Centerjust>
+                  <p>Cost of car</p> 
+              </Centerjust>
+              <Line></Line>
+                  <div>
+                    <Column>
+                        <label>from</label>
+                        <input type="text" />
+                    </Column>
+                    <Column>
+                        <label>to</label>
+                        <input type="text" />
+                    </Column>
+                  </div>
+              </Cost>
             </ListItemButton>
           </ListItem>
 

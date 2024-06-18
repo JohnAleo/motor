@@ -17,7 +17,10 @@ import { Catalogwrapper, Container,
   Buttonwrapper2,
   Button2,
   Button3,
-  Filtrin,}
+  Filtrin,
+  Item,
+  Iwrapper,
+  Sortwrapper,}
    from '../../styles/motorstyle';
 import { Bgwrapper1,} from '../../styles/navbarstyle';
 import { caravan } from '../../mock/mockdatacaravan';
@@ -32,6 +35,7 @@ import AccordionItemCompany from '../accordion/accordioncom';
 import AccordionItemLicense from '../accordion/accordionlisence';
 import AccordionItemTravelers from '../accordion/accordiontraveler';
 import AccordionItemLocation from '../accordion/accordionlocation';
+import ItemDrawer from '../../constants/drawback/drawbackitem';
 const CaravanComponent = () => {
     const [active, setActive]=useState(true);
     const data = caravan.maindata;
@@ -94,19 +98,28 @@ const CaravanComponent = () => {
           <Catalogwrapper>
             
             <Itemwrapper>
-              <Itemleft>
-                <p>Item </p> 
-                <h5>{dataLength}</h5> 
-              </Itemleft>
-              <Itemright>
-                <p>Sort by</p>
-                <input type="text" placeholder='select' />
-                <input type="number" placeholder='60' style={{width:'60px'}}/>
-                <Buttonwrapper2>
-                  <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>
-                  <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V" /></Button3>
-                </Buttonwrapper2>
-              </Itemright>
+            <Itemleft>
+                  <Iwrapper >
+                    <div>
+                      <ItemDrawer/>
+                    </div>
+                    <Item>  
+                      <p>Item </p> 
+                      <h5>{dataLength}</h5> 
+                    </Item>
+                  </Iwrapper>
+                  <Sortwrapper  >
+                    <p>Sort by</p>
+                    <input type="text" placeholder='select' />
+                  </Sortwrapper>
+            </Itemleft>
+            <Itemright>
+              <input type="number" placeholder='60' style={{width:'82px'}}/>
+              <Buttonwrapper2>
+                <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>
+                <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V" /></Button3>
+              </Buttonwrapper2>
+            </Itemright>
             </Itemwrapper>
             
             <>

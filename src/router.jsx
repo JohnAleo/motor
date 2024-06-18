@@ -13,11 +13,15 @@ import DetailCaravan from './components/caravan/detail';
 import DetailTuning from './components/tuning/detail';
 import DetailUsedCar from './components/usedCar/detail';
 import DetailCamping from './components/campingPlace/detailcamping';
+import Registr from './components/home/registr';
+import DisplayNavbar from './components/home/registration';
 
 export const RouterComponent = () => {
   return (
     <>
-    <Navbar />
+    <DisplayNavbar>
+        <Navbar />
+      </DisplayNavbar>
     <Routes>
         <Route path="/" element= {<HomeComponent />} ></Route>
         <Route path="/camper" element= {<HomeComponent />} ></Route>
@@ -30,7 +34,8 @@ export const RouterComponent = () => {
         <Route path='/caravan/:id' element={<DetailCaravan />}></Route>
         <Route path='/tuning/:id' element={<DetailTuning />}></Route>
         <Route path='/used-car/:id' element={<DetailUsedCar/>}></Route>
-        <Route path='/detailcamping:id' element={<DetailCamping/>}></Route>
+        <Route path='/camping-place/:id' element={<DetailCamping/>}></Route>
+        <Route path='/registr' element={<Registr/>} ></Route> 
     </Routes>
     <Footer/>
    

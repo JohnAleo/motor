@@ -366,6 +366,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 cursor:pointer;
+text-decoration:none;
+text-decoration-line:none;
 `
 export const Buttwrapper=styled.div`
 display:flex;

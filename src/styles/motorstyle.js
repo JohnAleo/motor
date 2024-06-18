@@ -338,6 +338,7 @@ export const Inputwrapper=styled.div`
 display:flex;
 align-items:center;
 gap: 10px;
+
 input{
 width: 22px;
 height: 22px;

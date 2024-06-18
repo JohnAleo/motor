@@ -30,14 +30,14 @@ export default function AccordionItemLicense() {
         }}
       >
         <AccordionSummary
-          style={{background:'#FAFAFA'}}
+          
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
         >
           <Typography>License</Typography>
         </AccordionSummary>
-        <AccordionDetails style={{background:'#FAFAFA'}}>
+        <AccordionDetails >
           <Typography>
           <License>
           <Line></Line>

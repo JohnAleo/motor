@@ -7,7 +7,7 @@ import re3 from "../assets/popup/re3.png"
 import re4 from "../assets/popup/re4.png"
 import re5 from "../assets/popup/re5.png"
 import re6 from "../assets/popup/re6.png"
-
+import back from"../assets/popup/back.png"
 
 export const Imgwrapper=styled.div`
 display: flex;
@@ -322,7 +322,8 @@ export const Sign =styled.div`
 display:flex;
 flex-direction: column;
 justify-content: space-between;
-padding: 10px 0px;
+margin-top: 40px;
+padding: 25px 0px;
 width: 500px;
 height: 614px;
 flex-shrink: 0;
@@ -383,4 +384,16 @@ div{
         margin-left: -1px;
     }
 }
+`
+
+export const RegistrComponent=styled.div`
+display:flex;
+background-image:url(${back});
+justify-content:center;
+padding:50px 0px;`
+
+
+export const Swiperwrapper=styled.div`
+display:flex;
+//position: relative;
 `

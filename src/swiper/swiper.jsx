@@ -11,10 +11,11 @@ import '../index.css';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Swiperwrapper } from '../styles/multicarousel';
 
 export default function Carousel() {
   return (
-    <>
+    < Swiperwrapper>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -36,6 +37,6 @@ export default function Carousel() {
         <SwiperSlide><img src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-dom-na-kolesakh-oboi-6.jpg" alt="wallpaper5"style={{height:'400px',backgroundPosition:'100%',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}/></SwiperSlide>
         <SwiperSlide><img src="https://toyota-faq.ru/wp-content/uploads/6/c/8/6c80009ab1f3767d7dc00a0b43115e23.jpeg" alt="wallpaper6" style={{height:'400px',backgroundPosition:'100%',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}/></SwiperSlide>
       </Swiper>
-    </>
+    </Swiperwrapper>
   );
 }

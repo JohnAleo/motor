@@ -3,7 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import Popup from 'reactjs-popup';
 import { Buttonin } from '../../styles/detailusedCar';
 import { Logged, Mail, Sign } from '../../styles/multicarousel';
-import { Buttonwrapperpop } from '../../styles/indexpop';
+import { Buttonwrapperpop, Registrwrapper } from '../../styles/indexpop';
+
 
 
 
@@ -25,7 +26,7 @@ const responsive = {
 
 const RegistrateComponent = () => {
   return (
-
+    <Registrwrapper>
     <Popup
     trigger={<Buttonin className="button"> CREATE YOUR ACCOUNT </Buttonin>}
     modal
@@ -38,6 +39,7 @@ const RegistrateComponent = () => {
         </button>
         <div className="header"> Modal Title </div>
         <div className="content">
+       
         <Sign>
           <p>Sign in</p>
         <label htmlFor="">Email</label>
@@ -58,20 +60,22 @@ const RegistrateComponent = () => {
               <label htmlFor="">Keep me logged in</label>
             </div>
           </Logged>
-       
-          <Buttonwrapperpop>   
-            <Buttonin style={{width:'434px',height:'50px'}}>REGISTRATE</Buttonin>    
-          </Buttonwrapperpop>
-        
-        </Sign>
+
+            <Buttonwrapperpop> 
+              <Buttonin style={{width:'434px',height:'50px'}}>REGISTRATE</Buttonin>   
+            </Buttonwrapperpop>   
+               
+        </Sign>       
         </div>
         <div className="actions">
           
         </div>
       </div>
     )}
+    
   </Popup>
+  </Registrwrapper>
   )
 }
 
-export default RegistrateComponent
+export default RegistrateComponent;
