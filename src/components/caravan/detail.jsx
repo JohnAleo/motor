@@ -5,13 +5,14 @@ import { useParams } from 'react-router-dom';
 import { Aidal, Aidalin, Aidalinleft,
    Aidalright, Aidalwrapper, Awrapper, 
    Buttonin, Buttwrapper, Comfort, 
-   Comfortwrapper, Easy, Easywrapper, 
+   Comfortwrapper, Detailwrapper, Easy, Easywrapper, 
    Heating, Heatingwrapper, Imagewrapper, Imgwrapper1,
     Introduction, Line1, Namewrapper,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
 import { caravan } from '../../mock/mockdatacaravan';
 import BasicTabs from '../mui/tab';
+import DetailResponse from '../../constants/detailresponse/detailrescaravan';
 
 
 const DetailCaravan = () => {
@@ -30,9 +31,10 @@ const DetailCaravan = () => {
        <ButtonDetail>COMPARE</ButtonDetail>
      </Buttonwrapper>
     </Bgwrapper1>
-    
+
+    <DetailResponse/>
+    <Detailwrapper>
     <Aidalwrapper>
-        <div>
         <Imagewrapper>
           <img src={resultdata.car.photo} alt="basic" style={{width: '683px',eight: '477px'}} />
         </Imagewrapper>
@@ -58,7 +60,6 @@ const DetailCaravan = () => {
               </Aidalright>
           </Awrapper>
         </Aidal>
-        </div>
       </Aidalwrapper>
     <Introduction>
       <Comfortwrapper>
@@ -110,8 +111,10 @@ const DetailCaravan = () => {
           <Imgwrapper1><img src={resultdata.photo5} alt="heating" style={{width:'683px',height:'477px',flexShrink:'0'}}/></Imgwrapper1>
         </div>
       </Heatingwrapper>
+      </Introduction>
+      </Detailwrapper>
       <BasicTabs />
-    </Introduction>
+    
     </>
   )
 }

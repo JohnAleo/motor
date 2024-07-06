@@ -2,31 +2,38 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import car from '../assets/multicarousel/car.png'
-import { Button, Buttonwrapper, Carouselin, Imgwrapper, Logged, Mail, Namewrapper, Recommend, Select, Sign } from '../styles/multicarousel';
+import { Button, Buttonwrapper, Carouselin, Imgwrapper, Logged, Mail, Namewrapper, Recommend, Registrbutton, Registrbuttonwrapper, Select, Sign } from '../styles/multicarousel';
 import Popup from 'reactjs-popup';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Buttonin} from '../styles/detailusedCar';
 import { Akar, Buttonwrapperpop, Log1, Log2, Log3, Logowrapper, Naver, Or, Talk } from '../styles/indexpop';
-import RegistrateComponent from '../components/home/registrate';
+import { campcar } from '../mock/mockdata';
 
 
 const responsive = {
-    
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1.5,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
 
 const MultiCarousel = () => {
+  const{id}=useParams();
+  const detaildata= campcar.maindata.find(
+    (value)=> value.id===parseInt(id))
+    console.log(detaildata);
+
   return (
     <>
     <Recommend>
@@ -34,9 +41,18 @@ const MultiCarousel = () => {
       <div></div>
     </Recommend>
     
-    <Carousel responsive={responsive}>
-    <Carouselin>
-      <Imgwrapper><img src={car} alt="car1"/></Imgwrapper>
+    <Carousel showDots={false}
+arrows={false}
+responsive={responsive}
+infinite
+autoPlay
+autoPlaySpeed={2000}
+transitionDuration={2000}
+containerClass="carousel-container"
+removeArrowOnDeviceType={["tablet", "mobile"]}
+> 
+    <Carouselin >
+      <Imgwrapper><img src={car} alt="car1" /></Imgwrapper>
       <Namewrapper>
         <p>Name</p>
       </Namewrapper>
@@ -85,9 +101,14 @@ const MultiCarousel = () => {
           <Akar><Log2></Log2></Akar>
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
-         <Buttonwrapperpop>
-                <div><Link to="/registr">CREATE YOUR ACCOUNT</Link></div>
-            </Buttonwrapperpop>
+         <Registrbuttonwrapper>
+                <Link to="/registr"
+                style={{textDecorationLine:'none'}}>
+                    <Registrbutton>
+                        CREATE YOUR ACCOUNT
+                    </Registrbutton>
+                </Link>
+          </Registrbuttonwrapper>
         </Sign>
         </div>
       </div>
@@ -155,9 +176,14 @@ const MultiCarousel = () => {
           <Akar><Log2></Log2></Akar>
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
-         <Buttonwrapperpop>
-            <div><RegistrateComponent/></div>
-          </Buttonwrapperpop>
+         <Registrbuttonwrapper>
+                <Link to="/registr"
+                style={{textDecorationLine:'none'}}>
+                    <Registrbutton>
+                        CREATE YOUR ACCOUNT
+                    </Registrbutton>
+                </Link>
+          </Registrbuttonwrapper>
         </Sign>
         </div>
       </div>
@@ -225,9 +251,14 @@ const MultiCarousel = () => {
           <Akar><Log2></Log2></Akar>
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
-         <Buttonwrapperpop>
-            <div><RegistrateComponent/></div>
-          </Buttonwrapperpop>
+         <Registrbuttonwrapper>
+                <Link to="/registr"
+                style={{textDecorationLine:'none'}}>
+                    <Registrbutton>
+                        CREATE YOUR ACCOUNT
+                    </Registrbutton>
+                </Link>
+          </Registrbuttonwrapper>
         </Sign>
         </div>
       </div>
@@ -295,9 +326,14 @@ const MultiCarousel = () => {
           <Akar><Log2></Log2></Akar>
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
-         <Buttonwrapperpop>
-              <div><RegistrateComponent/></div>
-          </Buttonwrapperpop>
+         <Registrbuttonwrapper>
+                <Link to="/registr"
+                style={{textDecorationLine:'none'}}>
+                    <Registrbutton>
+                        CREATE YOUR ACCOUNT
+                    </Registrbutton>
+                </Link>
+          </Registrbuttonwrapper>
         </Sign>
         </div>
       </div>
@@ -365,9 +401,14 @@ const MultiCarousel = () => {
           <Akar><Log2></Log2></Akar>
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
-         <Buttonwrapperpop>
-              <div><RegistrateComponent/></div>
-          </Buttonwrapperpop>
+         <Registrbuttonwrapper>
+                <Link to="/registr"
+                style={{textDecorationLine:'none'}}>
+                    <Registrbutton>
+                        CREATE YOUR ACCOUNT
+                    </Registrbutton>
+                </Link>
+          </Registrbuttonwrapper>
         </Sign>
         </div>
       </div>
@@ -435,9 +476,14 @@ const MultiCarousel = () => {
           <Akar><Log2></Log2></Akar>
           <Talk><Log3></Log3></Talk>
          </Logowrapper>
-         <Buttonwrapperpop>
-              <div><RegistrateComponent/></div>
-          </Buttonwrapperpop>
+         <Registrbuttonwrapper>
+                <Link to="/registr"
+                style={{textDecorationLine:'none'}}>
+                    <Registrbutton>
+                        CREATE YOUR ACCOUNT
+                    </Registrbutton>
+                </Link>
+          </Registrbuttonwrapper>
         </Sign>
         </div>
       </div>
@@ -457,7 +503,7 @@ const MultiCarousel = () => {
       </Carouselin>
   </Carousel>
   </>
-  )
+  );
 }
 
 export default MultiCarousel

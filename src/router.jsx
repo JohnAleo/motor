@@ -14,14 +14,17 @@ import DetailTuning from './components/tuning/detail';
 import DetailUsedCar from './components/usedCar/detail';
 import DetailCamping from './components/campingPlace/detailcamping';
 import Registr from './components/home/registr';
-import DisplayNavbar from './components/home/registration';
+import DisplayNavbar from './components/home/navbarregistr';
+import DisplayFooter from './components/home/footerregistr';
+import ScrollToTop from './constants/navbar/scrolltotop';
 
 export const RouterComponent = () => {
   return (
     <>
     <DisplayNavbar>
         <Navbar />
-      </DisplayNavbar>
+    </DisplayNavbar>
+    <ScrollToTop />
     <Routes>
         <Route path="/" element= {<HomeComponent />} ></Route>
         <Route path="/camper" element= {<HomeComponent />} ></Route>
@@ -37,7 +40,9 @@ export const RouterComponent = () => {
         <Route path='/camping-place/:id' element={<DetailCamping/>}></Route>
         <Route path='/registr' element={<Registr/>} ></Route> 
     </Routes>
-    <Footer/>
+    <DisplayFooter>
+      <Footer/>
+    </DisplayFooter>
    
     </>
   )

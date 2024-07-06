@@ -7,11 +7,11 @@ import Box from '@mui/material/Box';
 import AccordionTransition from './accordion';
 import Premium from './premium';
 import Question from './question';
-import { Inform, Item1, Signtab} from '../../styles/premiumstyle';
+import { Inform, Item1, Mapwrapper, Signbutton,
+   Signbuttonwrapper, Signtab} from '../../styles/premiumstyle';
 import Map from './map';
 import emailjs from '@emailjs/browser';
-import { Buttonwrapperpop } from '../../styles/indexpop';
-import { Buttonin } from '../../styles/detailusedCar';
+
 
 
 
@@ -77,7 +77,7 @@ export default function BasicTabs() {
 
   return (
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+      <Box sx={{ borderBottom: 1, borderColor: 'divider', background:'lightblue',padding:'5px 5%'}}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Item reviews" {...a11yProps(0)} />
           <Tab label="Q&A" {...a11yProps(1)} />
@@ -88,9 +88,9 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={0}>
         <Premium />
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
-        <Item1>
-          <AccordionTransition />
+      <CustomTabPanel value={value} index={1} >
+        <Item1 >
+          <AccordionTransition  />
           <Question />
         </Item1>
       </CustomTabPanel>
@@ -101,32 +101,28 @@ export default function BasicTabs() {
         </Item1>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
-        <Item1>
+        <Mapwrapper>
           <Map />
-        
           <form ref={form} onSubmit={sendEmail}>
           <Signtab>
             <p>Have you got a question</p>
-            <label htmlFor="">Your name</label>
             <Inform>
                 <input type="text" placeholder='Name' />
             </Inform>
-            <label htmlFor="">Your email</label>
             <Inform>
               <input type="email" placeholder='Email' />
             </Inform>
-            <label htmlFor="">Your question</label>
             <Inform $quest>
               <textarea type="text" placeholder='Your question' />
             </Inform>
-            <Buttonwrapperpop>   
-              <Buttonin style={{width:'390px',height:'50px'}}>Send question</Buttonin>    
-            </Buttonwrapperpop>
+            <Signbuttonwrapper>   
+              <Signbutton>Send question</Signbutton>    
+            </Signbuttonwrapper>
         
           </Signtab>
           </form>
           
-        </Item1>
+        </Mapwrapper>
       </CustomTabPanel>
     </Box>
   );

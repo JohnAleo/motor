@@ -5,13 +5,14 @@ import { useParams } from 'react-router-dom';
 import { Aidal, Aidalin, Aidalinleft,
    Aidalright, Aidalwrapper, Awrapper, 
    Buttonin, Buttwrapper, Comfort, 
-   Comfortwrapper, Easy, Easywrapper, 
+   Comfortwrapper, Detailwrapper, Easy, Easywrapper, 
    Heating, Heatingwrapper, Imagewrapper, Imgwrapper1,
     Introduction, Line1, Namewrapper,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
 import { tuning } from '../../mock/mockdatatuning';
 import BasicTabs from '../mui/tab';
+import DetailResponse from '../../constants/detailresponse/detailrestuning';
 
 const DetailTuning = () => {
   const {id}= useParams();
@@ -29,11 +30,12 @@ const DetailTuning = () => {
        <ButtonDetail>COMPARE</ButtonDetail>
      </Buttonwrapper>
     </Bgwrapper2>
-    <Introduction>
+
+    <DetailResponse/>
+    <Detailwrapper  >
       <Aidalwrapper>
-        <div>
         <Imagewrapper>
-          <img src={resultdata.car.photo} alt="basic" style={{width: '683px',eight: '477px'}} />
+          <img src={resultdata.car.photo} alt="basic" />
         </Imagewrapper>
         <Aidal>
           <Aidalin>
@@ -57,9 +59,9 @@ const DetailTuning = () => {
               </Aidalright>
           </Awrapper>
         </Aidal>
-        </div>
       </Aidalwrapper>
 
+      <Introduction>
       <Comfortwrapper>
         <div>
         <Comfort>
@@ -109,8 +111,10 @@ const DetailTuning = () => {
           <Imgwrapper1><img src={resultdata.photo5} alt="heating" style={{width:'683px',height:'477px',flexShrink:'0'}}/></Imgwrapper1>
         </div>
       </Heatingwrapper>
+      </Introduction>
+      </Detailwrapper>
       <BasicTabs />
-    </Introduction>
+   
     </>
    )
 }

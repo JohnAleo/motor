@@ -1,6 +1,8 @@
 import React from 'react'
 import { campcar } from '../../mock/mockdata';
-import { Item6, Item6left, Item6right, Item6wrapper, Premiumin, Premiumleft, Premiumright, Premiumwrapper } from '../../styles/premiumstyle';
+import { Compwrapper, Item6, Item6left, Item6right,
+   Item6wrapper, Photowrapper, Premiumin, Premiumleft,
+    Premiumright, Premiumwrapper } from '../../styles/premiumstyle';
 
 
 
@@ -18,11 +20,11 @@ const Premium = () => {
             <Premiumright>
                 <select >
                     <option >Best</option>
-                    <option ></option>
-                    <option ></option>
-                    <option ></option>
-                    <option ></option>
-                    <option ></option>
+                    <option >Super</option>
+                    <option >Optional</option>
+                    <option >Optimal</option>
+                    <option >Budget</option>
+                    <option >Discount</option>
                 </select>
             </Premiumright>
         </Premiumin>
@@ -33,12 +35,12 @@ const Premium = () => {
              
             <Item6>
                 <Item6left>
-                  <div><img src={value.car.photo || "no data"} style={{width:'195px', height:'100px'}} alt="carphoto" /></div>
-                  <div>
+                  <Photowrapper><img src={value.car.photo || "no data"}  alt="carphoto" /></Photowrapper>
+                  <Compwrapper>
                     <h4>{value.car.name}</h4>
                     <p>{value.car.company}</p>
                     <h5>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h5>
-                  </div>
+                  </Compwrapper>
                 </Item6left>
                 <Item6right>
                   <div>

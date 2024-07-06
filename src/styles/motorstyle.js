@@ -19,7 +19,7 @@ export const Filtrwrapper=styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width:1220px) {
   display  :none ;
 }
 `
@@ -29,71 +29,154 @@ export const Catalogwrapper =styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+width: 100%;
+max-width: 1450px;
+//justify-content: center;
 //flex:8;
 gap: 10px;
-
-
 `
+//export const Vmenuwrapper=styled.div`
+//display:flex;
+//flex-direction: column;
+//width:987px;
+//gap:20px;`
+//export const Vmenustyle=styled.div`
+//display: flex;
+//background-color: white;
+//flex-direction: row;
+//height: 223px;
+//width: 100%;
+//max-width: 987px;
+//min-width: 900px;
+//justify-content: space-around;
+//border-radius: 20px;
+//padding: 10px;
+//box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+//h3{
+//color: var(--blue, #006DAB);
+//font-family: sans-serif;
+//font-size: 22px;
+//font-style: normal;
+//font-weight: 700;
+//line-height: normal; 
+//}
+//p{
+//color: var(--text, #373737);
+//font-family: Montserrat;
+//font-size: 12px;
+//font-style: normal;
+//font-weight: 400;
+//line-height: normal;
+//}
+//h4{
+//color: var(--text, #373737);
+//font-family: sans-serif;
+//font-size: 16px;
+//font-style: normal;
+//font-weight: 600;
+//line-height: normal;
+//}
+//&:hover {
+//    background-color: #fafafa;
+//    transform: scale(1.05);
+//    transition: 0.5s ease;
+//    cursor: pointer;
+//    border-radius: 10px;
+//    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+ // }
+//
+//`
 
-export const Carwrapper=styled.div`
-display: grid;
-justify-content: center;
-width: 100%;
-grid-template-columns: repeat(4, 1fr);
-gap:25px;
+//export const Hmenuwrapper=styled.div`
+//display: grid;
+//justify-content: center;
+//width: 100%;
+//grid-template-columns: repeat(4, 1fr);
+//gap:25px;
 
-@media only screen and (max-width: 1350px){
-display:grid;
-grid-template-columns:repeat(3, 1fr);   
-}
-@media only screen and (max-width: 1000px){
-display:grid;
-grid-template-columns:repeat(2, 1fr); 
-.Navbarmiddle{
-    display: none;
-}  
+//@media only screen and (max-width: 1350px){
+//display:grid;
+//grid-template-columns:repeat(3, 1fr);   
+//}
+//@media only screen and (max-width: 1000px){
+//display:grid;
+//grid-template-columns:repeat(2, 1fr); 
+//.Navbarmiddle{
+ //   display: none;
+//}  
 
-}
-@media only screen and (max-width: 700px){
-display:grid;
-grid-template-columns:repeat(1, 1fr);   
+//}
+//@media only screen and (max-width: 700px){
+//display:grid;
+//grid-template-columns:repeat(1, 1fr);   
 
-}`
+//}
+//`
+//export const Hmenustyle=styled.div`
+//display: flex;
+//background-color: white;
+//flex-direction: column;
+//justify-content: space-around;
+//border-radius: 20px;
+//padding: 10px;
+//box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
-export const Wholewrapper =styled.div`
-display:flex;
-`
-
-export const Inforwrapper =styled.div`
-display:flex;
-flex:2;
-flex-direction:column;
-justify-content: ${props=> props.$Vmenu ? 'center':'baseline'};
-padding: ${props => props.$Vmenu ? "0px 20px":"0px 0px"};
-`
-
-export const Cardwrapper=styled.div`
-display:flex;
-justify-content: center;
-width: 100%;
-flex-direction:column;
-gap:20px;
-.overlay{
-    display: flex;
-    width: 230px;
-    height: 315px;
-}`
-
+//h3{
+//color: var(--blue, #006DAB);
+//font-family: sans-serif;
+//font-size: 22px;
+//font-style: normal;
+//font-weight: 700;
+//line-height: normal; 
+//}
+//p{
+//color: var(--text, #373737);
+//font-family: Montserrat;
+//font-size: 12px;
+//font-style: normal;
+//font-weight: 400;
+//line-height: normal;
+//}
+//h4{
+//color: var(--text, #373737);
+//font-family: sans-serif;
+//font-size: 16px;
+//font-style: normal;
+//font-weight: 600;
+//line-height: normal;
+//}
+//&:hover {
+//    background-color: #fafafa;
+//    transform: scale(1.05);
+//    transition: 0.5s ease;
+ //   cursor: pointer;
+//    border-radius: 10px;
+//    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+ // }
+//`
 export const CardContainer=styled.div`
 display: flex;
+background-color: white;
 flex-direction:${props=> props.$Vmenu ? 'row' : 'column'} ;
 justify-content: space-around;
 border-radius: 20px;
 padding: 10px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-width:${props => props.$Vmenu ? '100%': '223px'};
+max-width: ${props=> props.$Vmenu ? '100%' : ''} ;
+transition: all 0.35 ease 0s;
+width:${props => props.$Vmenu ? '987px': ''};
 height:${props => props.$Vmenu ? '223px': '307px'} ;
+@media only screen and (max-width:1350) {
+    display: flex;
+    width:${props=> props.$VmenuCon ? '734px':""}
+    
+}
+@media only screen and (max-width:400px) {
+  display  : flex;
+  flex-direction:${props=> props.$Vmenu ? 'column':''}; 
+  height: 300px;
+}
+
 
 h3{
 color: var(--blue, #006DAB);
@@ -119,15 +202,87 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+&:hover {
+    background-color: #fafafa;
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
 `
+
+export const Carwrapper=styled.div`
+display: grid;
+justify-content: center;
+width: 100%;
+max-width: 1450px;
+grid-template-columns: repeat(4, 1fr);
+gap:25px;
+
+@media only screen and (max-width: 1450px){
+display:grid;
+grid-template-columns:repeat(3, 1fr); 
+width  : 100%;
+max-width: 1100px;
+
+}
+@media only screen and (max-width: 1000px){
+display:grid;
+grid-template-columns:repeat(2, 1fr); 
+max-width: 1000px;
+.Navbarmiddle{
+    display: none;
+} 
+
+@media only screen and (max-width:1350) {
+    display: flex;
+    //width:${props=> props.$VmenuCon ? '734px':""}
+    
+}
+
+}
+@media only screen and (max-width: 700px){
+display:grid;
+grid-template-columns:repeat(1, 1fr);   
+
+}`
+
+export const Wholewrapper =styled.div`
+display:flex;
+`
+
+export const Inforwrapper =styled.div`
+display:flex;
+flex:2;
+flex-direction:column;
+justify-content: ${props=> props.$Vmenu ? 'center':'center'};
+padding: ${props => props.$Vmenu ? "0px 20px":"0px 0px"};
+width: 100%;
+`
+
+export const Cardwrapper=styled.div`
+display:flex;
+justify-content: center;
+width: 100%;
+flex-direction:column;
+gap:20px;
+.overlay{
+    display: flex;
+    width: 230px;
+    height: 315px;
+}`
+
+
 
 export const Carimg=styled.div`
 display: flex;
 flex: 1;
 justify-content: center;
-align-items: ${props=> props.$Vmenu ? 'center':'baseline'};
+align-items: ${props=> props.$Vmenu ? 'center':''};
 img{
     border-radius: 10px;
+
 }
 
 `
@@ -172,100 +327,94 @@ flex-direction: column;
 gap:70px;
 padding: 12px 0px;
 `
-
-export const Itemwrapper=styled.div`
-display: flex;
-width: 970px;
-justify-content: space-between;
-border-bottom: 1px solid  #37373780;
-margin-bottom: 20px;
-padding: 5px;
-@media only screen and (max-width:1100px){
-   width : 100%;
-}
-div{
-    display: flex;
-};
-
-`
-export const Sortwrapper=styled.div`
-@media only screen and (max-width:1100px) {
-        display: flex;
-        
-    }
-`
-
 export const Itemleft=styled.div`
 display: flex;
 align-items: center;
 flex: 1;
+gap: 10px;
+@media only screen and (max-width:780px) {
+    display: flex;
+    flex-direction: column;
+}
+`
 
-p{
+export const DraweriPhone=styled.div`
+display:flex;
+@media only screen and (max-width:780px) {
+    display: flex;
+    margin-left: -150px;
+}
+`
+export const Itemwrapper=styled.div`
 display: flex;
-align-items: center;
-color: var(--text, #373737);
+width: 100%;
+justify-content: center;
+padding: 5px;
+@media only screen and (max-width:1100px){
+   width : 100%;
+}
+`
+export const Itemdrawerwrapper=styled.div`
+display:none;
+@media only  screen and (max-width:1220px) {
+  display:flex;  
+}
+`
+export const Itemlength=styled.div`
+display:flex;
+align-items:center;
+gap:10px;
+P{
+    color: var(--text, #373737);
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 100%; /* 18px */
-margin-left: 20px;
 }
 h5{
-color: var(--blue, #006DAB);
+    color: var(--blue, #006DAB);
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 100%;
+}`
 
-}
-div{
-    display: flex;
-    justify-content: start;
-    gap: 20px;
-    p{
-        @media only screen and (max-width:700px) {
-         display   :none ;
-        }
-    }
-    input{
-        border:1px solid #37373760;
-        border-radius:5px;
-        padding: 5px;
-        margin-left: 20px;
-        }
-        @media only screen and (max-width:700px){
-            display   :flex ;
-            justify-content: space-between;
-        }
-}
-@media only screen and (max-width:700px){
-            display   :flex ;
-            flex-direction: column;
-        }
+export const Selectwrapper=styled.div`
+display:flex;
+align-items:center;
 `
-export const Item =styled.div`
+export const Selectin=styled.div`
 display: flex;
-@media only screen and (max-width:700px){
-            display   :flex ;
-            //margin-left:-160px;
-        }
-      
-`
+width: 100%;
+select{
+width: 227px;
+height: 30px;
+flex-shrink: 0; 
+border-radius: 5px;
+@media only screen and (max-width:950px) {
+    width: 150px;
+}
+}
+align-items:center;`
 
-export const Iwrapper=styled.div`
+export const Sortby=styled.div`
+width: 100px;
 display:flex;
 align-items: center;
-
-div{
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 16px */
+@media only screen and (max-width:1100px) {
     display: none;
-    @media only screen and (max-width:1100px) {
-      display  :flex ;
-    }
 }
-
-`
+@media only screen and (max-width:780px) {
+    display: flex;
+}`
 
 export const Itemright =styled.div`
 display:flex;
@@ -277,7 +426,8 @@ gap: 5px;
     display: flex;
     width: auto;
 }
-@media only screen and (max-width:700px) {
+
+@media only screen and (max-width:780px) {
     display: flex;
     flex-direction: column;
 }
@@ -289,7 +439,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 100%; /* 16px */
 }
-input{
+select{
 border:1px solid #37373760;
 border-radius:5px;
 padding: 5px;
@@ -384,9 +534,14 @@ flex-direction: column;
 gap: 10px;
 `
 export const Line =styled.div`
-width: 100%px;
-height: 1px;
-background: rgba(55, 55, 55, 0.30);
+display: flex;
+width: 100%;
+div{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(55,55,55,0.3);
+    margin: 10px 0px;
+}
 `
 
 
@@ -441,13 +596,31 @@ export const Centerjust =styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-
+P{
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 18px */
+}
 
 `
 export const Centeralign=styled.div`
 display:flex;
 justify-content:space-between;
-align-items:center;`
+align-items:center;
+width:${props => props.$Vmenu ? '100%':''};
+h3{
+    width: 100%;
+}
+h4{
+    width:100%;
+}
+@media only screen and (max-width:500px) {
+  display  : flex;
+  flex-direction: ${props => props.$Vmneu ? 'column':''};
+}`
 
 export const Ratewrapper=styled.div`
 display:flex;
@@ -466,7 +639,7 @@ border-radius:20px;
 width: 94px;
 height: 35px;
 flex-shrink: 0;
-background-color:${props=> props.$search ? "#006DAB":'var(--sariq, #FF7A00)'};
+background-color:#006DAB;
 border: none;
 color: white;
 font-family: sans-serif;
@@ -474,11 +647,15 @@ font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-cursor:pointer;`
+cursor:pointer;
+`
 
 export const Buttonwrapper1=styled.div`
 display:flex;
 justify-content:center;
+:hover{
+    background-color:var(--sariq, #FF7A00);
+}
 //:hover{
  //color:${props=> props.$cancel ? "black":"black"};
  //border: 2px solid #006DAB;
@@ -514,6 +691,40 @@ display:flex;
 justify-content:space-between;
 padding:20px 5%;
 cursor:pointer;`
+
+export const Border = styled.div`
+  width: 100%;
+  max-width: 1450px;
+  width: ${(props) => (props.$width100 ? `100%` : ``)};
+  height: 1px;
+  background: rgba(55, 55, 55, 0.3);
+  margin: 15px 0px 30px 0px;
+  margin: ${(props) => (props.$margin0 ? `0px` : ``)};
+  margin-top: ${(props) => (props.$marginTop6 ? `5px` : ``)};
+  margin: ${(props)=> props.$marginBottom30 ? `0px 0px 10px 0px` : ``};
+`;
+
+export const CostTitle = styled.h2`
+  padding-top: ${(props) => (props.$paddingTop ? `13px` : `0px`)};
+  border: 0px solid black;
+  color: ${(props) => (props.$colorBlue ? `#006DAB` : `#373737`)};
+  font-family: Montserrat;
+  font-size: ${(props) => (props.$fontSize27 ? `27px` : `18px`)};
+  font-style: normal;
+  font-weight: ${(props) => (props.$fontWeight700 ? `700` : `600`)};
+  line-height: 100%; /* 18px */
+  @media only screen and (max-width: 600px) {
+    font-size: ${(props) => (props.$fontSize27 ? `22px` : ``)};
+
+  }
+`;
+export const AccordionsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+`;
+
 
 
 

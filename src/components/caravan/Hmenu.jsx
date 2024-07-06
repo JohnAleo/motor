@@ -18,7 +18,7 @@ const HMenu = () => {
                 <Link to={`${value.id}`} style={{textDecoration:'none'}}>
                 <CardContainer key={key}>
                   <Carimg>
-                    <img src={value.car.photo} alt="car-photo" width={200} height={140} />
+                  <img src={value.car.photo} alt="car-photo" style={{width:'100%',height:'140px'}}/>
                   </Carimg>
                   <h4>{value.car.name || "no data"}</h4>
                   <Centeralign>

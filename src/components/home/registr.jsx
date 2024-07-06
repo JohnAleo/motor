@@ -1,11 +1,11 @@
 import React from 'react'
-import { Logged, Mail, RegistrComponent, Sign } from '../../styles/multicarousel'
-import { Buttonwrapperpop } from '../../styles/indexpop'
-import { Buttonin } from '../../styles/detailusedCar'
+import { Logged, Mail, RegistrComponent, Registrbutton, Registrbuttonwrapper, Sign } from '../../styles/multicarousel'
 import { Link } from 'react-router-dom'
+import AnimatedBg from "react-animated-bg";
 
-const Registr = () => {
-  return (
+// by default delay = 0 and duration = 0.2s
+const Registr = () => (
+
     <RegistrComponent>
     <Sign>
     <p>Sign in</p>
@@ -27,14 +27,14 @@ const Registr = () => {
         <label htmlFor="">Keep me logged in</label>
       </div>
     </Logged>
-    <Link to="/camper">
-      <Buttonwrapperpop>   
-        <Buttonin style={{width:'434px',height:'50px'}}>REGISTRATE</Buttonin>    
-      </Buttonwrapperpop> 
+    <Link to="/camper" style={{textDecorationLine:'none'}}>
+      <Registrbuttonwrapper>   
+        <Registrbutton>REGISTRATE</Registrbutton>    
+      </Registrbuttonwrapper> 
     </Link>     
   </Sign>     
   </RegistrComponent>
-  )
-}
 
+ 
+);
 export default Registr

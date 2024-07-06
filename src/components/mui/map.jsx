@@ -64,6 +64,7 @@ const Map = () => {
             <div>
                 <p>E-mail</p>
                 <h4>logo.uz</h4>
+                <h4>Camping.com</h4>
             </div>
         </Mappdown>
     </Mapp>

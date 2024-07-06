@@ -14,7 +14,7 @@ export default function AccordionTransition() {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:'#eee'}}>
       <Accordion
         expanded={expanded}
         onChange={handleExpansion}
@@ -23,23 +23,25 @@ export default function AccordionTransition() {
         sx={{
           '& .MuiAccordion-region': { height: expanded ? 'auto' : 0 },
           '& .MuiAccordionDetails-root': { display: expanded ? 'block' : 'none' },
+          backgroundColor:'#eee'
         }}
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
+         
         >
           <Typography>Custom transition using Fade</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails >
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{backgroundColor:'#eee'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"

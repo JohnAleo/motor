@@ -6,9 +6,10 @@ import tuning from '../assets/tuning/tuning.jpg'
 import usedcar2 from '../assets/usedCar/usedcar2.jpg'
 import user from '../assets/navbar/user.png'
 
+
 export const Container =styled.div`
 display: flex;
-padding: 10px 50px;
+padding: 20px 50px;
 background-color: #fff;
 position: fixed;
 width: 100%;
@@ -45,13 +46,44 @@ export const NavbarRight =styled.div`
 display:flex;
 flex: 2;
 justify-content: end;
+gap: 10px;
+padding: 10px 0px;
 p{
     cursor: pointer;
     @media only screen and (max-width:700px) {
        display : none;
     }
 }
+
 `
+export const Enwrapper=styled.div`
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+p{
+color:black;
+font-weight:600;
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration:none;
+
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+    @media only screen and (max-width:700px) {
+       display : none;
+    }
+}`
+
 export const Drawerin1=styled.div`
 display:none;
 @media only screen and (max-width:700px) {
@@ -93,6 +125,12 @@ cursor:pointer;`
 export const NavLink=styled(Link)`
 color:black;
 font-weight:600;
+color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 text-decoration:none;`
 
 export const Camper=styled.div`

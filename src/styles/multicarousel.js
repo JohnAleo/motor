@@ -1,21 +1,20 @@
 import styled from "styled-components";
-import koleso from "../assets/popup/koleso.png";
-import play from "../assets/popup/play.png";
-import re1 from "../assets/popup/re1.png"
-import re2 from "../assets/popup/re2.png"
-import re3 from "../assets/popup/re3.png"
-import re4 from "../assets/popup/re4.png"
-import re5 from "../assets/popup/re5.png"
-import re6 from "../assets/popup/re6.png"
 import back from"../assets/popup/back.png"
 
 export const Imgwrapper=styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-width: 290px;
+//width: 290px;
+width: 100%;
 height: 167px;
 flex-shrink: 0;
+img{
+  width: 100%;
+  max-width: 290px;
+  height: 167px;
+  border-radius: 10px;
+}
 //background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 `
 export const Carouselin=styled.div`
@@ -25,6 +24,8 @@ justify-content: center;
 align-items: center;
 //  border:1px solid black;
 padding:5px 1%;`
+
+
 
 export const Recommend=styled.div`
 display: flex;
@@ -101,6 +102,8 @@ cursor:pointer;
 display: inline-block;
 p{
     display: flex;
+    width: 100%;
+    max-width: 259px;
     justify-content: center;
     align-items: center;
     transform:skewX(+20deg);
@@ -110,6 +113,7 @@ p{
 
 export const Buttonwrapper=styled.div`
 display:flex;
+width: 100%;
 justify-content:center; 
 transform:skewX(-20deg);
 :hover{
@@ -162,12 +166,12 @@ padding: 20px 50px 20px 50px;
 
 `
 
-
 export const Camper =styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
 gap: 27px;
+
  
 @media only screen and (max-width:1100px){
    display :flex ;
@@ -187,6 +191,7 @@ h4{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 100%;
 }
 h3{
     display: flex;
@@ -197,6 +202,7 @@ h3{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 100%;
 }  
 p{
     display: flex;
@@ -210,48 +216,70 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 100%;
 
 }
 `
 
 export const Blogs =styled.div`
-display: grid;
-grid-template-areas: "a a a";
-justify-content: start;
-gap: 50px;
-@media only screen and (max-width:1100px){
-   display :grid;
-   grid-template-areas: "a a";}
-
-   @media only screen and (max-width:700px){
-   display :grid ;
-   grid-template-areas: "a";
-   justify-content: center;
-   align-items: center;
-}
-
-
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  :hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 15px;
+  }
+  img {
+    width: 100%;
+    max-width: 258px;
+    max-height: 258px;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+  }
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: auto;
+  }
 `
 
 export const Buttonplay=styled.div`
-display: flex;
-background-image: url(${koleso});
-background-repeat:no-repeat;
-background-position: center;
+flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 292px;
+  color: white;
+  border-radius: 10px;
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+  &:hover {
+    background-color: #fafafa;
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
 `
-export const Play =styled.div`
-display:flex;
-background-image:url(${play});
-background-repeat:no-repeat;
-background-position:center;
-cursor:pointer;`
 
+//// Home style blog part
 export const Blog1 =styled.div`
 display:flex;
-background-image:url(${re1});
 background-repeat:no-repeat;
 background-position:center;
-width: 257px;
+width:100%;
 height: 258px;
 flex-shrink: 0;
 border-radius: 20px;
@@ -260,10 +288,9 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
 `
 export const Blog2 =styled.div`
 display:flex;
-background-image:url(${re2});
 background-repeat:no-repeat;
 background-position:center;
-width: 257px;
+width:100%;
 height: 258px;
 flex-shrink: 0;
 border-radius: 20px;
@@ -272,10 +299,9 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);`
 
 export const Blog3 =styled.div`
 display:flex;
-background-image:url(${re3});
 background-repeat:no-repeat;
 background-position:center;
-width: 257px;
+width:100%;
 height: 258px;
 flex-shrink: 0;
 border-radius: 20px;
@@ -284,10 +310,9 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);`
 
 export const Blog4 =styled.div`
 display:flex;
-background-image:url(${re4});
 background-repeat:no-repeat;
 background-position:center;
-width: 257px;
+width:100%;
 height: 258px;
 flex-shrink: 0;
 border-radius: 20px;
@@ -296,10 +321,9 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);`
 
 export const Blog5 =styled.div`
 display:flex;
-background-image:url(${re5});
 background-repeat:no-repeat;
 background-position:center;
-width: 257px;
+width:100%;
 height: 258px;
 flex-shrink: 0;
 border-radius: 20px;
@@ -308,15 +332,17 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);`
 
 export const Blog6 =styled.div`
 display:flex;
-background-image:url(${re6});
 background-repeat:no-repeat;
 background-position:center;
-width: 257px;
+width:100%;
 height: 258px;
 flex-shrink: 0;
 border-radius: 20px;
 //background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);`
+/// Home style blog 
+
+
 
 export const Sign =styled.div`
 display:flex;
@@ -397,3 +423,61 @@ export const Swiperwrapper=styled.div`
 display:flex;
 //position: relative;
 `
+export const Registrbutton=styled.div`
+display:flex;
+justify-content: center;
+align-items: center;
+padding:5px ;
+border-radius:10px;
+width: 434px;
+height: 50px;
+flex-shrink: 0;
+background-color:transparent;
+border:2px solid  #006DAB;
+border-color:#006DAB;
+color: var(--blue, #006DAB);
+font-family: sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor:pointer;
+text-decoration:none;
+text-decoration-line:none;`
+
+export const Registrbuttonwrapper=styled.div`
+display:flex;
+justify-content:center; 
+text-decoration-line:none;
+text-decoration:none;
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px ;
+    border-radius:10px;
+    width: 434.5px;
+    height: 50.014px;
+    flex-shrink: 0;
+    background-color:transparent;
+    border:2px solid  #006DAB;
+    border-color:#006DAB;
+    color: var(--blue, #006DAB);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line:none;
+    text-decoration:none;
+    cursor:pointer;
+    :hover{
+        color: white;
+        background-color:#006DAB;  
+    }
+}
+:hover{
+ color: white;
+ background-color:#006DAB;
+ border-radius:10px;
+}`

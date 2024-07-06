@@ -2,7 +2,7 @@ import React from 'react'
 import "react-multi-carousel/lib/styles.css";
 import Popup from 'reactjs-popup';
 import { Buttonin } from '../../styles/detailusedCar';
-import { Logged, Mail, Sign } from '../../styles/multicarousel';
+import { Logged, Mail, Registrbutton, Sign } from '../../styles/multicarousel';
 import { Buttonwrapperpop, Registrwrapper } from '../../styles/indexpop';
 
 
@@ -62,7 +62,7 @@ const RegistrateComponent = () => {
           </Logged>
 
             <Buttonwrapperpop> 
-              <Buttonin style={{width:'434px',height:'50px'}}>REGISTRATE</Buttonin>   
+              <Registrbutton>REGISTRATE</Registrbutton>   
             </Buttonwrapperpop>   
                
         </Sign>       

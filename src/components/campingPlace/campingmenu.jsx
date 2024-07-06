@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { camping } from "../../mock/camping";
-import { Campercontainer, Camperinside, Camperwrapper, Campwrapper } from "../../styles/campingstyle";
+import { Campercontainer, Camperinside, Camperwrapper, CampingCarus, Campwrapper } from "../../styles/campingstyle";
 
 
 const CampingMenu=() => {
@@ -13,7 +13,7 @@ const CampingMenu=() => {
             {
                 data.map((value,key) => {
                     return(
-                        <Link to= {`${value.id}`} style={{textDecoration:'none'}}>
+                        <Link to={`${value.id}`} style={{textDecoration:'none'}}>
                             <Campercontainer key={key}>
                                 <Camperwrapper>
                                     <Camperinside>

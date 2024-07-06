@@ -4,6 +4,7 @@ import './index.css';
 
 import RouterComponent from './router';
 import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './constants/navbar/scrolltotop';
 
 
 

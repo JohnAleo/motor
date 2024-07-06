@@ -1,8 +1,8 @@
 import React from 'react'
 import star from '../../assets/motor/star.png'
-import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Ratewrapper, Wholewrapper } from '../../styles/motorstyle';
-import { tuning } from '../../mock/mockdatatuning';
+import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Hmenustyle, Hmenuwrapper, Ratewrapper, Wholewrapper } from '../../styles/motorstyle';
 import { Link } from 'react-router-dom';
+import { tuning } from '../../mock/mockdatatuning';
 const HMenu = () => {
     const data = tuning.maindata;
     const dataLength = data.length;
@@ -12,13 +12,11 @@ const HMenu = () => {
     <Carwrapper>
           {
             data.map((value,key) => {
-             
               return(
-                <>
-                <Link to={`${value.id}`} style={{textDecoration:'none'}}>
+                <Link to= {`${value.id}`} style={{textDecoration:'none'}}>
                 <CardContainer key={key}>
                   <Carimg>
-                    <img src={value.car.photo} alt="car-photo" width={200} height={140} />
+                  <img src={value.car.photo} alt="car-photo" style={{width:'100%',height:'140px'}}/>
                   </Carimg>
                   <h4>{value.car.name || "no data"}</h4>
                   <Centeralign>
@@ -32,7 +30,6 @@ const HMenu = () => {
                   </Buttonwrapper>
                 </CardContainer>
                 </Link>
-                </>
               )
             })
           }

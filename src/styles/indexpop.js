@@ -16,105 +16,36 @@ import log2 from "../assets/popup/log2.png"
 import log3 from "../assets/popup/log3.png"
 
 export const Videowrapper=styled.div`
-display:flex;
 display:grid;
+justify-content: center;
+width: 100%;
 grid-template-areas:"a a a a ";
 justify-content: center;
 align-items: center;
 gap: 30px;
 @media only screen and (max-width:1100px) {
     display:grid;
-    grid-template-areas:"a a";   
+    grid-template-areas:"a a"; 
+    width  : 100%;
+    max-width: 1150px;
+
+
 }
 @media only screen and (max-width:700px){
     display:grid;
-    grid-template-areas:" a";   
+    grid-template-areas:" a";
+    width  : 100%;      
 }
 
-div{
-    width: 292px;
-    height: 292px;
-    flex-shrink: 0;
-    
-   
-}
 `
 
-
-
-
-export const Bgwrapper1=styled.div`
+export const Iframe=styled.div`
 display:flex;
-background-image:url(${rec1});
-justify-content: center;
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
+width:850px;
+height:580px;`
 
-export const Bgwrapper2=styled.div`
-display:flex;
-background-image:url(${rec2});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
 
-export const Bgwrapper3=styled.div`
-display:flex;
-background-image:url(${rec3});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
 
-export const Bgwrapper4=styled.div`
-display:flex;
-background-image:url(${rec4});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
-
-export const Bgwrapper5=styled.div`
-display:flex;
-background-image:url(${rec5});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
-
-export const Bgwrapper6=styled.div`
-display:flex;
-background-image:url(${rec6});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
-
-export const Bgwrapper7=styled.div`
-display:flex;
-background-image:url(${rec7});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
-
-export const Bgwrapper8=styled.div`
-display:flex;
-background-image:url(${rec8});
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}`
 
 export const Imgwrapper=styled.div`
 display:flex;
@@ -247,3 +178,75 @@ flex-shrink: 0;
 export const Registrwrapper=styled.div`
 display:flex;
 background-color:blueviolet;`
+
+
+export const Popvideo=styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 25px 30px 25px;
+  width: 100%;
+  border-radius: 15px;
+ iframe{
+    width: 100%;
+    width: 850px;
+    height: 360px;
+    border-radius: 15px;
+    @media only screen and (max-width: 1050px) {
+      width  :698px ;
+      height: 387px;
+        
+    }
+
+    
+    @media only screen and (max-width: 800px) {
+      width  :350px ;
+      height: 380px;
+        
+    }
+
+ }
+  @media only screen and (max-width: 700px) {
+    padding: 10px 15px 20px 15px;
+  }
+`
+
+export const Titlecontent=styled.div`
+display:flex;
+align-items: center;
+padding: 20px 0px 0px 30px;
+color: #000;
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;`
+
+
+export const Titleinside=styled.div`
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px 0px 25px;
+  h3 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }`
+
+  export const Boxwrapper =styled.div`
+  display:flex;
+  flex-direction: column;
+  border-radius:15px;`

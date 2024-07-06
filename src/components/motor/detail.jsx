@@ -6,12 +6,12 @@ import { campcar } from '../../mock/mockdata';
 import { Aidal, Aidalin, Aidalinleft,
    Aidalright, Aidalwrapper, Awrapper, 
    Buttonin, Buttwrapper, Comfort, 
-   Comfortwrapper, Easy, Easywrapper, 
+   Comfortwrapper, Detailwrapper, Easy, Easywrapper, 
    Heating, Heatingwrapper, Imagewrapper, Imgwrapper1,
     Introduction, Line1, Namewrapper,
-     None,
      Resultwrapper, Tidy, Tidywrapper, 
      Ventil, Ventilwrapper } from '../../styles/detailusedCar';
+import DetailResponse from '../../constants/detailresponse/detailrespone';
 import BasicTabs from '../mui/tab';
 
 
@@ -33,10 +33,11 @@ const DetailMotor = () => {
      </Buttonwrapper>
     </BgwrapperDetail>
     
+    <DetailResponse/>
+    <Detailwrapper>
     <Aidalwrapper>
-        <div>
         <Imagewrapper>
-          <img src={resultdata.car.photo} alt="basic" style={{width: '683px',eight: '477px'}} />
+          <img src={resultdata.car.photo} alt="basic" />
         </Imagewrapper>
         <Aidal>
           <Aidalin>
@@ -60,7 +61,6 @@ const DetailMotor = () => {
               </Aidalright>
           </Awrapper>
         </Aidal>
-        </div>
       </Aidalwrapper>
     <Introduction>
       <Comfortwrapper>
@@ -112,8 +112,9 @@ const DetailMotor = () => {
           <Imgwrapper1><img src={resultdata.photo5} alt="" /></Imgwrapper1>
         </div>
       </Heatingwrapper>
-      <BasicTabs />
     </Introduction>
+    </Detailwrapper>
+    <BasicTabs />
     
     </>
   )  
