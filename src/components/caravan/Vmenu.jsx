@@ -3,7 +3,7 @@ import { Button, Buttonwrapper, CardContainer, Cardwrapper, Carimg, Centeralign,
 import star from '../../assets/motor/star.png'
 import { caravan } from '../../mock/mockdatacaravan';
 import { Link } from 'react-router-dom';
-const VMenu = () => {
+const VMenu = ({exportedData}) => {
     const data = caravan.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
@@ -11,7 +11,7 @@ const VMenu = () => {
     <Cardwrapper>
    
           {
-            data.map((value,key) => {
+            exportedData.map((value,key) => {
               return(
               <> 
              <Link to={`${value.id}`} style={{textDecoration:'none'}}>

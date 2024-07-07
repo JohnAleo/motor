@@ -54,6 +54,11 @@ const CaravanComponent = () => {
     setActive(false);
   }
 ////
+///set active Hmenu and Vmenu buttons
+const [view, setView] = React.useState('list');
+const handleChange = (event, nextView) => {
+  setView(nextView);
+};
 ///////////////////////////////
 ////Sidebar Filter
 const [selectedLabel, setSelectedLabel] = useState([])
@@ -70,6 +75,7 @@ const handleCheckBoxChange = (labelName) => {
 const filteredData = data.filter(
  (item) => 
  selectedLabel.length === 0 ||
+ selectedLabel.includes(item.car.name)||
  selectedLabel.includes(item.car.company)||
  selectedLabel.includes(item.car.license)||
  selectedLabel.includes(item.car.people)||
@@ -124,16 +130,16 @@ const filteredData = data.filter(
             <Typography>
               <Border $marginBottom30></Border>
               <FormGroup>
-                <FormControlLabel control={<Checkbox />} label="다온티앤티" onChange={() => handleCheckBoxChange("다온티앤티")}/>
-                <FormControlLabel control={<Checkbox />} label="제일모빌"  onChange={() => handleCheckBoxChange("제일모빌")}/>
-                <FormControlLabel control={<Checkbox />} label="영남캠핑카"  onChange={() => handleCheckBoxChange("영남캠핑카")}/>
-                <FormControlLabel control={<Checkbox />} label="영남캠핑카" onChange={() => handleCheckBoxChange("영남캠핑카")}/>
-                <FormControlLabel control={<Checkbox />} label="한울캠핑카" onChange={() => handleCheckBoxChange("한울캠핑카")}/>
-                <FormControlLabel control={<Checkbox />} label="훼미리캠핑카" onChange={() => handleCheckBoxChange("훼미리캠핑카")}/>
-                <FormControlLabel control={<Checkbox />} label="에이스캠퍼" onChange={() => handleCheckBoxChange("에이스캠퍼")}/>
-                <FormControlLabel control={<Checkbox />} label="월든모빌" onChange={() => handleCheckBoxChange("월든모빌")}/>
-                <FormControlLabel control={<Checkbox />} label="위드원모터스" onChange={() => handleCheckBoxChange("위드원모터스")}/>
-                <FormControlLabel control={<Checkbox />} label="미스터캠퍼" onChange={() => handleCheckBoxChange("미스터캠퍼")}/>
+                <FormControlLabel control={<Checkbox />} label="RoyalMotor" onChange={() => handleCheckBoxChange("RoyalMotor")}/>
+                <FormControlLabel control={<Checkbox />} label="TIMOPHY-5452"  onChange={() => handleCheckBoxChange("TIMOPHY-5452")}/>
+                <FormControlLabel control={<Checkbox />} label="ROADStar"  onChange={() => handleCheckBoxChange("ROADStar")}/>
+                <FormControlLabel control={<Checkbox />} label="Barraouza" onChange={() => handleCheckBoxChange("Barraouza")}/>
+                <FormControlLabel control={<Checkbox />} label="NAUTILUS" onChange={() => handleCheckBoxChange("NAUTILUS")}/>
+                <FormControlLabel control={<Checkbox />} label="Milleneum500" onChange={() => handleCheckBoxChange("Milleneum500")}/>
+                <FormControlLabel control={<Checkbox />} label="STINGER-722" onChange={() => handleCheckBoxChange("STINGER-722")}/>
+                <FormControlLabel control={<Checkbox />} label="BUZZ-22" onChange={() => handleCheckBoxChange("BUZZ-22")}/>
+                <FormControlLabel control={<Checkbox />} label="MILLY_MEX" onChange={() => handleCheckBoxChange("MILLY_MEX")}/>
+                <FormControlLabel control={<Checkbox />} label="SHARK-200" onChange={() => handleCheckBoxChange("SHARK-200")}/>
                 <FormControlLabel control={<Checkbox />} label="드림캠핑카" onChange={() => handleCheckBoxChange("드림캠핑카")}/>
                 <FormControlLabel control={<Checkbox />} label="모터홈코리아" onChange={() => handleCheckBoxChange("모터홈코리아")}/>
               </FormGroup>
@@ -308,7 +314,9 @@ const filteredData = data.filter(
                       <option value="">C</option>
                     </select>
               </Selectwrapper>
-              <Buttonwrapper2>
+              <Buttonwrapper2 value={view}
+                   exclusive
+                   onChange={handleChange}>
                 <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>
                 <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V" /></Button3>
               </Buttonwrapper2>
@@ -317,7 +325,7 @@ const filteredData = data.filter(
           <Border $width100 $margin0 $marginTop6></Border>
               <>
               {
-                active ? <HMenu />: <VMenu />
+                active ? <HMenu exportedData = {filteredData}/>: <VMenu exportedData = {filteredData}/>
               }
               </> 
         </Catalogwrapper>

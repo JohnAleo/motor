@@ -85,7 +85,7 @@ export const campcar = {
       id: 2,
       car: {
         photo: `${img1}`,
-        name: "르벤투스680S",
+        name: "ST-7",
         cost: "93,700,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -111,7 +111,7 @@ export const campcar = {
       id: 3,
       car: {
         photo: `${img2}`,
-        name: "르벤투스680",
+        name: "ACIER 790R",
         cost: "93,700,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -163,7 +163,7 @@ export const campcar = {
       id: 5,
       car: {
         photo: `${img4}`,
-        name: "포스650",
+        name: "ACIER 790R",
         cost: "85,300,000",
         type: "포터",
         license: "2종 보통",
@@ -189,7 +189,7 @@ export const campcar = {
       id: 6,
       car: {
         photo: `${img5}`,
-        name: "포스560",
+        name: "ACIER 790R",
         cost: "93,700,000",
         type: "포터",
         license: "2종 보통",
@@ -215,7 +215,7 @@ export const campcar = {
       id: 7,
       car: {
         photo: `${img6}`,
-        name: "올카",
+        name: "르벤투스680",
         cost: "62,600,000",
         type: "포터",
         license: "2종 보통",
@@ -319,7 +319,7 @@ export const campcar = {
       id: 12,
       car: {
         photo: `${img10}`,
-        name: "ACIER 900 Deluxe",
+        name: "르벤투스680",
         cost: "142,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
@@ -371,7 +371,7 @@ export const campcar = {
       id: 20,
       car: {
         photo: `${img12}`,
-        name: "트레블라인 660",
+        name: "DS9eU+a",
         cost: "76,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -397,7 +397,7 @@ export const campcar = {
       id: 21,
       car: {
         photo: `${img13}`,
-        name: "트레블라인 550",
+        name: "DS9eU+a",
         cost: "60,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -423,13 +423,13 @@ export const campcar = {
       id: 22,
       car: {
         photo: `${img14}`,
-        name: "트레블라인 650,",
+        name: "르벤투스680",
         cost: "68,900,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
         date: "22년 03월",
-        company: "PROTONE",
+        company: "Azure",
         location: "경상권",
         rate: 3.5,
         word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
@@ -449,7 +449,7 @@ export const campcar = {
       id: 23,
       car: {
         photo: `${img15}`,
-        name: "트레블라인 350",
+        name: "DS9eU+a",
         cost: "59,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -475,13 +475,13 @@ export const campcar = {
       id: 24,
       car: {
         photo: `${img16}`,
-        name: "트레블라인 250,",
+        name: "르벤투스680",
         cost: "49,000,000",
         type: "포터",
         license: "2종 보통",
         people: "3인",
         date: "22년 03월",
-        company: "PROTONE",
+        company: "Result",
         location: "경상권",
         rate: 4.5,
         word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
@@ -501,7 +501,7 @@ export const campcar = {
       id: 25,
       car: {
         photo: `${img17}`,
-        name: "트레블라인 220",
+        name: "르벤투스 차박S",
         cost: "39,000,000",
         type: "포터",
         license: "2종 보통",
@@ -579,7 +579,7 @@ export const campcar = {
       id: 33,
       car: {
         photo: `${img20}`,
-        name: "HWC680L",
+        name: "르벤투스 차박S",
         cost: "75,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -605,7 +605,7 @@ export const campcar = {
       id: 34,
       car: {
         photo: `${img21}`,
-        name: "HWC680DL",
+        name: "ST-7",
         cost: "77,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -631,7 +631,7 @@ export const campcar = {
       id: 35,
       car: {
         photo: `${img22}`,
-        name: "HWC560F",
+        name: "ST-7",
         cost: "64,000,000",
         type: "포터",
         license: " 2종 보통",
@@ -657,7 +657,7 @@ export const campcar = {
       id: 36,
       car: {
         photo: `${img23}`,
-        name: "헤르메스550",
+        name: "르벤투스 차박S",
         cost: "64,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -683,7 +683,7 @@ export const campcar = {
       id: 37,
       car: {
         photo: `${img24}`,
-        name: "헤르메스650",
+        name: "DS9eR+a",
         cost: "77,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -709,7 +709,7 @@ export const campcar = {
       id: 38,
       car: {
         photo: `${img25}`,
-        name: "V-70",
+        name: "ST-7",
         cost: "64,900,000",
         type: "칸",
         license: " 2종 보통",
@@ -735,7 +735,7 @@ export const campcar = {
       id: 39,
       car: {
         photo: `${img26}`,
-        name: "HASSLA",
+        name: "르벤투스 차박S",
         cost: "74,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -761,7 +761,7 @@ export const campcar = {
       id: 40,
       car: {
         photo: `${img27}`,
-        name: "오버랜드",
+        name: "르벤투스 차박S",
         cost: "89,800,000",
         type: "르노마스터",
         license: " 1종 보통",
@@ -787,7 +787,7 @@ export const campcar = {
       id: 45,
       car: {
         photo: `${img28}`,
-        name: "다비드 럭셔리",
+        name: "ST-7",
         cost: "66,093,900",
         type: "르노마스터",
         license: "1종 보통",
@@ -813,7 +813,7 @@ export const campcar = {
       id: 46,
       car: {
         photo: `${img29}`,
-        name: "다비드 스페셜",
+        name: "DS9eR+a",
         cost: "68,223,900",
         type: "르노마스터",
         license: " 1종 보통",
@@ -839,7 +839,7 @@ export const campcar = {
       id: 47,
       car: {
         photo: `${img30}`,
-        name: "다비드 패밀리",
+        name: "르벤투스 차박S",
         cost: "69,501,900",
         type: "르노마스터",
         license: "1종 보통",
@@ -865,7 +865,7 @@ export const campcar = {
       id: 48,
       car: {
         photo: `${img31}`,
-        name: "다비드 베이직",
+        name: "트레블라인 550",
         cost: "60,342,900",
         type: "르노마스터",
         license: "1종 보통",
@@ -891,7 +891,7 @@ export const campcar = {
       id: 49,
       car: {
         photo: `${img32}`,
-        name: "WD5-410",
+        name: "트레블라인 550",
         cost: "69,225,000",
         type: "포터",
         license: "2종 보통",
@@ -917,7 +917,7 @@ export const campcar = {
       id: 50,
       car: {
         photo: `${img33}`,
-        name: "WD-390",
+        name: "DS9eR+a",
         cost: "67,521,000",
         type: " 포터",
         license: "2종 보통",
@@ -943,7 +943,7 @@ export const campcar = {
       id: 51,
       car: {
         photo: `${img34}`,
-        name: "WD-330",
+        name: "트레블라인 550",
         cost: "61,770,000",
         type: "포터",
         license: "2종 보통",
@@ -969,13 +969,13 @@ export const campcar = {
       id: 52,
       car: {
         photo: `${img35}`,
-        name: "MARLIN",
+        name: "DS9eR+a",
         cost: "49,860,000",
         type: "포터",
         license: "2종 보통",
         people: " 3인",
         date: "22년 03월",
-        company: "위드원모터스",
+        company: "Result",
         location: "수도권",
         rate: 4.2,
         word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
@@ -995,7 +995,7 @@ export const campcar = {
       id: 53,
       car: {
         photo: `${img36}`,
-        name: "테라-G6",
+        name: "트레블라인 550",
         cost: "68,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -1021,7 +1021,7 @@ export const campcar = {
       id: 54,
       car: {
         photo: `${img37}`,
-        name: "테라-X6",
+        name: "트레블라인 550",
         cost: "68,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -1047,13 +1047,13 @@ export const campcar = {
       id: 55,
       car: {
         photo: `${img38}`,
-        name: "테라-X7",
+        name: "HWC560DL",
         cost: "85,000,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
         date: "22년 03월",
-        company: "미스터캠퍼",
+        company: "Result",
         location: "수도권",
         rate: 4.1,
         word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
@@ -1074,7 +1074,7 @@ export const campcar = {
       id: 90,
       car: {
         photo: `${img39}`,
-        name: "프라임640",
+        name: "DS9eR+a",
         cost: "79,900,000",
         type: "포터",
         license: "2종 보통",
@@ -1100,7 +1100,7 @@ export const campcar = {
       id: 91,
       car: {
         photo: `${img40}`,
-        name: "프라임550",
+        name: "HWC560DL",
         cost: "68,000,000",
         type: "포터",
         license: "2종 보통",
@@ -1126,7 +1126,7 @@ export const campcar = {
       id: 92,
       car: {
         photo: `${img41}`,
-        name: "하모니B",
+        name: "HWC620DL",
         cost: "62,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -1152,13 +1152,13 @@ export const campcar = {
       id: 93,
       car: {
         photo: `${img42}`,
-        name: "하모니C",
+        name: "DS9eR+a",
         cost: "58,300,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
         date: "22년 03월",
-        company: "드림캠핑카",
+        company: "Azure",
         location: "경상권",
         rate: 4.5,
         word: 'Sometimes camping is just surviving the wilderness for a  night or two with your loved ones, so that you can get back home and finally, now that you’re safe and sound again, laugh about how much nature kicked your butt. Because if we’ve learned anything through our years of outdoor adventure, nature always, always wins. And as any Boy Scout will tell you, the best thing you can do is to be prepared!',
@@ -1178,7 +1178,7 @@ export const campcar = {
       id: 95,
       car: {
         photo: `${img43}`,
-        name: "V630J",
+        name: "HWC620DL",
         cost: "121,000,000",
         type: "피아트 듀카토",
         license: "1종 보통",
@@ -1204,7 +1204,7 @@ export const campcar = {
       id: 96,
       car: {
         photo: `${img44}`,
-        name: "P746GJ",
+        name: "DS9eR+a",
         cost: "139,000,000",
         type: "피아트 듀카토",
         license: "1종 보통",

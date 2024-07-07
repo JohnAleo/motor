@@ -254,7 +254,7 @@ display:flex;
 
 export const Inforwrapper =styled.div`
 display:flex;
-flex:2;
+flex:3;
 flex-direction:column;
 justify-content: ${props=> props.$Vmenu ? 'center':'center'};
 padding: ${props => props.$Vmenu ? "0px 20px":"0px 0px"};
@@ -277,7 +277,7 @@ gap:20px;
 
 export const Carimg=styled.div`
 display: flex;
-flex: 1;
+flex: 2;
 justify-content: center;
 align-items: ${props=> props.$Vmenu ? 'center':''};
 img{
@@ -612,14 +612,27 @@ justify-content:space-between;
 align-items:center;
 width:${props => props.$Vmenu ? '100%':''};
 h3{
+    display: flex;
     width: 100%;
 }
 h4{
+    display: flex;
     width:100%;
 }
 @media only screen and (max-width:500px) {
   display  : flex;
-  flex-direction: ${props => props.$Vmneu ? 'column':''};
+  width: ${props => props.$Vmneu ? '100%':''};
+}`
+
+export const Companywrapper=styled.div`
+display:flex;
+p{
+    color: var(--text, #373737);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }`
 
 export const Ratewrapper=styled.div`

@@ -56,7 +56,12 @@ const UsedCarComponent = () => {
    }
  ////
  ///////////////////////////////
- ////Sidebar Filter
+ ///set active Hmenu and Vmenu buttons
+const [view, setView] = React.useState('list');
+const handleChange = (event, nextView) => {
+  setView(nextView);
+};
+ ////sidebar filter
  const [selectedLabel, setSelectedLabel] = useState([])
  
  const handleCheckBoxChange = (labelName) => {
@@ -71,6 +76,7 @@ const UsedCarComponent = () => {
  const filteredData = data.filter(
   (item) => 
   selectedLabel.length === 0 ||
+  selectedLabel.includes(item.car.name)||
   selectedLabel.includes(item.car.company)||
   selectedLabel.includes(item.car.license)||
   selectedLabel.includes(item.car.people)||
@@ -309,7 +315,9 @@ const UsedCarComponent = () => {
                       <option value="">C</option>
                     </select>
               </Selectwrapper>
-              <Buttonwrapper2>
+              <Buttonwrapper2 value={view}
+                   exclusive
+                   onChange={handleChange}>
                 <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H" /></Button2>
                 <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V" /></Button3>
               </Buttonwrapper2>
@@ -318,7 +326,7 @@ const UsedCarComponent = () => {
            <Border $width100 $margin0 $marginTop6></Border>
                <>
                {
-                 active ? <HMenu />: <VMenu />
+                 active ? <HMenu exportedData = {filteredData}/>: <VMenu exportedData = {filteredData}/>
                }
                </> 
          </Catalogwrapper>

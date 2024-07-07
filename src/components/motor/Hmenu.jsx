@@ -3,7 +3,7 @@ import star from '../../assets/motor/star.png'
 import { Button, Buttonwrapper, CardContainer, Carimg, Carwrapper, Centeralign, Ratewrapper, Wholewrapper } from '../../styles/motorstyle';
 import { campcar } from '../../mock/mockdata';
 import { Link } from 'react-router-dom';
-const HMenu = () => {
+const HMenu = ({exportedData}) => {
     const data = campcar.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
@@ -11,7 +11,7 @@ const HMenu = () => {
     <Wholewrapper>
     <Carwrapper >
           { 
-            data.map((value,key) => {
+            exportedData.map((value,key) => {
               return(
                 <Link to= {`${value.id}`} style={{textDecoration:'none'}}>
                 <CardContainer key={key} >

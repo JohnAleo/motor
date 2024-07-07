@@ -3,14 +3,14 @@ import { Button, Buttonwrapper, CardContainer, Cardwrapper, Carimg, Centeralign,
 import star from '../../assets/motor/star.png'
 import { tuning } from '../../mock/mockdatatuning';
 import { Link } from 'react-router-dom';
-const VMenu = () => {
+const VMenu = ({exportedData}) => {
     const data = tuning.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
   return (
     <Cardwrapper $Vmenu >
     {
-      data.map((value,key) => {
+      exportedData.map((value,key) => {
        
         return(
           <>

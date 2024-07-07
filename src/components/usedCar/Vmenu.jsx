@@ -1,11 +1,11 @@
 import React from 'react'
 import { Button, Buttonwrapper, CardContainer,
-   Cardwrapper, Carimg, Centeralign, Inforwrapper, 
+   Cardwrapper, Carimg, Centeralign, Companywrapper, Inforwrapper, 
    Ratewrapper } from '../../styles/motorstyle';
 import star from '../../assets/motor/star.png'
 import { usedCar } from '../../mock/mockdatausedcar'
 import { Link } from 'react-router-dom';
-const VMenu = () => {
+const VMenu = ({exportedData}) => {
     const data = usedCar.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
@@ -13,7 +13,7 @@ const VMenu = () => {
     <Cardwrapper>
    
           {
-            data.map((value,key) => {
+            exportedData.map((value,key) => {
               return(
               <> 
              <Link to={`${value.id}`} style={{textDecoration:'none'}}>
@@ -21,13 +21,13 @@ const VMenu = () => {
                   <Carimg $Vmenu>
                   <img src={value.car.photo} alt="car-photo" style={{width:'100%',height:'160px'}} />
                   </Carimg>
-                  <Inforwrapper>
+                  <Inforwrapper $Vmenu>
                     <Centeralign $Vmenu>
                     <h4 style={{width:'100%'}}>{value.car.name || "no data"}</h4>
                     <h3 style={{width:'100%'}}>{value.car.cost || "no data"}</h3>
                     </Centeralign>
                     <Centeralign>
-                        <div style={{width:'100%'}}><p>{value.car.company || "no data"}</p></div> 
+                        <Companywrapper style={{width:'100%'}}><p>{value.car.company || "no data"}</p></Companywrapper> 
                         <Ratewrapper><img src={star} alt="star" /> <p>{value.car.rate || "no data"}</p></Ratewrapper>
                     </Centeralign>
                     

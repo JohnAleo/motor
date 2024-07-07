@@ -44,39 +44,29 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 
+
 const MotorComponent = () => {
+  const data = campcar.maindata;
     ////H and V position
   const [active, setActive]=useState(true);
-  const data = campcar.maindata;
-  const dataLength = data.length;
-  function handleHMenu(){
-    setActive(true);
-  }
-  function handleVMenu(){
-    setActive(false);
-  }
 
-  // 
-  const handleGridClicked = () => {
+  const handleHMenu = () => {
     setActive(true);
   };
-
-  const handleColumnClicked = () => {
+  const handleVMenu = () => {
     setActive(false);
   };
+  
   // 
 
-///set active of grid and column buttons
+///set active Hmenu and Vmenu buttons
 const [view, setView] = React.useState('list');
-
 const handleChange = (event, nextView) => {
   setView(nextView);
 };
- 
-////
 
 
-////sidebar
+////sidebar filter
 const [selectedLabel, setSelectedLabel] = useState([])
 
 const handleCheckBoxChange = (labelName) => {
@@ -104,16 +94,16 @@ const filteredData = data.filter(
  
 
 ////////////////////////////
-const [filterData, setfilterData]=useState("");
-const adata= campcar.maindata
-const handleFilted = (e) =>{
-  const searchQuery = e.target.value.toLowerCase();(
-    setfilterData(data.filter((campingcar)=> campingcar.car.name.toLocaleLowerCase))
-  );
-} ;
+// const [filterData, setfilterData]=useState("");
+// const filtrData= campcar.maindata
+// const handleFilted = (e) =>{
+//   const searchQuery = e.target.value.toLowerCase();(
+//     setfilterData(data.filter((campingcar)=> campingcar.car.name.toLocaleLowerCase))
+//   );
+// } ;
 
  
-  console.log (filterData)
+//   console.log (filterData)
   return (
    <>
     <Container>
@@ -160,7 +150,7 @@ const handleFilted = (e) =>{
             <Typography>
               <Border $marginBottom30></Border>
               <FormGroup>
-                <FormControlLabel control={<Checkbox />} label="르벤투스S+"     />
+                <FormControlLabel control={<Checkbox />} label="르벤투스S+" onChange={() => handleCheckBoxChange("르벤투스S+")}    />
                 <FormControlLabel control={<Checkbox />} label="벤투스680S"  onChange={() => handleCheckBoxChange("벤투스680S")}/>
                 <FormControlLabel control={<Checkbox />} label="르벤투스680"  onChange={() => handleCheckBoxChange("르벤투스680")}/>
                 <FormControlLabel control={<Checkbox />} label="르벤투스 차박S" onChange={() => handleCheckBoxChange("르벤투스 차박S")}/>
@@ -202,7 +192,7 @@ const handleFilted = (e) =>{
                 <FormControlLabel control={<Checkbox />} label="Result" onChange={() => handleCheckBoxChange("Result")}/>
                 <FormControlLabel control={<Checkbox />} label="스타모빌" onChange={() => handleCheckBoxChange("스타모빌")}/>
                 <FormControlLabel control={<Checkbox />} label="영남캠핑카" onChange={() => handleCheckBoxChange("영남캠핑카")}/>
-                <FormControlLabel control={<Checkbox />} label="PROTONE" onChange={() => handleCheckBoxChange("PROTONE")}/>
+                <FormControlLabel control={<Checkbox />} label="모터홈코리아" onChange={() => handleCheckBoxChange("모터홈코리아")}/>
                 <FormControlLabel control={<Checkbox />} label="한울캠핑카" onChange={() => handleCheckBoxChange("한울캠핑카")}/>
                 <FormControlLabel control={<Checkbox />} label="에이스캠퍼" onChange={() => handleCheckBoxChange("에이스캠퍼")}/>
                 <FormControlLabel control={<Checkbox />} label=" 위드원모터스" onChange={() => handleCheckBoxChange(" 위드원모터스")}/>
@@ -325,8 +315,10 @@ const handleFilted = (e) =>{
                 </DraweriPhone>
                 <Selectwrapper>
                   <Sortby>Sort by</Sortby>
-                  <Selectin >
-                    <input type="text" onChange={handleFilted} />
+                  <Selectin value={view}
+                   exclusive
+                   onChange={handleChange}>
+                    {/* <input type="text" onChange={handleFilted} />
                     {filterData.length > 0 &&
                     filterData.map((value) => {
                         return(
@@ -334,7 +326,7 @@ const handleFilted = (e) =>{
                           <p>{value.car.name || "no data"}</p>
                           </>
                         )
-                    })}
+                    })} */}
                   </Selectin>
                 </Selectwrapper>
             </Itemleft>
@@ -350,8 +342,8 @@ const handleFilted = (e) =>{
               <Buttonwrapper2 value={view}
                    exclusive
                    onChange={handleChange}>
-                <Button2 onClick={handleHMenu}><img src={hMenu} alt="menu-H"  onClick={handleGridClicked}/></Button2>
-                <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V"  onClick={handleColumnClicked}/></Button3>
+                <Button2 onClick={handleHMenu} ><img src={hMenu} alt="menu-H" /></Button2>
+                <Button3 onClick={handleVMenu}><img src={vMenu} alt="menu-V" /></Button3>
               </Buttonwrapper2>
             </Itemright>
           </Itemwrapper>

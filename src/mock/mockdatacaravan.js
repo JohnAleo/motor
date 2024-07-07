@@ -86,7 +86,7 @@ export const caravan = {
       id: 2,
       car: {
         photo: `${c1}`,
-        name: "ABSDEFG",
+        name: "Barraouza",
         cost: "77,700,000 won",
         type: "mini",
         license: "1종 보통",
@@ -164,7 +164,7 @@ export const caravan = {
       id: 5,
       car: {
         photo: `${c4}`,
-        name: "Modul4",
+        name: "ROADStar",
         cost: "55,300,000",
         type: "포터",
         license: "2종 보통",
@@ -190,7 +190,7 @@ export const caravan = {
       id: 6,
       car: {
         photo: `${c5}`,
-        name: "Ciyenne785",
+        name: "RoyalMotor",
         cost: "60,700,000",
         type: "포터",
         license: "2종 보통",
@@ -216,7 +216,7 @@ export const caravan = {
       id: 7,
       car: {
         photo: `${c6}`,
-        name: "Caravan8",
+        name: "RoyalMotor",
         cost: "52,700,000",
         type: "포터",
         license: "2종 보통",
@@ -242,7 +242,7 @@ export const caravan = {
       id: 8,
       car: {
         photo: `${c7}`,
-        name: "DS9eR+a",
+        name: "ROADStar",
         cost: "62,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -294,7 +294,7 @@ export const caravan = {
       id: 10,
       car: {
         photo: `${c9}`,
-        name: "BIGDREAM",
+        name: "RoyalMotor",
         cost: "102,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
@@ -346,7 +346,7 @@ export const caravan = {
       id: 16,
       car: {
         photo: `${c11}`,
-        name: "Chazor1",
+        name: "ROADStar",
         cost: "89,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -450,7 +450,7 @@ export const caravan = {
       id: 23,
       car: {
         photo: `${c15}`,
-        name: "NOLANAVC",
+        name: "ROADStar",
         cost: "80,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -476,7 +476,7 @@ export const caravan = {
       id: 24,
       car: {
         photo: `${c16}`,
-        name: "AZZRA-DEC",
+        name: "Milleneum500",
         cost: "41,000,000",
         type: "포터",
         license: "2종 보통",
@@ -502,7 +502,7 @@ export const caravan = {
       id: 25,
       car: {
         photo: `${c17}`,
-        name: "TIMOPHY-5452",
+        name: "Milleneum500",
         cost: "59,000,000",
         type: "포터",
         license: "2종 보통",
@@ -528,7 +528,7 @@ export const caravan = {
       id: 31,
       car: {
         photo: `${c18}`,
-        name: "MIDWAY",
+        name: "RoyalMotor",
         cost: "81,000,000",
         type: "포터",
         license: "2종 보통",
@@ -580,7 +580,7 @@ export const caravan = {
       id: 33,
       car: {
         photo: `${c20}`,
-        name: "Stella F-500",
+        name: "TIMOPHY-5452",
         cost: "55,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -606,7 +606,7 @@ export const caravan = {
       id: 34,
       car: {
         photo: `${c22}`,
-        name: "NOVAK K-522",
+        name: "Milleneum500",
         cost: "72,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -632,7 +632,7 @@ export const caravan = {
       id: 35,
       car: {
         photo: `${c23}`,
-        name: "HMF PARCING",
+        name: "SHARK-200",
         cost: "84,000,000",
         type: "포터",
         license: " 2종 보통",
@@ -684,7 +684,7 @@ export const caravan = {
       id: 37,
       car: {
         photo: `${c25}`,
-        name: "PILOT 2",
+        name: "STINGER-722",
         cost: "71,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -710,7 +710,7 @@ export const caravan = {
       id: 38,
       car: {
         photo: `${c26}`,
-        name: "Vegan PRIUS",
+        name: "BUZZ-22",
         cost: "74,900,000",
         type: "칸",
         license: " 2종 보통",
@@ -736,7 +736,7 @@ export const caravan = {
       id: 39,
       car: {
         photo: `${c27}`,
-        name: "DOTTER G-112",
+        name: "TIMOPHY-5452",
         cost: "81,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -762,7 +762,7 @@ export const caravan = {
       id: 40,
       car: {
         photo: `${c28}`,
-        name: "MALLMAN 888",
+        name: "BUZZ-22",
         cost: "99,800,000",
         type: "르노마스터",
         license: " 1종 보통",
@@ -788,7 +788,7 @@ export const caravan = {
       id: 45,
       car: {
         photo: `${c29}`,
-        name: "ALEXANDRO",
+        name: "STINGER-722",
         cost: "86,093,900",
         type: "르노마스터",
         license: "1종 보통",
@@ -814,7 +814,7 @@ export const caravan = {
       id: 46,
       car: {
         photo: `${c30}`,
-        name: "CLAYSON-Y-562",
+        name: "SHARK-200",
         cost: "45,223,900",
         type: "르노마스터",
         license: " 1종 보통",
@@ -840,7 +840,7 @@ export const caravan = {
       id: 47,
       car: {
         photo: `${c31}`,
-        name: "BEVIN TEXAS-HN",
+        name: "STINGER-722",
         cost: "68,501,900",
         type: "르노마스터",
         license: "1종 보통",
@@ -866,7 +866,7 @@ export const caravan = {
       id: 48,
       car: {
         photo: `${c32}`,
-        name: "MILLY_MEXICAN",
+        name: "MILLY_MEX",
         cost: "71,342,900",
         type: "르노마스터",
         license: "1종 보통",
@@ -892,7 +892,7 @@ export const caravan = {
       id: 49,
       car: {
         photo: `${c33}`,
-        name: "ROADSTAR H-22",
+        name: "BUZZ-22",
         cost: "82,225,000",
         type: "포터",
         license: "2종 보통",
@@ -918,7 +918,7 @@ export const caravan = {
       id: 50,
       car: {
         photo: `${c34}`,
-        name: "FALCON-D451",
+        name: "STINGER-722",
         cost: "77,521,000",
         type: " 포터",
         license: "2종 보통",
@@ -970,7 +970,7 @@ export const caravan = {
       id: 52,
       car: {
         photo: `${c36}`,
-        name: "CENTURY-85",
+        name: "NAUTILUS",
         cost: "57,860,000",
         type: "포터",
         license: "2종 보통",
@@ -996,7 +996,7 @@ export const caravan = {
       id: 53,
       car: {
         photo: `${c37}`,
-        name: "CUBE-CREATOR",
+        name: "STINGER-722",
         cost: "88,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -1022,7 +1022,7 @@ export const caravan = {
       id: 54,
       car: {
         photo: `${c38}`,
-        name: "DECENT-F-14",
+        name: "SHARK-200",
         cost: "85,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -1048,7 +1048,7 @@ export const caravan = {
       id: 55,
       car: {
         photo: `${c39}`,
-        name: "CHAZOR-1",
+        name: "Barraouza",
         cost: "65,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -1074,7 +1074,7 @@ export const caravan = {
       id: 90,
       car: {
         photo: `${c40}`,
-        name: "AIR-KING",
+        name: "NAUTILUS",
         cost: "65,900,000",
         type: "포터",
         license: "2종 보통",
@@ -1100,7 +1100,7 @@ export const caravan = {
       id: 91,
       car: {
         photo: `${c41}`,
-        name: "TARVELER-5",
+        name: "Barraouza",
         cost: "78,000,000",
         type: "포터",
         license: "2종 보통",
@@ -1126,7 +1126,7 @@ export const caravan = {
       id: 92,
       car: {
         photo: `${c42}`,
-        name: "INVIDER",
+        name: "Barraouza",
         cost: "82,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -1152,7 +1152,7 @@ export const caravan = {
       id: 93,
       car: {
         photo: `${c43}`,
-        name: "NUMIBIA-Z85",
+        name: "드림캠핑카",
         cost: "68,300,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -1178,7 +1178,7 @@ export const caravan = {
       id: 95,
       car: {
         photo: `${c44}`,
-        name: "VEROMAX",
+        name: "NAUTILUS",
         cost: "101,000,000",
         type: "피아트 듀카토",
         license: "1종 보통",
@@ -1204,7 +1204,7 @@ export const caravan = {
       id: 96,
       car: {
         photo: `${c45}`,
-        name: "PHILLIP-9",
+        name: "Barraouza",
         cost: "127,000,000",
         type: "피아트 듀카토",
         license: "1종 보통",

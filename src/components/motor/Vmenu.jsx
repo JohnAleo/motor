@@ -5,14 +5,14 @@ import { Button, Buttonwrapper, CardContainer,
 import star from '../../assets/motor/star.png'
 import { campcar } from '../../mock/mockdata';
 import { Link } from 'react-router-dom';
-const VMenu = () => {
+const VMenu = ({exportedData}) => {
     const data = campcar.maindata;
     const dataLength = data.length;
     console.log("data:", data.length);
   return (
         <Cardwrapper>
           {
-            data.map((value,key) => {
+            exportedData.map((value,key) => {
              
               return(
                 <>
