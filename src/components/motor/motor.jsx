@@ -94,16 +94,17 @@ const filteredData = data.filter(
  
 
 ////////////////////////////
-// const [filterData, setfilterData]=useState("");
-// const filtrData= campcar.maindata
-// const handleFilted = (e) =>{
-//   const searchQuery = e.target.value.toLowerCase();(
-//     setfilterData(data.filter((campingcar)=> campingcar.car.name.toLocaleLowerCase))
-//   );
-// } ;
+const [filterData, setfilterData]=useState("");
+const filtrData= campcar.maindata
+const handleFilted = (e) =>{
+  const searchQuery = e.target.value.toLowerCase();(
+    setfilterData(data.filter((campingcar)=> campingcar.car.name.toLocaleLowerCase))
+  );
+} ;
+
 
  
-//   console.log (filterData)
+  console.log (filterData)
   return (
    <>
     <Container>
@@ -315,17 +316,16 @@ const filteredData = data.filter(
                 </DraweriPhone>
                 <Selectwrapper>
                   <Sortby>Sort by</Sortby>
-                  <Selectin value={view}
-                   exclusive
-                   onChange={handleChange}>
-                    {/* <input type="text" onChange={handleFilted} />
-                    {filterData.length > 0 &&
+                  <Selectin onChange={handleFilted}>
+                    <input   exportedData = {filteredData}/>
+                    {/* {filterData.length > 0 &&
                     filterData.map((value) => {
-                        return(
+                        return( */}
                           <>
-                          <p>{value.car.name || "no data"}</p>
+                          {/* <p>{value.car.name || "no data"}</p> */}
+                          <p></p>
                           </>
-                        )
+                        {/* )
                     })} */}
                   </Selectin>
                 </Selectwrapper>
