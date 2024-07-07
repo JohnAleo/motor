@@ -82,7 +82,7 @@ div{
 
 
 export const Button =styled.div`
-width: 259px;
+width: 100%;
 height: 45px;
 flex-shrink: 0;
 display: flex;
@@ -103,7 +103,6 @@ display: inline-block;
 p{
     display: flex;
     width: 100%;
-    max-width: 259px;
     justify-content: center;
     align-items: center;
     transform:skewX(+20deg);
@@ -481,3 +480,9 @@ div{
  background-color:#006DAB;
  border-radius:10px;
 }`
+
+export const Carouselwrapper=styled.div`
+display:flex;
+flex-direction:column;
+padding:0px 12%;
+background-color:#fff`

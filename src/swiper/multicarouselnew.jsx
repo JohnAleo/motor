@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Button, Buttonwrapper, Carouselin, 
-    Carouselwrapper, 
+import { Button, Buttonwrapper, Carouselin,
+    Carouselwrapper,
     Imgwrapper, Logged, Mail, Namewrapper,
      Recommend, Registrbutton, Registrbuttonwrapper,
       Select, Sign } from '../styles/multicarousel';
@@ -38,11 +38,12 @@ const MultiCarouselNew = () => {
 
   return (
     <>
+    <Carouselwrapper>
     <Recommend>
       <p>Recommend</p>
       <div></div>
     </Recommend>
-    
+
     <Carousel showDots={false}
 arrows={false}
 responsive={responsive}
@@ -55,7 +56,8 @@ removeArrowOnDeviceType={["tablet", "mobile"]}
 > 
 {data.map((value,key)=> {
     return(
-    <Carouselin key={key}>
+    
+    <Carouselin key={key} style={{padding:'0px 15px'}}>
       <Imgwrapper><img src={value.car.photo} alt="car1" /></Imgwrapper>
       <Namewrapper>
         <p>{value.car.name}</p>
@@ -130,11 +132,12 @@ removeArrowOnDeviceType={["tablet", "mobile"]}
         </select>
       </Select>
     </Carouselin>
+   
     )
     }
     )}
   </Carousel>
-  
+  </Carouselwrapper>
   </>
   );
 }

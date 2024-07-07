@@ -2,7 +2,8 @@ import React from 'react'
 import Popup from 'reactjs-popup';
 import {
     Videowrapper,Popvideo,
-    Titleinside} from '../../styles/indexpop';
+    Titleinside,
+    Videoblogwrapper} from '../../styles/indexpop';
 import { Blog1, Blog2, Blog3, Blog4, 
   Blog5, Blog6, Blogs, Blogwrapper,
    Buttonplay, Camper, Recommend1,
@@ -23,6 +24,7 @@ import re6 from "../../assets/popup/re6.png"
 const Homepop = () => {
   return (
     <>
+    <Videoblogwrapper>
     <Recommend1>
       <p>Videos</p>
       <div></div>
@@ -314,6 +316,7 @@ const Homepop = () => {
        <Blog6><img src={re6} alt="play" /></Blog6>
       </Blogs>
     </Blogwrapper>
+    </Videoblogwrapper>
   </>
   )
 }

@@ -23,6 +23,7 @@ grid-template-areas:"a a a a ";
 justify-content: center;
 align-items: center;
 gap: 30px;
+background-color: #fff;
 @media only screen and (max-width:1100px) {
     display:grid;
     grid-template-areas:"a a"; 
@@ -38,6 +39,10 @@ gap: 30px;
 }
 
 `
+export const Videoblogwrapper=styled.div`
+display:flex;
+flex-direction:column;
+background-color:#fff;`
 
 export const Iframe=styled.div`
 display:flex;
